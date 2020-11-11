@@ -53,7 +53,8 @@ Give an option so the user gets an alert if a specific type of breed is added.
 Dogs get re-surrendered to the shelter - find that and do something with it. 
 
 
-###Algorithm:
+### Algorithm:
+
 Dog “personality type” algorithm (sample/conceptual)
 
 
