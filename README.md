@@ -36,25 +36,25 @@ https://www.austinpetsalive.org/adopt/dogs
 
 
 ### Visuals/Analytics:
-Interactive Plotly
-Which breeds are searched
-Which breeds are most available
-How long are dogs in the shelter (by breed or age)
+* Interactive Plotly
+* Which breeds are searched
+* Which breeds are most available
+* How long are dogs in the shelter (by breed or age)
 
 
 
 ### Notes from Ed:
-If possible, query the shelter API each day to make sure there’s always current data in the system. Add anything that’s been added since the last time we pulled the query, and also remove anything on the outtakes list. Or we may need to just duplicate their database and translate/clean it up, depending on the quality of the API.  
-He’d normally recommend SQL, but if for some reason the incoming data is inconsistent then maybe use NoSQL (i.e. web scraping).
-Maybe the user could submit a picture of a dog and find a dog that looks similar to it. 
-Possibly project 3 idea: Train the ML to train it to do the classification work, then use it in the web app so the ML model identifies the type of dog it is. 
-Do an authentication layer. 
-Give an option so the user gets an alert if a specific type of breed is added. 
-Dogs get re-surrendered to the shelter - find that and do something with it. 
+* If possible, query the shelter API each day to make sure there’s always current data in the system. Add anything that’s been added since the last time we pulled the query, and also remove anything on the outtakes list. Or we may need to just duplicate their database and translate/clean it up, depending on the quality of the API.  
+* He’d normally recommend SQL, but if for some reason the incoming data is inconsistent then maybe use NoSQL (i.e. web scraping).
+* Maybe the user could submit a picture of a dog and find a dog that looks similar to it. 
+* Possibly project 3 idea: Train the ML to train it to do the classification work, then use it in the web app so the ML model identifies the type of dog it is. 
+* Do an authentication layer. 
+* Give an option so the user gets an alert if a specific type of breed is added. 
+* Dogs get re-surrendered to the shelter - find that and do something with it. 
 
 
 ### Algorithm:
 
-Dog “personality type” algorithm (sample/conceptual)
+* Dog “personality type” algorithm (sample/conceptual)
 
 
