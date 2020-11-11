@@ -7,7 +7,7 @@ Two types of data: Existing data (static) from the Shelter API and user inputted
 
 Possible: Refresh the data daily from the Shelter API (they update their data hourly)?
 
-Data we want to utilize:
+### Data we want to utilize:
 
 Animal Shelter Intakes: https://data.austintexas.gov/Health-and-Community-Services/Austin-Animal-Center-Intakes/wter-evkm
 
@@ -24,7 +24,7 @@ Austin Pets Alive Resource:
 https://www.austinpetsalive.org/adopt/dogs
 
 
-Routes:
+### Routes:
 Landing page
 Input a new user
 User questionnaire/Search for dog that’s best for me 
@@ -35,7 +35,7 @@ Visuals/Analytics/Interesting Findings
 Documentation on code, cool technical things we did when building the app
 
 
-Visuals/Analytics:
+### Visuals/Analytics:
 Interactive Plotly
 Which breeds are searched
 Which breeds are most available
@@ -43,7 +43,7 @@ How long are dogs in the shelter (by breed or age)
 
 
 
-Notes from Ed:
+### Notes from Ed:
 If possible, query the shelter API each day to make sure there’s always current data in the system. Add anything that’s been added since the last time we pulled the query, and also remove anything on the outtakes list. Or we may need to just duplicate their database and translate/clean it up, depending on the quality of the API.  
 He’d normally recommend SQL, but if for some reason the incoming data is inconsistent then maybe use NoSQL (i.e. web scraping).
 Maybe the user could submit a picture of a dog and find a dog that looks similar to it. 
@@ -53,7 +53,7 @@ Give an option so the user gets an alert if a specific type of breed is added.
 Dogs get re-surrendered to the shelter - find that and do something with it. 
 
 
-Algorithm:
+###Algorithm:
 Dog “personality type” algorithm (sample/conceptual)
 
 
