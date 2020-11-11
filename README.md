@@ -8,13 +8,18 @@ Two types of data: Existing data (static) from the Shelter API and user inputted
 Possible: Refresh the data daily from the Shelter API (they update their data hourly)?
 
 Data we want to utilize:
+
 Animal Shelter Intakes: https://data.austintexas.gov/Health-and-Community-Services/Austin-Animal-Center-Intakes/wter-evkm
+
 Animal Shelter Outtakes:
 https://data.austintexas.gov/Health-and-Community-Services/Austin-Animal-Center-Outcomes/9t4d-g238
+
 Dog Breeds API:
 https://dog.ceo/dog-api/
+
 Other Animal Shelter Info: 
 https://data.austintexas.gov/Health-and-Community-Services/Austin-Animal-Center-Dog-Intakes-Chart/r5dg-6cvf
+
 Austin Pets Alive Resource:
 https://www.austinpetsalive.org/adopt/dogs
 
