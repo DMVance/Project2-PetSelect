@@ -25,14 +25,14 @@ https://www.austinpetsalive.org/adopt/dogs
 
 
 ### Routes:
-Landing page
-Input a new user
-User questionnaire/Search for dog that’s best for me 
-Shelter inventory grouped by pet type/energy level/etc.
-Fun kid page with pics of cute dogs
-Breed info page
-Visuals/Analytics/Interesting Findings
-Documentation on code, cool technical things we did when building the app
+* Landing page
+* Input a new user
+* User questionnaire/Search for dog that’s best for me 
+* Shelter inventory grouped by pet type/energy level/etc.
+* Fun kid page with pics of cute dogs
+* Breed info page
+* Visuals/Analytics/Interesting Findings
+* Documentation on code, cool technical things we did when building the app
 
 
 ### Visuals/Analytics:
