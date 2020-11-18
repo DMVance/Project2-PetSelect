@@ -51,6 +51,11 @@ https://www.austinpetsalive.org/adopt/dogs
 * Do an authentication layer. 
 * Give an option so the user gets an alert if a specific type of breed is added. 
 * Dogs get re-surrendered to the shelter - find that and do something with it. 
+* Have the users query the database ad hoc rather than creating and saving users in a database.
+* Keep the algorithm simple. Do branching if/then logic. Possibly use “cosine similarity and compare to vectors”. Using numerical measures would be easiest if possible - match the dog breed to a number. Start with the dumbest algorithm and then build it up and refine it over time to make it better. 
+* Deploy when we can as soon as possible. Deploy many times throughout the project. We can deploy this one on heroku probably. 
+* Everything will need to work in parallel as much as possible. A lot is going to hinge on the initial database creation. Work on the routes that won’t depend on the main database while others are working on the database, or structuring the app, or etc. Get the database up as fast as possible - create the schema, create the database. He’d recommend sqlalchemy, but noSQL is also possible. Make a decision ASAP. Don’t worry about the updating yet - just get some data in the database so we can work on the other parts (CRUD functions, query functions, visuals, analytics, etc.). Try to plan this so as much gets done simultaneously as possible.
+
 
 
 ### Algorithm:
