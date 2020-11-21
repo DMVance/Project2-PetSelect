@@ -1,0 +1,2 @@
+# Extract age as a string of years, months, weeks (sample for the first 20 rows in df2)
+# [f"{age.years} years, {age.months} months, {age.weeks} weeks" for age in df2.head(20)['age'] if isinstance(age, relativedelta)]
