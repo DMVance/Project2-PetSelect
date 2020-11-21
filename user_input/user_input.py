@@ -16,7 +16,19 @@ df2["points"] = 0
 df3 = df2.assign(temperament=df2.temperament.str.split(',')).explode('temperament')
 df3 = df3.reset_index()
 # df3 = df3.set_index("temperament")
-# print(df3) 
+# df3 = df3["temperament"].lower()
+# print(df3.head()) 
+
+# turn df into a dict 
+
+dict_ = df3.to_dict('records')
+# print(dict_)
+# print(dict_[49]['temperament'])
+
+
+
+# for i in dict_:
+#     print([i][0]["temperament"])
 
 
 # Create input for user
@@ -52,14 +64,26 @@ def main():
         
         ##I think instead of making the temperaments a data frame, I should make them a dictionary and add the count that way. 
 
+
+
+
+
 main()
 
 # print(f"You want a dog that is {adj_list}")
 
+for c in adj_list:
+    for i in dict_:
+        for e in i:
+            for t in e:
+                if c == [i][0]["temperament"]:
+                    [i][0]["points"] += 1
+
 for a in adj_list:
     print(f"You want a dog that is {a}")
 
-print(df3)
-print(t_index)
+# print(df3)
+# print(t_index)
     
+print(dict_)
 
