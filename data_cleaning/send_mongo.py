@@ -8,9 +8,8 @@ db = client.austin_dogs
 
 dog_df = clean_intake_data()
 
-dog_dict = dog_df.to_dict()
+dog_dict = dog_df.to_dict("records")
 
-print(dog_dict[0])
-# db.dogs.drop()
-# db.dogs.insert_many(**dog_dict)
+db.dogs.drop()
+db.dogs.insert_many(dog_dict)
 

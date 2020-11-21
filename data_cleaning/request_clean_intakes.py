@@ -143,4 +143,5 @@ print("""
 SAMPLE OF DOG INTAKES (FIRST 20 ENTRIES)
 ========================================
 """)
+
 print(dogs_df.head(20))
