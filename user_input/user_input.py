@@ -39,9 +39,18 @@ def main():
         print(adj_list)
         
         # Take user input and match it to the adj list of temperaments
-        for t in df3["temperament"]:
-            if [df3[df3["temperament"] == user_choice]]:
-                df3["points"] += 1
+        # for t in df3["temperament"]:
+        #     if [df3[df3["temperament"] == user_choice]]:
+        #         df3["points"] += 1
+
+        # t_index = []
+
+        # for t in df3["temperament"]:
+        #     if [df3[df3["temperament"] == user_choice]]:
+        #         t_index.append([df3[df3["temperament"].index.values]])
+                # df3["points"].index.values += 1
+        
+        ##I think instead of making the temperaments a data frame, I should make them a dictionary and add the count that way. 
 
 main()
 
@@ -51,6 +60,6 @@ for a in adj_list:
     print(f"You want a dog that is {a}")
 
 print(df3)
-
+print(t_index)
     
 
