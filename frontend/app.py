@@ -13,25 +13,25 @@ def index():
     ###    GET STARTED  
     ###======================
 
-    return render_template("index.html")
-
+    # return render_template("index.html")
+    return "the app is up"
 
 @app.route("/findapup")
 def user_input():
 
-    return render_template("user_input.html")
-
+    # return render_template("user_input.html")
+    return "this page is up too"
 
 @app.route("/results")
 def results():
-    return render_template("results.html")
-
+    # return render_template("results.html")
+    return "and this one!"
 
 
 @app.route("/justforfun")
 def for_fun():
-    return render_template("fun.html")
-
+    # return render_template("fun.html")
+    return "ditto"
 
 if __name__ == "__main__":
     app.run(debug=True)
