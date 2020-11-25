@@ -125,7 +125,9 @@ def clean_intake_data():
         "intake_condition": df["intake_condition"],
         "sex": sex,
         "birthday": birthday,
-        "age": age,
+        # commenting out the age column because mongoDB can't deal with this data type
+        # will write a script to extract age on the pull side
+        # "age": age,
         "mixed_breed": mixed_breed, 
         "primary_breed": primary_breed, 
         "secondary_breed": secondary_breed,
