@@ -28,7 +28,13 @@ def clean_intake_data():
     found_state = []
     sex = []
     birthday = []
-    age = []
+    # mongoDB won't accept a relative delta variable type
+    # age = []
+    # instead, this will create the components of the relative delta
+    # and store them individually
+    age_years = []
+    age_months = []
+    age_days = []
     primary_breed = []
     secondary_breed = []
     mixed_breed = []
@@ -82,11 +88,17 @@ def clean_intake_data():
             bday = intake_dt - relativedelta(**{duration: num})
             birthday.append(bday)
         # Determine age as of today's date
-        if isinstance(intake_dt, datetime) and isinstance(bday, datetime):
+        if isinstance(bday, datetime):
             age_today = relativedelta(datetime.today(), bday)
-            age.append(age_today)
+            # age.append(age_today)
+            age_years.append(age_today.years)
+            age_months.append(age_today.months)
+            age_days.append(age_today.days)
         else:
-            age.append("Unknown")
+            # age.append("Unknown")
+            age_years.append("Unknown")
+            age_months.append("Unknown")
+            age_days.append("Unknown")
         
         # Clean breed column
         if len(df.iloc[i]['breed'].split("/")) > 1:
@@ -128,6 +140,10 @@ def clean_intake_data():
         # commenting out the age column because mongoDB can't deal with this data type
         # will write a script to extract age on the pull side
         # "age": age,
+        # instead storing components of age (relative delta) individually
+        "age_years": age_years,
+        "age_months": age_months,
+        "age_days": age_days,
         "mixed_breed": mixed_breed, 
         "primary_breed": primary_breed, 
         "secondary_breed": secondary_breed,
