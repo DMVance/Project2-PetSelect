@@ -92,8 +92,8 @@ data = r.json()
 #         d["weight"] = d["weight"]["imperial"]
 #         d["points"] = 0
 
-data["weight"] = data["weight"]["imperial"]
-data["points"] = 0
+# data["weight"] = data["weight"]["imperial"]
+# data["points"] = 0
 
 # for k, v in data.items():
 #     print(k, v)

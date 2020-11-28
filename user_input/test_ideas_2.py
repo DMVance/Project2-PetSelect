@@ -6,7 +6,7 @@ r = requests.get("https://api.thedogapi.com/v1/breeds")
 
 data = r.json()
 df1 = pd.DataFrame(data)
-df2 = df1[["id","name","temperament", "weight"]]
+df2 = df1[["name","temperament", "weight"]]
 
 # Explode out list of temperament adj
 df3 = df2.assign(temperament=df2.temperament.str.split(',')).explode('temperament')
@@ -97,40 +97,77 @@ for i in dict_:
         i["size_category"] = 'large'
 
 
-for i in dict_:
-    print([i])
+# for i in dict_:
+#     print([i])
 
 
-# # Create input for user
-# adj_list = [] 
+# get list of adj for the different dog sizes
 
-# def main():
-#     while True:
-#         print("-" * 50)
-#         print("Let's Find Your Perfect Pup!")
+# large
+large_adj = []
+for i in dict_: 
+    if i["size_category"] == 'large' and i["temperament"] not in large_adj:
+        large_adj.append(i["temperament"])
+# print(large_adj)
 
-#         user_choice = input("What characteristics would you like in your dog? Type out adjectives. Press q when you're done.\n")
+# medium
+medium_adj = []
+for i in dict_: 
+    if i["size_category"] == 'medium' and i["temperament"] not in medium_adj:
+        medium_adj.append(i["temperament"])
+# print(medium_adj)
+
+# small
+small_adj = []
+for i in dict_: 
+    if i["size_category"] == 'small' and i["temperament"] not in small_adj:
+        small_adj.append(i["temperament"])
+# print(small_adj)
+
+
+
+# Create input for user
+adj_list = [] 
+dog_size = []
+
+def size():
+    ##need to add in protections so they can only enter small medium or large
+    user_size = input("Do you want a small, medium, or large dog?\n")
+    dog_size.append(user_size)
+    # dog_size = dog_size[0]
+
+size()
+# print(dog_size)
+
+def main():
+    while True:
+        print("-" * 50)
+        print("Let's Find Your Perfect Pup!")
+
+        print(f"These are adjectives that describe {dog_size[0]} dogs.\n")
+
+        if dog_size[0] == "small":
+            print(small_adj)
+        elif dog_size[0] == 'medium':
+            print(medium_adj)
+        else:
+            print(large_adj)
+
+        user_choice = input("What characteristics would you like in your dog? Type out adjectives. Press q when you're done.\n")
         
-#         if user_choice == "q":
-#             break
+        if user_choice == "q":
+            break
 
-#         adj_list.append(user_choice)
+        adj_list.append(user_choice)
 
-#         print(adj_list)
-
-# main()
-
-# # print(f"You want a dog that is {adj_list}")
-
-# # this fucking works kind of! keeping it as a reference
-# # for c in adj_list:
-# #     for i in dict_:
-# #         for e in i:
-# #             for t in e:
-# #                 if c == [i][0]["temperament"]:
-# #                     [i][0]["points"] += 1
+        print(adj_list)
 
 
+main()
+
+# print(f"You want a dog that is {adj_list}")
+
+# this fucking works kind of! keeping it as a reference
 # for c in adj_list:
 #     for i in dict_:
 #         for e in i:
@@ -139,25 +176,35 @@ for i in dict_:
 #                     [i][0]["points"] += 1
 
 
-
-# for a in adj_list:
-#     print(f"You want a dog that is {a}")
-
-# # print(dict_)
-
-# df4 = pd.DataFrame(dict_)
-# # print(df4.head())
-
-# df5 = df4.groupby('name').sum('points')
-# # print(df5.head())
-
-# df5["points"] = df5['points']/28
-# # print(df5.head())
+for c in adj_list:
+    for i in dict_:
+        for e in i:
+            for t in e:
+                if c == [i][0]["temperament"]:
+                    [i][0]["points"] += 1
 
 
-# df6 = df5.sort_values("points", ascending = False)
-# print(df6.head())
 
-# # add in size, age and link that to the shelter API?
-# # add size, small med large, to one of the input selections and have it calculate that into it somehow, instead of just a sum of points
-# # the data that needs to be linked to the API would be color, age, sex, etc. data in the API
+for a in adj_list:
+    print(f"You want a dog that is {a}")
+
+# print(dict_)
+
+df4 = pd.DataFrame(dict_)
+# print(df4)
+
+# above_35 = titanic[titanic["Age"] > 35]
+df4 = df4[df4["size_category"] == dog_size[0]]
+# print(df4)
+
+# ages = titanic["Age"]
+df4 = df4[["name", "points"]]
+
+df5 = df4.groupby(by = ['name']).sum()
+# print(df5.head())
+
+df6 = df5.sort_values("points", ascending = False)
+print(df6.head())
+
+# add in size, age and link that to the shelter API?
+# the data that needs to be linked to the API would be color, age, sex, etc. data in the API
