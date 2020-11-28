@@ -13,9 +13,8 @@ def index():
     ###    GET STARTED  
     ###======================
 
-    # return render_template("index.html")
-    return "the app is up"
-
+    return render_template("/index.html")
+    
 @app.route("/findapup")
 def user_input():
 
