@@ -8,19 +8,13 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-
-    ###======================
-    ###    GET STARTED  
-    ###======================
-
-    return render_template("/index.html")
+    return render_template("index.html")
     
 @app.route("/findapup")
 def user_input():
 
-    # return render_template("user_input.html")
-    return "this page is up too"
-
+    return render_template("input.html")
+    
 @app.route("/results")
 def results():
     # return render_template("results.html")
