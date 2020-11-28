@@ -139,7 +139,7 @@ def size():
 size()
 # print(dog_size)
 
-def main():
+def choice():
     while True:
         print("-" * 50)
         print("Let's Find Your Perfect Pup!")
@@ -163,7 +163,7 @@ def main():
         print(adj_list)
 
 
-main()
+choice()
 
 # print(f"You want a dog that is {adj_list}")
 
@@ -175,36 +175,40 @@ main()
 #                 if c == [i][0]["temperament"]:
 #                     [i][0]["points"] += 1
 
+def best_breed():
+    for c in adj_list:
+        for i in dict_:
+            for e in i:
+                for t in e:
+                    if c == [i][0]["temperament"]:
+                        [i][0]["points"] += 1
 
-for c in adj_list:
-    for i in dict_:
-        for e in i:
-            for t in e:
-                if c == [i][0]["temperament"]:
-                    [i][0]["points"] += 1
 
 
+    for a in adj_list:
+        print(f"You want a dog that is {a}")
 
-for a in adj_list:
-    print(f"You want a dog that is {a}")
+    # print(dict_)
 
-# print(dict_)
+    df4 = pd.DataFrame(dict_)
+    # print(df4)
 
-df4 = pd.DataFrame(dict_)
-# print(df4)
+    # above_35 = titanic[titanic["Age"] > 35]
+    df4 = df4[df4["size_category"] == dog_size[0]]
+    # print(df4)
 
-# above_35 = titanic[titanic["Age"] > 35]
-df4 = df4[df4["size_category"] == dog_size[0]]
-# print(df4)
+    # ages = titanic["Age"]
+    df4 = df4[["name", "points"]]
 
-# ages = titanic["Age"]
-df4 = df4[["name", "points"]]
+    df5 = df4.groupby(by = ['name']).sum()
+    # print(df5.head())
 
-df5 = df4.groupby(by = ['name']).sum()
-# print(df5.head())
+    df6 = df5.sort_values("points", ascending = False)
+    print(df6.head())
 
-df6 = df5.sort_values("points", ascending = False)
-print(df6.head())
+    # return df6.head()
 
-# add in size, age and link that to the shelter API?
+best_breed()
+
+
 # the data that needs to be linked to the API would be color, age, sex, etc. data in the API
