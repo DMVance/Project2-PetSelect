@@ -9,7 +9,7 @@ data = r.json()
 df1 = pd.DataFrame(data)
 # print(df)
 df2 = df1[["id","name","temperament"]]
-df2["points"] = 0
+# df2["points"] = 0
 # print(adj)
 
 # Explode out list of temperament adj
