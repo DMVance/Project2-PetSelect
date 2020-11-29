@@ -3,19 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
     <title>Puppy Finder</title>
+    
 </head>
 <body class="container">
-    <h1>Puppy Finder</h1> 
-    <ul class="list-inline text-center">
-        <li class="list-inline-item"><a href="{{url for('index') }}">Home</a></li>
-        <li>|</li>
-        <li class="list-inline-item"><a href="{{url for('getstarted') }}">Get Started!</a></li>
-        <li>|</li>
-        <li class="list-inline-item"><a href="{{url for('forfun') }}">Just For Fun</a></li>
-    </ul>
-    <hr>
+    <div class="header">
+        <br>
+        <h1 class="text-center">Puppy Finder</h1> 
+        <ul class="list-inline text-center">
+            <li class="list-inline-item"><a href="{{ url_for('index') }}">Home</a></li>
+            <li class="list-inline-item">|</li>
+            <li class="list-inline-item"><a href="{{ url_for('input') }}">Get Started!</a></li>
+            <li class="list-inline-item">|</li>
+            <li class="list-inline-item"><a href="{{ url_for('index') }}">Visualizations</a></li>
+            <li class="list-inline-item">|</li>
+            <li class="list-inline-item"><a href="{{ url_for('index') }}">Breed Info</a></li>
+            <li class="list-inline-item">|</li>
+            <li class="list-inline-item"><a href="{{ url_for('index') }}">Just For Fun</a></li>
+        </ul>
+        <hr>
+    </div>  
     {% block content %}{% endblock%}
 </body>
 </html>
+
