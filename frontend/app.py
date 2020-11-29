@@ -1,5 +1,5 @@
-## from [] import []
-## from [] import []
+# from best_one_so_far import size, choice, best_breed
+# from [] import []
 import os
 from flask import Flask, jsonify, render_template
 from flask_pymongo import PyMongo
@@ -12,7 +12,7 @@ def index():
     
 @app.route("/findapup")
 def input():
-
+    
     return render_template("input.html")
     
     
