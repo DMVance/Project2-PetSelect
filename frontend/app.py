@@ -11,7 +11,7 @@ def index():
     return render_template("index.html")
     
 @app.route("/findapup")
-def user_input():
+def input():
 
     return render_template("input.html")
     
