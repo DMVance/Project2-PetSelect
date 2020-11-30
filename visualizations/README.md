@@ -1,1 +1,1 @@
-Initialize PetSelect Visualizations
+Initialize PetSelector Visualizations
