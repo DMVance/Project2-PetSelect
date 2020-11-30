@@ -1,7 +1,7 @@
 {% extends "parent.html" %}
 {% block content %}
 
-        <div class="container">
+        <!-- <div class="container">
                 <div class="row">
                         <br>
                         <br>
@@ -11,19 +11,122 @@
                         </p>
 
                 </div>
+        </div> -->
+
+        <div class="input-box">
+                 <h3>Select Weight</h3>
+                        <select name="size" id="size" >
+                                <option value="sm">Small</option>
+                                <option value="md">Medium</option>
+                                <option value="lg">Large</option>
+                        </select>
+                <br>
+                <br>
+                <h3>Select 5 Characterstics</h3>
+                <ul class="characteristic-list">
+                        <li>
+                                <div class="list-1">
+                                                <select multiple>
+                                                        <option value="sm">Small</option>
+                                                        <option value="sm">Small</option>
+                                                        <option value="sm">Small</option>
+                                                        <option value="sm">Small</option>
+                                                        <option value="sm">Small</option>
+                                                        <option value="sm">Small</option>
+                                                        <option value="sm">Small</option>
+                                                        <option value="sm">Small</option>
+                                                </select>
+                                </div>
+                        </li>
+                        <li>
+                                <div class="list-2">
+                                                <select multiple>
+                                                        <option value="sm">Small</option>
+                                                        <option value="sm">Small</option>
+                                                        <option value="sm">Small</option>
+                                                        <option value="sm">Small</option>
+                                                        <option value="sm">Small</option>
+                                                        <option value="sm">Small</option>
+                                                        <option value="sm">Small</option>
+                                                        <option value="sm">Small</option>
+                                                </select>
+                                </div>
+                        </li>
+                        <li>
+                                <div class="list-3">
+                                        <select multiple>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                        </select>
+                                               
+                                </div>
+                        </li>
+                        <li> 
+                                <div class="list-4">
+                                        <select multiple>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                        </select>
+                       
+                                </div>
+                        </li>
+                        <li>
+                                <div class="list-5">
+                                        <select multiple>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                                <option value="sm">Small</option>
+                                        </select>
+                                </div>
+                        </li>
+                        
+               </ul>
+               <br>
+               <br>
+               <div class="row">
+                <div class="text-center">
+                                <h3 class="click">
+                                <a href="{{ url_for('input') }}">Submit</a>
+                        
+                                </h3>
+                </div>
+                
         </div>
 
 
-                <footer>
-                        <div class="footer-container">
+        </div>
 
+
+        <!-- <footer>
+                
+                <div class="row text-center">
+                        
+                        <div >
                                 <h3 class="copyright">
                                         Copyright &copy; 2020
-                </h3>
-                
-                </div>
-          
-    </footer>
+                                </h3>
+                        </div>
+                        
+                 </div>
+    
+        </footer> -->
 
 
 {% endblock %}
