@@ -4,104 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Rowlf's Dogbook</title>
+    <title>American Pitbull</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-</head>
-<style>
-body {
-  background-image: url('images/Rowlfprofile.jpeg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: auto;
-}
-</style>
-<style>
-  .dropbtn {
-    background-color: rgb(46, 104, 170);
-    color: white;
-    padding: 12px;
-    font-size: 12px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
-  }
-  
-  .dropdown {
-    float: right;
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    right: 0;
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown a:hover {background-color: #ddd;}
-  
-  .show {display: inline;}
-  </style>
-  </head>
-  <body>
-  <div class="dropdown">
-    <button onclick="myFunction()" class="dropbtn">Click to explore Dog Breeds</button>
-    <div id="myDropdown" class="dropdown-content">
-      <a href="#breeds">Labrador Retriever</a>
-      <a href="#breeds">Chihuaha</a>
-      <a href="#breeds">German Shephard</a>
-      <a href="#breeds">Pit Bull</a>
-      <a href="#breeds">American Bulldog</a>
-      <a href="#breeds">Great Pyrenees</a>
-      <a href="#breeds">Pointer</a>
-      <a href="#breeds">Jack Russell Terrier</a>
-      <a href="#breeds">Australian Shephard</a>
-      <a href="#breeds">Yorkshire Terrier</a>
-    </div>
-  </div>
-  
-  <script>
-  /* When the user clicks on the button, 
-  toggle between hiding and showing the dropdown content */
-  function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-  }
-  // Close the dropdown if the user clicks outside of it
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+    <style>
+      body {
+        font-size: 18px;
       }
-    }
-  }
-  </script>
+      div:nth-child(1) {
+        font-family: 'Crimson Pro', serif;
+      }
+      div:nth-child(2) {
+        font-family: 'Pacifico', serif;
+    </style>
+    
 </head>
+<h1>American Pitbull</h1>
 <body>
-    <div class="Right">
-        <iframe width="300" height="200"src="https://www.youtube.com/embed/AEkVFo-sNZc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+  <img src="pitbull.jpg" width="200">
+    <p>The American Pit Bull Terrier is a companion and family dog breed.
+  Originally bred to “bait” bulls, the breed evolved into all-around farm dogs, and later moved into the house to become “nanny dogs” because they were so gentle around children. 
+  Even though these are purebred dogs, you may find them in the care of shelters or rescue groups. Remember to adopt! Don’t shop if you want to bring a dog home.</p>
+    <p>If you want to see more Pitbulls at our local animal shelter, checkout <a href="https://www.austintexas.gov/content/austin-animal-center"> Austin Animal Shelter's page.</a></p>
+  <h2>Pit Bulls are awesome because...</h2>
+  <ul>
+    <li>Affectionate with Family</li>
+    <li>Kid-Friendly</li>
+    <li>Friendly toward Strangers</li>
+  </ul>
 
-<script src="dog breed.json"></script>
+<h2>If I were a Pit Bull I would...</h2>
+<ul>
+  <li>Climb on trees</li>
+  <li>Be perfect as a therapy dog</li>
+  <li>Be useful for sniffing jobs</li>
+</ul>
 
+<h2>Video of American Pitbulls</h2>
+<iframe width="460" height="300" src="https://www.youtube.com/embed/pmYhujR52QQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<script src="style.css"></script>
 </body>
 </html>
