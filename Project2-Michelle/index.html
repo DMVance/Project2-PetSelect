@@ -1,48 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en"></html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>American Pitbull</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
-    <style>
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Raleway">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Pacifico">
+</head>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 jumbotron text-center">
+      <h1>American Pitbull</h1>
+      <img src="pitbull.jpg" width="200">
+      <p>The American Pit Bull Terrier is a companion and family dog breed.
+        Originally bred to “bait” bulls, the breed evolved into all-around farm dogs, and later moved into the house to become “nanny dogs” because they were so gentle around children. 
+        Even though these are purebred dogs, you may find them in the care of shelters or rescue groups. Remember to adopt! Don’t shop if you want to bring a dog home.
+        If you want to see more Pitbulls at our local animal shelter, checkout <a href="https://www.austintexas.gov/content/austin-animal-center"> Austin Animal Shelter's page.</a></p>
+      <h2>Pit Bulls are awesome because...</h2>
+      <p>
+        <li>Affectionate with Family</li>
+        <li>Kid-Friendly</li>
+        <li>Friendly toward Strangers</li>
+      </p>
+      <h2>If I were a Pit Bull I would...</h2>
+      <p>
+        <li>Climb on trees</li>
+        <li>Be perfect as a therapy dog</li>
+        <li>Be useful for sniffing jobs</li>
+      </p>
+      <h2>Video of American Pitbulls</h2>
+      <iframe width="460" height="300" src="https://www.youtube.com/embed/pmYhujR52QQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  <!-- <div class="row">
+    <div class="col-md-2">
+      <div class="well">
+        <h5>Test Subject ID No.:</h5>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+      </div>
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Info</h3>
+        </div> -->
+        <div id="sample-metadata" class="panel-body"></div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div id="bar"></div>
+    </div>
+    <div class="col-md-5">
+      <div id="gauge"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div id="bubble"></div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="static/js/app.js"></script>
+<script src="dog breed.json"></script>
+
+
+
+
+<!-- <body>
       body {
         font-size: 18px;
       }
       div:nth-child(1) {
-        font-family: 'Crimson Pro', serif;
+        font-family: 'Raleway', sans-serif;
       }
       div:nth-child(2) {
         font-family: 'Pacifico', serif;
-    </style>
-    
-</head>
-<h1>American Pitbull</h1>
-<body>
-  <img src="pitbull.jpg" width="200">
-    <p>The American Pit Bull Terrier is a companion and family dog breed.
-  Originally bred to “bait” bulls, the breed evolved into all-around farm dogs, and later moved into the house to become “nanny dogs” because they were so gentle around children. 
-  Even though these are purebred dogs, you may find them in the care of shelters or rescue groups. Remember to adopt! Don’t shop if you want to bring a dog home.</p>
-    <p>If you want to see more Pitbulls at our local animal shelter, checkout <a href="https://www.austintexas.gov/content/austin-animal-center"> Austin Animal Shelter's page.</a></p>
-  <h2>Pit Bulls are awesome because...</h2>
-  <ul>
-    <li>Affectionate with Family</li>
-    <li>Kid-Friendly</li>
-    <li>Friendly toward Strangers</li>
-  </ul>
-
-<h2>If I were a Pit Bull I would...</h2>
-<ul>
-  <li>Climb on trees</li>
-  <li>Be perfect as a therapy dog</li>
-  <li>Be useful for sniffing jobs</li>
-</ul>
-
-<h2>Video of American Pitbulls</h2>
-<iframe width="460" height="300" src="https://www.youtube.com/embed/pmYhujR52QQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<script src="style.css"></script>
-</body>
-</html>
+    </style> -->
