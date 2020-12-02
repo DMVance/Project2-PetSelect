@@ -11,11 +11,11 @@ function getPlots(id) {
             console.log (labels)
 
         // top 10 otu ids for the plot OTU 
-            var OTU_top = ( sampledata.samples[0].otu_ids.slice(0, 10)).reverse();
+            var OTU_top = ( sampledata.samples[0].pitbulls.slice(0, 10)).reverse();
 
         // get the otu id's to the desired form for the plot
-            var OTU_id = OTU_top.map(d => "OTU " + d);
-            console.log(`OTU IDS: ${OTU_id}`)
+            var pitbull = OTU_top.map(d => "OTU " + d);
+            console.log(`Pitbulls: ${Pitbull}`)
 
          // top 10 labels for the plot
             var labels =  sampledata.samples[0].otu_labels.slice(0,10);
@@ -34,7 +34,7 @@ function getPlots(id) {
     
             // create layout variable to set plots layout
             var layout = {
-                title: "Top 10 OTU",
+                title: "Top 10 Pitbulls",
                 yaxis:{
                     tickmode:"linear",
                 },
@@ -64,7 +64,7 @@ function getPlots(id) {
     
             // set the layout for the bubble plot
             var layout_2 = {
-                xaxis:{title: "OTU ID"},
+                xaxis:{title: "Pitbull"},
                 height: 600,
                 width: 1000
             };
@@ -116,17 +116,17 @@ function getPlots(id) {
         var dropdown = d3.select("#selDataset");
     
         // read the data 
-        d3.json("samples.json").then((data)=> {
+        d3.json("dog breed.json").then((data)=> {
             console.log(data)
     
             // get the id data to the dropdwown menu
-            data.names.forEach(function(name) {
+            data.names.forEach(function(pitbull) {
                 dropdown.append("option").text(name).property("value");
             });
     
             // call the functions to display the data and the plots to the page
-            getPlots(data.names[0]);
-            getDemoInfo(data.names[0]);
+            getPlots(data.pitbull[0]);
+            getDemoInfo(data.pitbull[0]);
         });
     }
     
