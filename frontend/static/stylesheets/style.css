@@ -7,7 +7,7 @@
 .header {
     background: rgba(85, 214, 170, .6);
     width: 100vw;
-    position: fixed;
+    
     top: 0px;
     color: white;
     text-transform: uppercase;
@@ -19,7 +19,7 @@ nav li {
     color: white;
     position: relative;
 }
-
+ 
 nav a {
     text-decoration: none;
 	color: white;
@@ -58,8 +58,8 @@ nav a:hover::before {
 .box {
     background: rgba(85, 214, 170, .6); 	
 	width: 450px; 
-	margin-left: 50px;
-	margin-top: 260px;
+	margin-left: 60px;
+	margin-top: 120px;
     position: fixed;
 	color:white;
 	margin-bottom: 15%;
@@ -140,10 +140,10 @@ footer{
 
 .input-box {
     background: rgba(85, 214, 170, .6); 
-    width: 450px; 
-	margin-left: 50px;
-	margin-top: 260px;
-    position: fixed;
+    width: 1370px; 
+	margin-left: 60px;
+	margin-top: 120px;
+    
 	color:white;
     margin-bottom: 15%;
     padding: 20px;
@@ -153,14 +153,20 @@ footer{
 
 .input-box ul {
     padding: 0;
+    column-count: 10;
+
 }
 
 
-.input-box li {
+li {
     list-style: none;
-    display: inline-block;
-    margin: 1px;
+    display: block;
+    padding: 0;
+   
     
 }
+
+
+
 
 
