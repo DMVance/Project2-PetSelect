@@ -18,8 +18,8 @@ def userinput():
             return '''
                 <html>
                     <body>
-                        <p>The result is {result}</p>
-                        <p><a href="/">Click here to calculate again</a>
+                        <p>Select a description of your ideal dog! {result}</p>
+                        <p><a href="/">Click here to choose again</a>
                     </body>
                 </html>
             '''.format(result=result)
@@ -27,7 +27,10 @@ def userinput():
     <html>
         <body>
             {errors}
-            <p>What size dog do you prefer? <br>Small (less than 20 pounds) <br>Medium (between 21 and 60 pounds) <br>Large (more than 60 pounds)</p>
+            <p>What size dog do you prefer? 
+                <br>Small (less than 20 pounds) 
+                <br>Medium (between 21 and 60 pounds) 
+                <br>Large (more than 60 pounds)</p>
             <form method = "post" action = ".">
                 <p><input name="user_size" /></p>
                 <p><input type = "submit" value = "submit size"/></p>
@@ -35,6 +38,7 @@ def userinput():
             </body>
         </html>
         """.format(errors=errors)
+
 
 
 
