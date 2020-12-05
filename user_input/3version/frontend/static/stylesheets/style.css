@@ -1,0 +1,170 @@
+
+/*                      ========================== ALL PAGES ==========================           
+=========================================================================================================================*/
+
+/* HEADER AND NAV
+================================================================ */
+.header {
+    background: rgba(85, 214, 170, .6);
+    width: 100vw;
+    
+    top: 0px;
+    color: white;
+    text-transform: uppercase;
+   
+
+}
+
+nav li {
+    color: white;
+    position: relative;
+}
+ 
+nav a {
+    text-decoration: none;
+	color: white;
+	text-transform: uppercase, bold;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+nav a::before {
+content: '';
+ display: block;
+ height: 4px;
+ background-color: white;
+ position: absolute;
+ width: 0%;
+ top: 20px;
+
+ transition: all ease-in-out 300ms;
+
+}
+
+nav a:hover::before {
+	width: 100%;
+
+}
+
+ 
+/*                      ==========================INDEX PAGE==========================           
+=========================================================================================================================*/
+
+/* INFO BOX 
+===================================================*/
+.box {
+    background: rgba(85, 214, 170, .6); 	
+	width: 450px; 
+	margin-left: 60px;
+	margin-top: 120px;
+    position: fixed;
+	color:white;
+	margin-bottom: 15%;
+}
+
+.info {
+    padding:20px;
+}
+
+
+.click a {
+    outline: solid white;
+    color: white;
+    padding: 10px;
+    size: 10px;
+   text-decoration: none;
+   margin-left: 130px;
+}
+
+.box p {
+    color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    margin-bottom: 100px;
+}
+
+body {
+    background-image: url(https://e3.365dm.com/20/08/1600x900/skynews-puppies-lockdown_5065877.jpg?bypass-service-worker&20200812190243);
+    font-family: 'Raleway';
+    background-repeat: no-repeat;
+	background-size: 100vw;
+	background-attachment: fixed;
+    background-position: center center;
+   
+} 
+
+
+
+
+/* FOOTER */
+
+
+
+footer{
+    height: 100px;
+	/* margin-top: auto;  */
+    background-color: #dedede;
+    font-size: 12px;
+	display: block;
+	overflow: hidden;
+    padding: 10px;
+    position: fixed;
+    width: 100vw;
+    margin-top: -105px;
+    
+    
+
+	}
+
+.copyright {
+	float:left;
+	color: #444;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+
+/*                      ========================== GET STARTED ==========================           
+=========================================================================================================================*/
+
+
+
+
+
+.input-box {
+    background: rgba(85, 214, 170, .6); 
+    width: 1370px; 
+	margin-left: 60px;
+	margin-top: 120px;
+    
+	color:white;
+    margin-bottom: 15%;
+    padding: 20px;
+    
+
+}
+
+.input-box ul {
+    padding: 0;
+    column-count: 9;
+
+}
+
+
+li {
+    list-style: none;
+    display: block;
+    padding: -1px;
+   
+    
+}
+
+
+

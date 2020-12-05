@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheets/style.css') }}">
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
+    <title>Puppy Finder</title>
+    
+</head>
+<body>
+    <div class="header">
+        <br>
+        <h1 class="text-center">Puppy Finder</h1> 
+        <nav>
+            <ul class="list-inline text-center">
+                <li class="list-inline-item"><a href="{{ url_for('index') }}">Home</a></li>
+                <li class="list-inline-item">|</li>
+                <li class="list-inline-item"><a href="{{ url_for('input') }}">Get Started!</a></li>
+                <li class="list-inline-item">|</li>
+                <li class="list-inline-item"><a href="{{ url_for('index') }}">Visualizations</a></li>
+                <li class="list-inline-item">|</li>
+                <li class="list-inline-item"><a href="{{ url_for('index') }}">Breed Info</a></li>
+                <li class="list-inline-item">|</li>
+                <li class="list-inline-item"><a href="{{ url_for('index') }}">Just For Fun</a></li>
+            </ul>
+        </nav>  
+        <br>
+      
+    </div>  
+    
+
+
+
+
+
+
+    {% block content %}{% endblock%}
+</body>
+</html>
+
