@@ -6,9 +6,7 @@ from flask import Flask, jsonify, render_template, request, make_response
 from size_v2 import best_breed
 import json
 import pandas as pd
-
-adj_list = []
-dog_size = []
+import requests
 
 app = Flask(__name__)
 
@@ -17,32 +15,42 @@ def index():
     return render_template("index.html")
     
 @app.route("/findapup")
-def input():
-    # adj_list = ['smart', 'spunky', 'loyal', 'brave', 'bold', 'protective', 'sweet', 'trainable']
-    # dog_size = ['medium']
-    return best_breed(adj_list, dog_size)
-    
+def input():    
     return render_template("input.html")
 
 
 @app.route("/findapup/create-entry", methods=["POST", "GET"])
 def create_entry():
+    adj_list = []
+    dog_size = []
 
     req = request.get_json()
     
-    for k, v in req.items():
-        print(k, v)
+    # for k, v in req.items():
+    #     print(k, v)
 
     for k, v in req.items():
         if v =='Yes':
             adj_list.append(k)
 
     for k, v in req.items():
-        if k =='name':
+        if k =='size':
             dog_size.append(v)
 
-    print(f"dog size is {dog_size} and adj are {adj_list}")
-    return req
+    print(f"Dog size: {dog_size}; Adj: {adj_list}")
+    
+    # return req
+
+    breed = best_breed(adj_list, dog_size)
+    breeds = breed["name"]
+    
+    best_pup = []
+    best_pup.append(breeds[0])
+    best_pup.append(breeds[1])
+    best_pup.append(breeds[2])
+    print(best_pup)
+        
+    return breeds
 
 
 

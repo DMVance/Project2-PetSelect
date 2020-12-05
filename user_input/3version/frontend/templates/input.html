@@ -5,30 +5,10 @@
 <div class="input-box">
         <h3>Select Weight</h3>
                <select name="size" id="size" >
-                       <option value="sm">Small</option>
-                       <option value="md">Medium</option>
-                       <option value="lg">Large</option>
+                       <option value="small">Small</option>
+                       <option value="medium">Medium</option>
+                       <option value="large">Large</option>
                </select>
-               
-<!-- <div class="container">
-        <div class="row">
-          <div class="col">
-      
-            <h1>Guestbook</h1>
-            <hr>
-      
-            <div class="mb-3">
-              <div class="form-group">
-                <label>Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Your name">
-              </div>
-      
-              <div class="form-group">
-                <label>Message</label>
-                <textarea class="form-control" id="message" cols="30" rows="3" placeholder="Your message"></textarea>
-              </div>
-       -->
-
 
        <br>
                 <br>
@@ -567,11 +547,7 @@
 
               <button class="btn btn-primary" id="submit" onclick="submit_message();">Submit</button>
             </div>
-      
-            
-      
-            <div class="mb-3" id="messages"></div>
-      
+         
           </div>
         </div>
       </div>
@@ -598,14 +574,10 @@
                 var entry = {
                         vigilant: vigilant.value,
                         dutiful: dutiful.value,
-                        name: size.value
+                        size: size.value
                 };
 
-                // var size = {
-                //         name: size.value
-                // };
-
-                
+                   
 
                 fetch(`${window.origin}/findapup/create-entry`, {
                 method: "POST",
@@ -628,28 +600,6 @@
                 .catch(function (error) {
                         console.log("Fetch error: " + error);
                 });
-
-                // fetch(`${window.origin}/findapup/create-entry`, {
-                // method: "POST",
-                // credentials: "include",
-                // body: JSON.stringify(size), 
-                // cache: "no-cache",
-                // headers: new Headers({
-                //         "content-type": "application/json"
-                // })
-                // })
-                // .then(function (response) {
-                //         if (response.status !== 200) {
-                //         console.log(`Looks like there was a problem. Status code: ${response.status}`);
-                //         return;
-                //         }
-                //         response.json().then(function (data) {
-                //         console.log(data);
-                //         });
-                // })
-                // .catch(function (error) {
-                //         console.log("Fetch error: " + error);
-                // });
         }
 
 
