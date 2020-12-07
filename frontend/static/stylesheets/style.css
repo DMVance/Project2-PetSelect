@@ -157,6 +157,20 @@ footer{
 
 }
 
+input, button {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor: hand;
+    overflow: hidden;    
+    outline: solid white;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 130px;   
+}
+
 
 li {
     list-style: none;

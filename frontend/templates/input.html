@@ -1,19 +1,7 @@
 {% extends "parent.html" %}
 {% block content %}
 
-        <!-- <div class="container">
-                <div class="row">
-                        <br>
-                        <br>
-                        <br>
-                        <p class="text-center">
-                                This is the user input page
-                        </p>
-
-                </div>
-        </div> -->
-
-        
+ 
         <div class="input-box">
                  <h3>Select Weight</h3>
                         <select name="size" id="size" >
@@ -22,9 +10,25 @@
                                 <option value="lg">Large</option>
                         </select>
                 <br>
+                        <div class="row">
+                                <div class="text-center execute">
+                                        <!-- <div>
+                                                <div class="text-center execute">
+                                                        <h3 class="click" id="button" onclick="loadChar()">
+                                                        <a href="{{ url_for('input') }}"></a>Submit</a>
+                                                
+                                                        </h3>
+                                                </div>  
+                                        </div> -->
+                                                
+                                        <button onclick="loadChar()">Submit</button>
+                                </div>
+                                
+                        </div>
+                <br>
                 <br>
                 <h3>Select 5 Characterstics</h3>
-                                <div class="characterstic-list">
+                                <div class="characterstic-list" id="characterstic-list">
                                         <ul class="characteristics">    
                                                 <!-- <li class="char-columns">
                                                 <input type="checkbox" id="stubborn" name="stubborn" value="stubborn">
