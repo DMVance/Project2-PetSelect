@@ -29,9 +29,15 @@ def create_entry():
     # for k, v in req.items():
     #     print(k, v)
 
-    for k, v in req.items():
-        if v =='Yes':
-            adj_list.append(k)
+    # for k, v in req.items():
+    #     if v =='Yes':
+    #         adj_list.append(k)
+    
+
+    # -------vvv-------Reynolds Code-------vvv-------
+    adj_list = req["traits"]
+
+    # -------^^^-------Reynolds Code-------^^^-------
 
     for k, v in req.items():
         if k =='size':
