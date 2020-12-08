@@ -4,6 +4,7 @@ body {
     
     font-family: 'Raleway';
     height: 1640px;
+    background-color: #444;
 
    
 } 
@@ -219,28 +220,42 @@ nav a:hover::before {
 =========================================================================================================================*/
 
 
-
+/* CHARACTERISTIC BOX */
 
 
 .input-box {
-    background: rgba(85, 214, 170, .6); 
+    background: rgb(240, 213, 124); 
     /* width: 1370px; */
     width: 100vw; 
-	/* margin-left: 60px; */
-	margin-top: 120px;
+	padding: 60px;
+	margin-top: 200px;
     
 	color:white;
-    margin-bottom: 15%;
-    padding: 10px;
+    /* margin-bottom: 15%; */
     
 
 }
 
-.input-box ul {
-    padding: 0;
-    column-count: 5;
 
+
+.characteristic-box {
+    background: rgb(240, 213, 124); 
+    /* width: 1370px; */
+    width: 100vw; 
+    padding-left: 60px;
+    padding-bottom: 60px;
+	margin-top: 0;
+    dislay: none;
+	color:white;
+    margin-bottom: 15%;
 }
+
+.characteristic-box ul {
+    padding: 0;
+    column-count: 4; 
+}
+
+
 
 input, button {     
     background-color: Transparent;
@@ -262,16 +277,15 @@ li {
     display: block;
     padding: 2px;
     margin: none;
+    text-transform: capitalize;
    
 }
 
-li input {
-}
 
 li label {
     padding: 10px;
     margin: none;
-}
+} 
 
 
 
