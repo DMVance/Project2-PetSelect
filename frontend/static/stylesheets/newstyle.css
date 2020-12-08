@@ -3,33 +3,12 @@
 body {
     
     font-family: 'Raleway';
-    height: 1640px;
+    /* height: 1640px; */
     background-color: #444;
 
    
 } 
-.above-parallax {
-    height: 80px;
-}
 
-.parallax {
-    min-height: 540px;
-    width: 100vw;
-    background: transparent;
-}
-
-.parallax-2 {
-
-    min-height: 600px;
-    width: 100vw;
-    background: transparent;
-}
-.parallax-3 {
-
-    min-height: 650px;
-    width: 100vw;
-    background: transparent;
-}
 
 
 /* HEADER AND NAV
@@ -82,11 +61,33 @@ nav a:hover::before {
  
 /*                      ==========================INDEX PAGE==========================           
 =========================================================================================================================*/
+.above-parallax {
+    height: 80px;
+}
+
+.parallax {
+    min-height: 540px;
+    width: 100vw;
+    background: transparent;
+}
+
+.parallax-2 {
+
+    min-height: 600px;
+    width: 100vw;
+    background: transparent;
+}
+.parallax-3 {
+
+    min-height: 600px;
+    width: 100vw;
+    background: transparent;
+}
 
 /* INFO BOX 
 ===================================================*/
 .box {
-    background: rgb(240, 213, 124); 	
+    background: rgb(245, 212, 103); 	
 	width: 100vw; 
 	color:white;
     
@@ -127,11 +128,11 @@ nav a:hover::before {
 }
 
 .info-2 h3 {
-    margin-left: 120px;
+    margin-left: 180px;
 }
 
 .input-2 p {
-    margin-left: 400px;
+    margin-left: 600px;
 }
 
 
@@ -150,7 +151,7 @@ nav a:hover::before {
 }
 
 .info-3 h3 {
-    margin-left: 120px;
+    margin-left: 180px;
 }
 
 .input-3 p {
@@ -191,7 +192,7 @@ nav a:hover::before {
 
 .foot {
     height: 100px;
-	margin-top: ; 
+	
     background-color: #f1f1f1;
     font-size: 12px;
 	/* display: block;
@@ -258,7 +259,7 @@ nav a:hover::before {
 
 
 input, button {     
-    background-color: Transparent;
+    background-color: rgb(240, 213, 124);
     background-repeat:no-repeat;
     border: none;
     cursor: hand;
@@ -287,5 +288,35 @@ li label {
     margin: none;
 } 
 
+.characteristics {
+    position: relative;
+}
+
+.checkmark {
+    outline: none;
+   
+    background-color: rgba(85, 214, 170);
+    width:15px;
+    height: 15px;
+    transition: 0.4s;
+    
+}
+
+#check:checked ~ .checkmark {
+    background-color: rgba(85, 214, 170);
+}
 
 
+
+.checkmark::after {
+    content: "";
+    position: absolute;
+    background-color:  rgba(85, 214, 170);
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotateZ(40deg);
+    opacity: 0;
+
+}
