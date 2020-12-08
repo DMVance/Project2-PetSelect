@@ -40,8 +40,11 @@ document.getElementById("clickMe").addEventListener("click", function()
             listItem.append("input")
                 .attr("type", "checkbox")
                 .attr("id", trait)
+                .attr("id", "check")
                 .attr("name", trait)
                 .attr("value", trait)
+                .attr("class", "checkmark")
+                
                 // .attr("margin-left", "5px")
             listItem.append("label")
                 .attr("for", trait)
@@ -49,3 +52,9 @@ document.getElementById("clickMe").addEventListener("click", function()
                 .text("  " + trait)
         })
     }
+
+
+    document.getElementsByClassName(".char-columns").addEventListener("click", function()
+    {
+        console.log("click");
+    })
