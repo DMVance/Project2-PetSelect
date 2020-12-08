@@ -1,27 +1,46 @@
-
 /*                      ========================== ALL PAGES ==========================           
 =========================================================================================================================*/
 body {
-    background-image: url(https://e3.365dm.com/20/08/1600x900/skynews-puppies-lockdown_5065877.jpg?bypass-service-worker&20200812190243);
-    /* url(https://cdn.theatlantic.com/assets/media/img/photo/2020/03/photos-national-puppy-day-2020/p01_1490227862-1/original.jpg); */
+    
     font-family: 'Raleway';
-    background-repeat: no-repeat;
-	background-size: 100vw;
-	background-attachment: fixed;
-    background-position: center, center;
+    height: 1640px;
+
    
 } 
+.above-parallax {
+    height: 80px;
+}
 
+.parallax {
+    min-height: 540px;
+    width: 100vw;
+    background: transparent;
+}
+
+.parallax-2 {
+
+    min-height: 600px;
+    width: 100vw;
+    background: transparent;
+}
+.parallax-3 {
+
+    min-height: 650px;
+    width: 100vw;
+    background: transparent;
+}
 
 
 /* HEADER AND NAV
 ================================================================ */
 .header {
-    /* background: rgba(85, 214, 170, .6); */
+    background: rgba(85, 214, 170);
     width: 100vw;
-    top: 0; 
+    top: -15px; 
     color: white;
     text-transform: uppercase;
+    position: fixed;
+    z-index: 1;
 
 }
 
@@ -66,17 +85,15 @@ nav a:hover::before {
 /* INFO BOX 
 ===================================================*/
 .box {
-    background: rgba(85, 214, 170, .6); 	
-	width: 450px; 
-	margin-left: 60px;
-	margin-top: 120px;
-    position: fixed;
+    background: rgb(240, 213, 124); 	
+	width: 100vw; 
 	color:white;
-	margin-bottom: 15%;
+    
 }
 
 .info {
     padding:20px;
+    margin-left: 40px;
 }
 
 
@@ -95,8 +112,75 @@ nav a:hover::before {
     padding-left: 10px;
     padding-right: 10px;
     
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
+
+
+
+.box-2 {
+    background: rgb(200, 219, 215); 	
+	width: 100vw; 
+	color:white;
+    /* margin-bottom: 15%; */
+    /* margin-top: 400px; */
+}
+
+.info-2 h3 {
+    margin-left: 120px;
+}
+
+.input-2 p {
+    margin-left: 400px;
+}
+
+
+.info-2 {
+    padding:20px;
+    margin-left: 500px;
+}
+
+
+.box-3 {
+    background: rgb(200, 219, 215); 	
+	width: 100vw; 
+	color:white;
+    /* margin-bottom: 15%; */
+    /* margin-top: 400px; */
+}
+
+.info-3 h3 {
+    margin-left: 120px;
+}
+
+.input-3 p {
+    margin-left: 400px;
+}
+
+
+.info-3 {
+    padding:20px;
+    margin-left: 500px;
+}
+
+.click a {
+    outline: solid white;
+    color: white;
+    padding: 10px;
+    size: 10px;
+   text-decoration: none;
+   margin-left: 400px;
+}
+
+.box p {
+    color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    margin-bottom: 60px;
+}
+
+
 
 
 
@@ -104,17 +188,18 @@ nav a:hover::before {
 
 
 
-footer{
+.foot {
     height: 100px;
-	/* margin-top: auto;  */
-    background-color: #dedede;
+	margin-top: ; 
+    background-color: #f1f1f1;
     font-size: 12px;
-	display: block;
-	overflow: hidden;
+	/* display: block;
+	overflow: hidden; */
     padding: 10px;
-    position: fixed;
+    /* position: fixed; */
     width: 100vw;
-    margin-top: -105px;
+    z-index: 1;
+    
     
     
 
@@ -124,8 +209,8 @@ footer{
 	float:left;
 	color: #444;
     margin-left: 20px;
-    font-size: 12px;
-    margin-top: 10px;
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 
