@@ -1,4 +1,10 @@
+// To do list:
+// 1. connect to the project database
+// 2. figure out the Breed selector and COUNT of Breed
+// 3. figure out the x-axis (sex, age, color, type, condition)
+// 4. figure out the COUNT of y-axis
 // plotly bar plot for dog age??
+
 
 // plotly bar plot for dog sex
 
