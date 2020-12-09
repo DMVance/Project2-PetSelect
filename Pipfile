@@ -10,6 +10,12 @@ flask = "*"
 flask-pymongo = "*"
 requests= "*"
 pandas = "*"
+gunicorn = "*"
+pymongo = "*"
+dnspython = "*"
+
+
+
 
 [requires]
 python_version = "3.7"
