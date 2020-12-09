@@ -216,9 +216,10 @@ def best_breed():
     # print(df5.head())
 
     df6 = df5.sort_values("points", ascending = False)
+    df6 = df6.reset_index()
     print(df6.head())
 
-    df6.to_html("results/best_breed.html")
+    # df6.to_html("results/best_breed.html")
 
 best_breed()
 

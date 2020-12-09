@@ -93,6 +93,8 @@ def best_breed(adj_list, dog_size):
     df6 = df6.head()
 
     dict7 = df6.to_dict()
+    
+    dict7.to_html("best_pup.html")
 
     # final = json.dumps(dict7)
 

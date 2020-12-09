@@ -136,6 +136,9 @@ def size():
     dog_size.append(user_size)
     # dog_size = dog_size[0]
 
+    size_df = pd.DataFrame(dog_size)
+    size_df.to_html("results/dog_size.html")
+
 size()
 # print(dog_size)
 
@@ -148,10 +151,16 @@ def choice():
 
         if dog_size[0] == "small":
             print(small_adj)
+            small_adj_df = pd.DataFrame(small_adj)
+            small_adj_df.to_html("results/adj_list.html")
         elif dog_size[0] == 'medium':
             print(medium_adj)
+            medium_adj_df = pd.DataFrame(medium_adj)
+            medium_adj_df.to_html("results/adj_list.html")
         else:
             print(large_adj)
+            large_adj_df = pd.DataFrame(large_adj)
+            large_adj_df.to_html("results/adj_list.html")
 
         user_choice = input("What characteristics would you like in your dog? Type out adjectives. Press q when you're done.\n")
         
@@ -161,6 +170,9 @@ def choice():
         adj_list.append(user_choice)
 
         print(adj_list)
+
+        adj_df = pd.DataFrame(adj_list)
+        adj_df.to_html("results/user_adj_list.html")
 
 
 choice()
@@ -206,7 +218,7 @@ def best_breed():
     df6 = df5.sort_values("points", ascending = False)
     print(df6.head())
 
-    # return df6.head()
+    df6.to_html("results/best_breed.html")
 
 best_breed()
 
