@@ -1,20 +1,9 @@
-console.log("app.js is up")
-
-let selected_size
-    let options = d3.select("#size").selectAll("option")
-    options.each(function (d, i) {
-        let current_option = d3.select(this)
-        if (current_option.property("selected")) {
-            selected_size = current_option._groups[0][0].value
-        }
-    })
-console.log(selected_size)
-
-
+let traitsList
 
 document.getElementById("clickMe").addEventListener("click", function()
 {
     console.log("clicked")
+    // document.getElementById("#characteristics").selectAll("li").remove()
     const box1=document.getElementById("characteristic-box");
         if(box1.style.display=="none")
         {
@@ -31,30 +20,79 @@ document.getElementById("clickMe").addEventListener("click", function()
     function loadChar() {
 
         charList = d3.select(".characteristics")
-        
-        traitsList = Object.keys(large_traits[0])
-        traitsList.forEach(trait => {
-            console.log(trait)
-            listItem = charList.append("li")
-                .classed("char-columns", true)
-            listItem.append("input")
-                .attr("type", "checkbox")
-                .attr("id", trait)
-                .attr("id", "check")
-                .attr("name", trait)
-                .attr("value", trait)
-                .attr("class", "checkmark")
+        let selected_size
+        let options = d3.select("#size").selectAll("option")
+        options.each(function (d, i) {
+        let current_option = d3.select(this)
+        if (current_option.property("selected")) {
+            selected_size = current_option._groups[0][0].value
+        }
+
+   
+    })
+
+console.log(selected_size)
+
+        if (selected_size === "lg")
+        {
+            let traitsList = Object.keys(large_traits[0])
+            .forEach(trait => {
+                listItem = charList.append("li")
+                    .classed("char-columns", true)
+                listItem.append("input")
+                    .attr("type", "checkbox")
+                    .attr("id", trait)
+                    .attr("id", "check")
+                    .attr("name", trait)
+                    .attr("value", trait)
+                    .attr("class", "checkmark")
+                     
+                listItem.append("label")
+                    .attr("for", trait)
+                   
+                    .text("  " + trait)
+            })
+            console.log(options)
+        }
+        else if (selected_size === "md")
+        {
+            let traitsList = Object.keys(medium_traits[0])
+            traitsList.forEach(trait => {
                 
-                // .attr("margin-left", "5px")
-            listItem.append("label")
-                .attr("for", trait)
-                // .attr("padding-left", ".4em")
-                .text("  " + trait)
-        })
+                listItem = charList.append("li")
+                    .classed("char-columns", true)
+                listItem.append("input")
+                    .attr("type", "checkbox")
+                    .attr("id", trait)
+                    .attr("id", "check")
+                    .attr("name", trait)
+                    .attr("value", trait)
+                    .attr("class", "checkmark")
+                    
+                listItem.append("label")
+                    .attr("for", trait)
+                    .text("  " + trait)
+            })
+        }
+        else  (selected_size === "sm")
+        {            
+            let traitsList = Object.keys(small_traits[0])
+            traitsList.forEach(trait => {
+                
+                listItem = charList.append("li")
+                    .classed("char-columns", true)
+                listItem.append("input")
+                    .attr("type", "checkbox")
+                    .attr("id", trait)
+                    .attr("id", "check")
+                    .attr("name", trait)
+                    .attr("value", trait)
+                    .attr("class", "checkmark")
+                    
+                listItem.append("label")
+                    .attr("for", trait)
+                    .text("  " + trait)
+            })
+        }
     }
 
-
-    document.getElementsByClassName(".char-columns").addEventListener("click", function()
-    {
-        console.log("click");
-    })
