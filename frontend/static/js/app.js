@@ -1,6 +1,7 @@
 function smoothScroll(target,duration){
     target = document.querySelector(target);
-    let targetPosition = target.getBoundingClientRect().top;
+    let targetPosition = 1400;
+    console.log(targetPosition)
     let startPosition = window.pageYOffset;
     // let startPosition = documment.getElementById("clickMe2");
 
@@ -39,6 +40,12 @@ document.getElementById("clickMe").addEventListener("click", function()
         {
             box1.style.display="block";
         }
+        else if (box1.style.display=="block")
+        {
+            document.getElementById("#characteristics").html('')
+        }
+        
+
         else
         {
             box1.style.display=="none";
@@ -82,9 +89,12 @@ document.getElementById("clickMe").addEventListener("click", function()
                     .text("  " + trait)
             })
             console.log(options)
+            // document.getElementById("#characterstic-list").selectAll("li").remove()
+
         }
         else if (selected_size === "md")
         {
+            // document.getElementById("#characteristics").selectAll("li").remove()
             let traitsList = Object.keys(medium_traits[0])
             traitsList.forEach(trait => {
                 
@@ -104,7 +114,8 @@ document.getElementById("clickMe").addEventListener("click", function()
             })
         }
         else  (selected_size === "sm")
-        {            
+        {          
+            // document.getElementById("#characteristics").selectAll("li").remove()  
             let traitsList = Object.keys(small_traits[0])
             traitsList.forEach(trait => {
                 
@@ -198,7 +209,8 @@ document.getElementById("clickMe2").addEventListener("click", function()
 document.getElementById("clickMe3").addEventListener("click", function()
 {
     console.log("breed-clicked")
-    
+    smoothScroll(".breed-results", 1000)
+
     const box3=document.getElementById("dog-results");
         if(box3.style.display=="none")
         {
