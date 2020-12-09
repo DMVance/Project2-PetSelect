@@ -220,46 +220,10 @@ nav a:hover::before {
 /*                      ========================== GET STARTED ==========================           
 =========================================================================================================================*/
 
-
-/* CHARACTERISTIC BOX */
-
-
-.input-box {
-    background: rgb(240, 213, 124); 
-    /* width: 1370px; */
-    width: 100vw; 
-	padding: 60px;
-	margin-top: 200px;
-    
-	color:white;
-    /* margin-bottom: 15%; */
-    
-
-}
-
-
-
-.characteristic-box {
-    background: rgb(240, 213, 124); 
-    /* width: 1370px; */
-    width: 100vw; 
-    padding-left: 60px;
-    padding-bottom: 60px;
-	margin-top: 0;
-    dislay: none;
-	color:white;
-    margin-bottom: 15%;
-}
-
-.characteristic-box ul {
-    padding: 0;
-    column-count: 4; 
-}
-
-
+                                /* ALL SUBMIT BUTTONS */
 
 input, button {     
-    background-color: rgb(240, 213, 124);
+    background-color:transparent;
     background-repeat:no-repeat;
     border: none;
     cursor: hand;
@@ -270,6 +234,56 @@ input, button {
     font-size: 20px;
     text-decoration: none;
     margin-left: 130px;   
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+                                /* WEIGHT BOX *******************************/
+
+
+.input-box {
+    background: rgb(240, 213, 124); 
+    /* width: 1370px; */
+    width: 100vw; 
+	padding: 60px;
+	margin-top: 80px;
+    
+	color:white;
+    /* margin-bottom: 15%; */
+    
+
+}
+
+
+                                /* TRAIT BOX *********************************/
+
+.characteristic-box {
+    background: rgb(240, 213, 124); 
+
+    /* width: 1370px; */
+    width: 100vw; 
+    padding-left: 60px;
+    padding-bottom: 60px;
+	margin-top: 0;
+    dislay: none;
+	color:white;
+  
+}
+
+
+                    /* TRAIT LIST */
+.characteristic-box ul {
+    padding: 0;
+    column-count: 4; 
 }
 
 
@@ -292,6 +306,7 @@ li label {
     position: relative;
 }
 
+                    /* CHECKBOXES */
 .checkmark {
     outline: none;
    
@@ -319,4 +334,23 @@ li label {
     transform: translate(-50%,-50%) rotateZ(40deg);
     opacity: 0;
 
+}
+
+
+                                    /* BREED RESULT BOX ************************/ 
+
+.breed-results {
+    background: rgb(240, 213, 124); 
+    width: 100vw;  
+	padding: 60px;
+	color:white;
+}
+
+                                    /* DOG RESULT BOX ************************/ 
+
+.dog-results {
+    background: rgb(240, 213, 124); 
+    width: 100vw;  
+	padding: 60px;
+	color:white;
 }
