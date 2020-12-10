@@ -4,6 +4,7 @@ td, th {
   }
 
 /* ============ Dropdown List Colors ============ */
+option {font-family: 'Raleway'}
 option.black {background-color: black; color: white}
 option.brown {background-color: brown; color: white}
 option.chocolate {background-color: chocolate; color: white}

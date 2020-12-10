@@ -62,6 +62,15 @@
                 </ul>
 
                 <div id="search-dogs-form">
+                        <h3>Enter the desired breed of your dog</h3>
+                        <ul id="breed-choice">
+                                <li>
+                                        <input type="text" id="breed-text" placeholder="German Shepherd">
+                                                <label for="breed-text">Don't forget: many breed names in Austin Intakes are shortened -- for example, if you are looking for a Boston Terrier, try the search term Terrier</label>
+                                        </input>
+                                </li>
+                        </ul>
+                        <br>
                         <h4>Select the desired sex of your dog</h3>
                         <ul id="sexes">
                                 <li>
@@ -75,7 +84,8 @@
                                         </input>
                                 </li>
                         </ul>
-                        <h3>Select the desired color of your dog</h3>
+                        <br>
+                        <h4>Select the desired color of your dog</h4>
                         <select name="colors" id="colors" >
                                 <option value="black" class="black" font-color="white">Black</option>
                                 <option value="brown" class="brown" font-color="white">Brown</option>
@@ -102,6 +112,40 @@
                                 <option value="piebald" class="piebald" font-color="black">Piebald</option>
 
                         </select>
+                        <br>
+                        <h4>Enter the desired age of your dog</h4>
+                        <h5>(Enter the youngest dog you want in years &amp months and the oldest dog you want in years &amp months)</h5>
+                        <ul id="dog-age">
+                                <li>
+                                        <input type="text" id="youngest-years" placeholder="0">
+                                                <label for="youngest-years">Youngest in years</label>
+                                        </input>
+                                </li>
+                                <li>
+                                        <input type="text" id="youngest-months" placeholder="1">
+                                                <label for="youngest-months">Youngest in months</label>
+                                        </input>
+                                </li>
+                                <li>
+                                        <input type="text" id="oldest-years" placeholder="20">
+                                                <label for="oldest-years">Oldest in years</label>
+                                        </input>
+                                </li>
+                                <li>
+                                        <input type="text" id="oldest-months" placeholder="12">
+                                                <label for="oldest-months">Oldest in months</label>
+                                        </input>
+                                </li>
+                        </ul>
+                        <br>
+                        <h4>Are you looking for a sick or injured dog to foster?</h3>
+                        <ul id="foster-injured">
+                                <li>
+                                        <input type="checkbox" id="injured" name="injured" value="injured" class="checkmark">
+                                                <label for="injured">Check yes to search sick or injured dogs</label>
+                                        </input>
+                                </li>
+                        </ul>
                 </div>
                 <button class="clickMe" id="clickMe3" onclick="loadDogs()">Submit</button>
         </div>
