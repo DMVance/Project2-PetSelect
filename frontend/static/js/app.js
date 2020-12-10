@@ -203,28 +203,85 @@ document.getElementById("clickMe3").addEventListener("click", function()
 function loadDogs() {
     console.log("loadDogs")
 
+    let selected_breed = d3.select("#breed-text").property("value")
+    console.log(selected_breed)
+
+
     let selected_sexes = []
     let sexes = d3.select("#sexes").selectAll("input")
     sexes.each(function (d, i) {
                 // console.log(d3.select(this).property("checked"))
             let current_sex = d3.select(this)
             if (current_sex.property("checked")) {
-                    selected_sexes.push(current_sex._groups[0][0].value)
+                    selected_sexes.push(current_sex.property("value"))
             } 
     })
-    console.log(selected_sexes)
 
-    
+    let sex
+    if (selected_sexes.length !== 1) {
+        sex = ""
+    } else if (selected_sexes[0] === "female") {
+        sex = "female"
+    } else {
+        sex = "male"
+    }
+    console.log(sex)
+
+
+    let selected_color
+    let options = d3.select("#colors").selectAll("option")
+    options.each(function (d, i) {
+            let current_option = d3.select(this)
+            if (current_option.property("selected")) {
+                selected_color = current_option.property("value")
+            }
+    })
+    console.log(selected_color)
+
+    let young_yrs
+    if (Number.isInteger(parseInt(d3.select("#youngest-years").property("value")))) {
+        young_yrs = parseInt(d3.select("#youngest-years").property("value"))
+    } else {
+        young_yrs = 0
+    }
+    let young_mos
+    if (Number.isInteger(parseInt(d3.select("#youngest-months").property("value")))) {
+        young_mos = parseInt(d3.select("#youngest-months").property("value"))
+    } else {
+        young_mos = 0
+    }
+    let old_yrs
+    if (Number.isInteger(parseInt(d3.select("#oldest-years").property("value")))) {
+        old_yrs = parseInt(d3.select("#oldest-years").property("value"))
+    } else {
+        old_yrs = 99
+    }
+    let old_mos
+    if (Number.isInteger(parseInt(d3.select("#oldest-months").property("value")))) {
+        old_mos = parseInt(d3.select("#oldest-months").property("value"))
+    } else {
+        old_mos = 12
+    }
+
+
+    let select_injured
+    if (d3.select("#injured").property("checked")) {
+        select_injured = true
+    } else {
+        select_injured = false
+    }
+    console.log(select_injured)
+
 
     var entry = {
-        search_breed: "German Shepherd",
-        youngest_yrs: 0,
-        youngest_mos: 3,
-        oldest_yrs: 8,
-        oldest_mos: 5,
-        search_sex: selected_sexes[0],
-        search_color: "brown",
-        search_injured: false,
+        search_breed: selected_breed,
+        youngest_yrs: young_yrs,
+        youngest_mos: young_mos,
+        oldest_yrs: old_yrs,
+        oldest_mos: old_mos,
+        search_sex: sex,
+        search_color: selected_color,
+        search_injured: select_injured,
     }
 
     fetch(`${window.origin}/findapup/mongo-query`, {
