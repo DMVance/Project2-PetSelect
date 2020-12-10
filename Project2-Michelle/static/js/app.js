@@ -1,133 +1,41 @@
-function getPlots(id) {
-    
-    //Read dog breed.json
-        d3.json("samples.json").then (sampledata =>{
-            console.log(sampledata)
-            var ids = sampledata.samples[0].otu_ids;
-            console.log(ids)
-            var sampleValues =  sampledata.samples[0].sample_values.slice(0,10).reverse();
-            console.log(sampleValues)
-            var labels =  sampledata.samples[0].otu_labels.slice(0,10);
-            console.log (labels)
-
-        // top 10 otu ids for the plot OTU 
-            var OTU_top = ( sampledata.samples[0].otu_ids.slice(0, 10)).reverse();
-
-        // get the otu id's to the desired form for the plot
-            var OTU_id = OTU_top.map(d => "OTU " + d);
-            console.log(`OTU IDS: ${OTU_id}`)
-
-         // top 10 labels for the plot
-            var labels =  sampledata.samples[0].otu_labels.slice(0,10);
-            console.log(`OTU_labels: ${labels}`)
-            var trace = {
-                x: sampleValues,
-                y: OTU_id,
-                text: labels,
-                marker: {
-                color: 'light blue'},
-                type:"bar",
-                orientation: "h",
-            };
-            // create data variable
-            var data = [trace];
-    
-            // create layout variable to set plots layout
-            var layout = {
-                title: "Top 10 OTU",
-                yaxis:{
-                    tickmode:"linear",
-                },
-                margin: {
-                    l: 100,
-                    r: 100,
-                    t: 100,
-                    b: 30
-                }
-            };
-    
-            // create the bar plot
-        Plotly.newPlot("bar", data, layout);
-
-            // The bubble chart
-            var trace1 = {
-                x: sampledata.samples[0].otu_ids,
-                y: sampledata.samples[0].sample_values,
-                mode: "markers",
-                marker: {
-                    size: sampledata.samples[0].sample_values,
-                    color: sampledata.samples[0].otu_ids
-                },
-                text:  sampledata.samples[0].otu_labels
-    
-            };
-    
-            // set the layout for the bubble plot
-            var layout_2 = {
-                xaxis:{title: "OTU ID"},
-                height: 600,
-                width: 1000
-            };
-    
-            // creating data variable 
-            var data1 = [trace1];
-    
-        // create the bubble plot
-        Plotly.newPlot("bubble", data1, layout_2); 
-        
-        });
-    }  
-    // create the function to get the necessary data
-    function getDemoInfo(id) {
-
-    // read the json file to get data
-        d3.json("samples.json").then((data)=> {
-
-    // get the metadata info for the demographic panel
-            var metadata = data.metadata;
-    
-            console.log(metadata)
-    
-          // filter meta data info by id
-           var result = metadata.filter(meta => meta.id.toString() === id)[0];
-           
-          // select demographic panel to put data
-           var demographicInfo = d3.select("#sample-metadata");
-            
-         // empty the demographic info panel each time before getting new id info
-           demographicInfo.html("");
-    
-         // grab the necessary demographic data
-            Object.entries(result).forEach((key) => {   
-                demographicInfo.append("h5").text(key[0].toLowerCase() + ": " + key[1] + "\n");    
-            });
-        });
+window.onload = function() {
+  let belly = document.getElementById("belly");
+  let audio = document.getElementById("audio");
+  let isPlaying = false;
+  
+  $(".closed-eyes").hide();
+  
+  belly.onclick = function() {
+    if(isPlaying) {
+      audio.pause(); 
+      $(".open-eyes").show();
+      $(".closed-eyes").hide();
+    } else {
+      $(".open-eyes").hide();
+      $(".closed-eyes").show();
+      audio.play();
     }
-    // create the function for the change event
-    function optionChanged(id) {
-        getPlots(id);
-        getDemoInfo(id);
-    }
-    
-    // create the function for the initial data rendering
-    function init() {
-
-        // select dropdown menu 
-        var dropdown = d3.select("#selDataset");
-    
-        // read the data 
-        d3.json("samples.json").then((data)=> {
-            console.log(data)
-    
-            // get the id data to the dropdwown menu
-            data.names.forEach(function(name) {
-                dropdown.append("option").text(name).property("value");
-            });
-    
-            // call the functions to display the data and the plots to the page
-            getPlots(data.names[0]);
-            getDemoInfo(data.names[0]);
-        });
-    }
-    
-    init();
+    toggleAnimation();
+  }
+  
+  audio.onended = function() {
+    $(".open-eyes").show();
+    $(".closed-eyes").hide();
+    toggleAnimation();
+  };
+  
+  function toggleAnimation() {
+    isPlaying = !isPlaying;
+    $("#head").toggleClass("shake-head");
+    $("#tongue").toggleClass("toggle-tongue");
+    $("#main-body").toggleClass("shake-main-belly")
+    $("#main-body-shadow").toggleClass("shake-main-belly-shadow")
+    $("#sub-body").toggleClass("shake-sub-belly")
+    $("#sub-body-shadow").toggleClass("shake-sub-belly-shadow")
+    $("#left-leg").toggleClass("shake-left-leg");
+    $("#right-leg").toggleClass("shake-right-leg");
+    $.each($("path.notes"), (idx, ele) => {
+       $(ele).toggleClass("play");
+    })
+  };
+}

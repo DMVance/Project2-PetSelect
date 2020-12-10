@@ -6,6 +6,16 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+flask = "*"
+flask-pymongo = "*"
+requests= "*"
+pandas = "*"
+gunicorn = "*"
+pymongo = "*"
+dnspython = "*"
+
+
+
 
 [requires]
-python_version = "3.9"
+python_version = "3.7"
