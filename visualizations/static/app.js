@@ -5,25 +5,43 @@
 // 4. figure out the COUNT of y-axis
 // plotly bar plot for dog age??
 
-// 1. use unique function in right location
-// 2. use indexOf on first list, then 
-// 3. Correctly send filtered list of dogs to populate_charts
-// 4. Add a value to subjectID
+// 5. use onlyUnique function in right location to filter dropdown
+// 6. use indexOf on first list, then ...?
+// 7. Correctly send filtered list of dogs to populate_charts
+// 8. Add a value to subjectID
+// 9. use reduce to group by breed
+// 10. Order breeds in dropdown in alphabetical order
 
 console.log("Good Morning, World!")
 
-let subjectID = ""
+let subjectID = "Basset Hound"
 
-// Connect to json data
+// Connect to json data and create initial plots
 function init_build() {
   d3.json("static/pet_select.json").then(
       data => {
+          // Extract list of breed from json data
+          var breed_data = data[0].primary_breed;
+          console.log(breed_data);
+
+          var breed_data_clean = Object.values(breed_data);
+          console.log(breed_data_clean);
+
+          let unique = breed_data_clean.filter(onlyUnique);
+          console.log(unique);
+
+          // Assign list of breeds to dropdown
+          var dropDown = d3.select("#selDataset");
+          // dropDown.html("");
+          unique.forEach((breed) => {
+            dropDown.append("option").text(breed).property("value", breed);
+          })
           console.log(data)
           populate_charts(subjectID)
           let choose_subject = d3.select("#selDataset")
           let breeds = Object.values(data[0].primary_breed)
           console.log(breeds)
-          breeds.forEach((breed) => {
+          unique.forEach((breed) => {
               choose_subject.append("option").attr("value", breed).text(breed)
           })
           return ""
@@ -57,23 +75,6 @@ function populate_charts(subject_num) {
   // Plot#1: Connect to json data for dog sex
   d3.json("static/pet_select.json").then((data) => {
     console.log(data)
-
-  // Extract list of breed from json data
-  var breed_data = data[0].primary_breed;
-  console.log(breed_data);
-
-  var breed_data_clean = Object.values(breed_data);
-  console.log(breed_data_clean);
-
-  let unique = breed_data_clean.filter(onlyUnique);
-  console.log(unique);
-
-  // Assign list of breeds to dropdown
-  var dropDown = d3.select("#selDataset");
-  // dropDown.html("");
-  unique.forEach((sample) => {
-    dropDown.append("option").text(sample).property("value", sample);
-  })
 
   // Create plotly bar plot for dog sex; extract list of dog sex from json dataset
   var sex_data = data[0].sex;
@@ -335,11 +336,12 @@ init_build()
 d3.select("#selDataset")
     .on("change", function() {
         let choice = d3.select(this).property("value")
+      // var dataset = dropdownMenu.property("value");
         console.log(choice)
         clear_all()
         d3.json("static/pet_select.json").then(
-        data => {
-            populate_charts(choice)
+          data => {
+              populate_charts(data, choice)
         })
     })
 
