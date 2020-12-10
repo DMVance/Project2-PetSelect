@@ -201,7 +201,38 @@ document.getElementById("clickMe2").addEventListener("click", function()
                 size: selected_size
         } 
 
-       
+        fetch(`${window.origin}/findapup/create-entry`, {
+            method: "POST",
+            credentials: "include",
+            body: JSON.stringify(entry), 
+            cache: "no-cache",
+            headers: new Headers({
+                    "content-type": "application/json"
+            })
+            })
+            .then(function (response) {
+                    if (response.status !== 200) {
+                    console.log(`Looks like there was a problem. Status code: ${response.status}`);
+                    return;
+                    }
+                    response.json().then(function (data) {
+                    console.log(data)
+
+                    // ---vvv---Reynolds code---vvv---
+                    let results = d3.select("#results")
+                    results.append("h3").text("Your best breeds are:")
+                    let resultsList = results.append("ul")
+                    for (i in data) {
+                            console.log(data[i])
+                            resultsList.append("li").text(data[i])
+                            }
+                    // ---^^^---Reynolds code---^^^---   
+
+                    });
+            })
+            .catch(function (error) {
+                    console.log("Fetch error: " + error);
+            })
         
 
     }              
