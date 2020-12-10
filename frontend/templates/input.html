@@ -48,7 +48,7 @@
                                         <!-- <h3 class="click" id="button">
                                         <a href="{{ url_for('input') }}">Submit</a>  
                                         </h3> -->
-                                        <button class="clickMe" id="clickMe2" onclick="loadBreeds(); loadSearch()">Submit</button>
+                                        <button class="clickMe" id="clickMe2" onclick="loadBreeds()">Submit</button>
                         </div>
                 
                 </div>
@@ -57,15 +57,29 @@
         </div>
 <!-- BREED BOX, LOADED BY CHARACTERISTCS -->
         <div class="breed-results" id="breed-results" style="display: none;">
-
-        <h3>Based on your selection, here are your most compatible dog breeds</h3>
+                <h3>Based on your selection, here are your most compatible dog breeds</h3>
                 <ul class="breedList">
-
                 </ul>
+
+                <div id="search-dogs-form">
+                        <h4>Select the desired sex of your dog</h3>
+                        <ul id="sexes">
+                                <li>
+                                        <input type="checkbox" id="female" name="female" value="female" class="checkmark">
+                                                <label for="female">Female</label>
+                                        </input>
+                                </li>
+                                <li>
+                                        <input type="checkbox" id="male" name="male" value="male" class="checkmark">
+                                                <label for="male">Male</label>
+                                        </input>
+                                </li>
+                        </ul>
+                </div>
                 <button class="clickMe" id="clickMe3" onclick="loadDogs()">Submit</button>
         </div>
 
-<!-- DOG BOX, LOADED BY BREED -->
+<!-- DOG BOX, LOADED BY SEARCH -->
 
 
         <div class="dog-results" id="dog-results" style="display: none;">
