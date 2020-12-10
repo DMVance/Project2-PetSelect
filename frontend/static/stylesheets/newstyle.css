@@ -1,5 +1,7 @@
 /*                      ========================== ALL PAGES ==========================           
 =========================================================================================================================*/
+
+
 body {
     
     font-family: 'Raleway';
@@ -66,12 +68,14 @@ nav a:hover::before {
 =========================================================================================================================*/
 .above-parallax {
     height: 80px;
+
 }
 
 .parallax {
     min-height: 540px;
     width: 100vw;
     background: transparent;
+
 }
 
 .parallax-2 {
@@ -79,12 +83,14 @@ nav a:hover::before {
     min-height: 600px;
     width: 100vw;
     background: transparent;
+
 }
 .parallax-3 {
 
     min-height: 600px;
     width: 100vw;
     background: transparent;
+
 }
 
 /* INFO BOX 

@@ -149,7 +149,7 @@ document.getElementById("clickMe").addEventListener("click", function()
 document.getElementById("clickMe2").addEventListener("click", function()
 {
     console.log("trait-clicked")
-    smoothScroll(".breed-results", 1000);
+    smoothScroll(".breed-results", 2000);
     const box2=document.getElementById("breed-results");
         if(box2.style.display=="none")
         {
@@ -245,7 +245,7 @@ document.getElementById("clickMe2").addEventListener("click", function()
 document.getElementById("clickMe3").addEventListener("click", function()
 {
     console.log("breed-clicked")
-    smoothScroll(".dog-results", 1000)
+    smoothScroll(".dog-results", 2000)
 
     const box3=document.getElementById("dog-results");
         if(box3.style.display=="none")
