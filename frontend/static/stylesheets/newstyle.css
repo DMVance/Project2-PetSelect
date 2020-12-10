@@ -11,6 +11,8 @@ body {
 
 
 
+
+
 /* HEADER AND NAV
 ================================================================ */
 .header {
@@ -18,7 +20,6 @@ body {
     width: 100vw;
     top: -15px; 
     color: white;
-    text-transform: uppercase;
     position: fixed;
     z-index: 1;
 
@@ -27,6 +28,8 @@ body {
 nav li {
     color: white;
     position: relative;
+    text-transform: uppercase;
+
 }
  
 nav a {
