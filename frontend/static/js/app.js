@@ -1,7 +1,8 @@
 function smoothScroll(target,duration){
     target = document.querySelector(target);
-    let targetPosition = 1400;
+    let targetPosition = 5000;
     console.log(targetPosition)
+    // let startPosition = 0;
     let startPosition = window.pageYOffset;
     // let startPosition = documment.getElementById("clickMe2");
 
@@ -71,6 +72,9 @@ document.getElementById("clickMe").addEventListener("click", function()
    
         if (selected_size === "lg")
         {
+
+            let targetPosition = 1000;
+
             let traitsList = Object.keys(large_traits[0])
             .forEach(trait => {
                 listItem = charList.append("li")
@@ -94,6 +98,7 @@ document.getElementById("clickMe").addEventListener("click", function()
         }
         else if (selected_size === "md")
         {
+            let targetPosition = 1000;
             // document.getElementById("#characteristics").selectAll("li").remove()
             let traitsList = Object.keys(medium_traits[0])
             traitsList.forEach(trait => {
@@ -115,6 +120,7 @@ document.getElementById("clickMe").addEventListener("click", function()
         }
         else  (selected_size === "sm")
         {          
+            let targetPosition = 1000;
             // document.getElementById("#characteristics").selectAll("li").remove()  
             let traitsList = Object.keys(small_traits[0])
             traitsList.forEach(trait => {
@@ -143,8 +149,7 @@ document.getElementById("clickMe").addEventListener("click", function()
 document.getElementById("clickMe2").addEventListener("click", function()
 {
     console.log("trait-clicked")
-    smoothScroll(".breed-results", 1000)
-    console.log();
+    smoothScroll(".breed-results", 1000);
     const box2=document.getElementById("breed-results");
         if(box2.style.display=="none")
         {
@@ -209,7 +214,7 @@ document.getElementById("clickMe2").addEventListener("click", function()
 document.getElementById("clickMe3").addEventListener("click", function()
 {
     console.log("breed-clicked")
-    smoothScroll(".breed-results", 1000)
+    smoothScroll(".dog-results", 1000)
 
     const box3=document.getElementById("dog-results");
         if(box3.style.display=="none")
