@@ -14,6 +14,10 @@ gunicorn = "*"
 pymongo = "*"
 dnspython = "*"
 python-dotenv = "*"
+python-dateutil = "*"
+lxml = "*"
+html5lib = "*"
+
 
 [requires]
 python_version = "3.7"

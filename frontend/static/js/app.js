@@ -234,25 +234,76 @@ function loadDogs() {
         })
         })
         .then(function (response) {
-            console.log(response)
-        })
-        //         if (response.status !== 200) {
-        //         console.log(`Looks like there was a problem. Status code: ${response.status}`);
-        //         return;
-        //         }
-        //         console.log(response)
-        //         // response.then(function (data) 
-        //         // {
-        //         //     console.log(data)
-
-        //         //     // let results = d3.select("#dog-results").select("ul")
-        //         //     // for (i in data) {
-        //         //     //         console.log(data[i])
-        //         //     //         results.append("li").text(data[i])
-        //         //     //         }
-        //         // });
-        // })
-        // .catch(function (error) {
-        //         console.log("Fetch error: " + error);
-        // })
+                if (response.status !== 200) 
+                {
+                    console.log(`Looks like there was a problem. Status code: ${response.status}`);
+                    return;
+                }
+                console.log(response)
+                response.json().then(function (data) 
+                {
+                    console.log(data)
+                    columns = [
+                        "name", 
+                        "primary_breed", 
+                        "secondary_breed", 
+                        "primary_color", 
+                        "secondary_color", 
+                        "age_years", 
+                        "age_months", 
+                        "age_days", 
+                        "intake_condition"
+                        ]
+                    column_names = [
+                        "Name", 
+                        "Primary breed", 
+                        "...mixed with", 
+                        "Primary color", 
+                        "...and", 
+                        "Years old", 
+                        "Months old", 
+                        "Days old", 
+                        "Health"
+                    ]
+                    tabulate(data, columns, column_names, "#dog-results-table")
+                })
+            })
+        .catch(function (error) {
+                console.log("Fetch error: " + error);
+            })
+    
 }              
+
+
+//  ******************************************** create table from json ************************
+function tabulate(data, columns, column_names, divName) {
+    var table = d3.select(divName).append('table')
+    var thead = table.append('thead')
+    var	tbody = table.append('tbody');
+
+    // append the header row
+    thead.append('tr')
+        .selectAll('th')
+        .data(column_names).enter()
+        .append('th')
+        .text(function (column_name) { return column_name; });
+
+    // create a row for each object in the data
+    var rows = tbody.selectAll('tr')
+        .data(data)
+        .enter()
+        .append('tr');
+
+    // create a cell in each row for each column
+    var cells = rows.selectAll('td')
+        .data(function (row) {
+        return columns.map(function (column) {
+            return {column: column, value: row[column]};
+        });
+        })
+        .enter()
+        .append('td')
+        .text(function (d) { return d.value; });
+
+    return table;
+}

@@ -69,7 +69,7 @@ def mongo_query():
     print(search_breed, youngest_yrs, youngest_mos, oldest_yrs, oldest_mos, search_sex, search_color, search_injured)
     
 
-    df = combined_queries(
+    dogs_df = combined_queries(
         search_breed, 
         youngest_yrs, 
         youngest_mos, 
@@ -80,8 +80,24 @@ def mongo_query():
         search_injured
     )
 
-    dogs_json = df.to_json(orient="records")
+    columns = [
+        "name", 
+        "primary_breed", 
+        "secondary_breed", 
+        "primary_color", 
+        "secondary_color", 
+        "age_years", 
+        "age_months", 
+        "age_days", 
+        "intake_condition"
+        ]
+
+    dogs_df = dogs_df[columns]
+    dogs_dicts = dogs_df.to_dict("records")
+    dogs_json = json.dumps(dogs_dicts)
+
     print(type(dogs_json))
+    print(dogs_json)
         
     return dogs_json
 
