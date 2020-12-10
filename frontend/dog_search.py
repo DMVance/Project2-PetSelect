@@ -3,7 +3,6 @@ import pymongo
 import pandas as pd
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
-import json
 
 CONN = os.getenv("CONN")
 client = pymongo.MongoClient(CONN)
@@ -212,8 +211,6 @@ def combined_queries(search_breed, youngest_yrs, youngest_mos, oldest_yrs, oldes
         combined_dogs_list.append(dog)
     combined_dogs_df = pd.DataFrame(combined_dogs_list)
 
-    combined_dogs_df = combined_dogs_df.drop(columns=["_id"])
-
     # ---below this just for testing---
     print("""
     ----------------------------------------
@@ -288,16 +285,3 @@ def user_input():
 # search_params = user_input()
 
 # combined_queries(*search_params)
-
-dogs_df = combined_queries("German Shepherd", 0, 3, 8, 5, "female", "brown", False)
-
-columns = ["name", "primary_breed", "secondary_breed", "primary_color", "secondary_color", "age_years", "age_months", "age_days", "intake_condition"]
-
-dogs_df = dogs_df[columns]
-
-dogs_dicts = dogs_df.to_dict("records")
-
-dogs_json = json.dumps(dogs_dicts)
-
-print(type(dogs_json))
-print(dogs_json)

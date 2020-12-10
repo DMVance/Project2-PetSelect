@@ -13,8 +13,10 @@ pandas = "*"
 gunicorn = "*"
 pymongo = "*"
 dnspython = "*"
-
-
+python-dotenv = "*"
+python-dateutil = "*"
+lxml = "*"
+html5lib = "*"
 
 
 [requires]

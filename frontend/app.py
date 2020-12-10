@@ -8,6 +8,7 @@ import json
 import pandas as pd
 
 from breed_finder import best_breed
+from dog_search import combined_queries
 
 
 app = Flask(__name__)
@@ -49,10 +50,61 @@ def create_entry():
     print(best_pup)
         
     return breeds
+
+@app.route("/findapup/mongo-query", methods=["POST", "GET"])
+def mongo_query():
+
+    req = request.get_json()    
+
+    search_breed = req["search_breed"]
+    youngest_yrs = req["youngest_yrs"]
+    youngest_mos = req["youngest_mos"]
+    oldest_yrs = req["oldest_yrs"]
+    oldest_mos = req["oldest_mos"]
+    search_sex = req["search_sex"]
+    search_color = req["search_color"]
+    search_injured = req["search_injured"]
+
+    print("Search parameters: ")
+    print(search_breed, youngest_yrs, youngest_mos, oldest_yrs, oldest_mos, search_sex, search_color, search_injured)
     
-@app.route("/results")
-def results():
-    # return render_template("results.html")
+
+    dogs_df = combined_queries(
+        search_breed, 
+        youngest_yrs, 
+        youngest_mos, 
+        oldest_yrs, 
+        oldest_mos, 
+        search_sex, 
+        search_color, 
+        search_injured
+    )
+
+    columns = [
+        "name", 
+        "primary_breed", 
+        "secondary_breed", 
+        "primary_color", 
+        "secondary_color", 
+        "age_years", 
+        "age_months", 
+        "age_days", 
+        "intake_condition"
+        ]
+
+    dogs_df = dogs_df[columns]
+    dogs_dicts = dogs_df.to_dict("records")
+    dogs_json = json.dumps(dogs_dicts)
+
+    print(type(dogs_json))
+    print(dogs_json)
+        
+    return dogs_json
+
+    
+@app.route("/all-dogs")
+def all_dogs():
+    # return render_template("dogs.html")
     return "and this one!"
 
 
