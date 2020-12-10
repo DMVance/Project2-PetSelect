@@ -31,10 +31,12 @@ function init_build() {
 
           let unique = breed_data_clean.filter(onlyUnique);
           console.log(unique);
+          let unique_sorted = unique.sort(); // works for strings or only for numbers?
+          console.log(unique_sorted);
 
           // Assign list of breeds to dropdown
           var dropDown = d3.select("#selDataset");
-          unique.forEach((breed) => {
+          unique_sorted.forEach((breed) => {
             dropDown.append("option").text(breed).property("value", breed);
           })
 
@@ -337,18 +339,20 @@ init_build()
 
 d3.select("#selDataset")
     .on("change", function() {
-        let selection = d3.select(this).property("value")
+        // let selection = d3.select(this).property("value")
       // var dataset = dropdownMenu.property("value");
-        console.log(selection)
+        // console.log(selection)
         clear_all()
         // need to select from .json only those records with the breed selection using a filter or reduce function
+        // I think I have a scoping issue here...
         d3.json("static/pet_select.json").then(
           data => {
-            let filtered_data = data.filter(function (e) {
+              let filtered_data = data.filter(function (e) {
+              let selection = d3.select(this).property("value")
+              populate_charts(filtered_data)
               return e.primary_breed === selection;
-              console.log(filtered_data);
-          });
-          populate_charts(filtered_data)
+           });
+          // populate_charts(filtered_data)
         })
     })
 
