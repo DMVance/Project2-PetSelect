@@ -11,6 +11,8 @@
 // 8. Add a value to subjectID
 // 9. use reduce to group by breed
 // 10. Order breeds in dropdown in alphabetical order
+// 11. Get data directly from MongoDB rather than .json?
+// 12. After filtering to specific breed, return to plots showing data for all breeds
 
 console.log("Good Morning, World!")
 
@@ -72,9 +74,9 @@ function onlyUnique(value, index, self) {
 //   })
 
 function populate_charts(data) {
-    // Plot#1: Connect to json data for dog sex
-    d3.json("static/pet_select.json").then((data) => {
-      console.log(data)
+    // Plot#1: Connect to json data for dog sex **How to do this with data passed through "data" variable?**
+    // d3.json("static/pet_select.json").then((data) => {
+    //   console.log(data)
 
     // Create plotly bar plot for dog sex; extract list of dog sex from json dataset
     var sex_data = data[0].sex;
@@ -324,7 +326,7 @@ function populate_charts(data) {
     ///// THIS }) below is necessary to read data
       });
     return ""
-    })
+    // })
 }
 
 function clear_all() {
@@ -335,17 +337,24 @@ init_build()
 
 d3.select("#selDataset")
     .on("change", function() {
-        let choice = d3.select(this).property("value")
+        let selection = d3.select(this).property("value")
       // var dataset = dropdownMenu.property("value");
-        console.log(choice)
+        console.log(selection)
         clear_all()
+        // need to select from .json only those records with the breed selection using a filter or reduce function
         d3.json("static/pet_select.json").then(
           data => {
-              populate_charts(choice)
+            let filtered_data = data.filter(function (e) {
+              return e.primary_breed === selection;
+              console.log(filtered_data);
+          });
+          populate_charts(filtered_data)
         })
     })
 
 console.log("Good Night, World!")
+
+// data[0].primary_breed
 
 
 
