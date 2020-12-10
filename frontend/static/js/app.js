@@ -28,7 +28,6 @@ function smoothScroll(target,duration){
 }
 
 //  ******************************************** weight to traits listener event ************************
-
 let traitsList
 
 document.getElementById("clickMe").addEventListener("click", function()
@@ -59,15 +58,15 @@ function loadChar() {
     charList = d3.select(".characteristics")
     let selected_size
     let options = d3.select("#size").selectAll("option")
-    options.each(function (d, i) {
-    let current_option = d3.select(this)
-    if (current_option.property("selected")) {
-        selected_size = current_option._groups[0][0].value
-    }
-
-
-})
-console.log(selected_size)
+    options.each(function (d, i) 
+    {
+        let current_option = d3.select(this)
+        if (current_option.property("selected")) 
+        {
+            selected_size = current_option._groups[0][0].value
+        }
+    })
+    console.log(selected_size)
 
 
     // Reynolds Note
@@ -199,8 +198,18 @@ document.getElementById("clickMe3").addEventListener("click", function()
         } 
     })
 
-    
+
 //  ******************************************** find & display dogs based on search inputs ************************
 function loadDogs() {
     console.log("loadDogs")
+    let selected_sexes = []
+    let sexes = d3.select("#sexes").selectAll("input")
+    sexes.each(function (d, i) {
+                // console.log(d3.select(this).property("checked"))
+            let current_sex = d3.select(this)
+            if (current_sex.property("checked")) {
+                    selected_sexes.push(current_sex._groups[0][0].value)
+            } 
+    })
+    console.log(selected_sexes)
 }              
