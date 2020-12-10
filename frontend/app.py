@@ -15,13 +15,13 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    
     return render_template("index.html")
     
+
 @app.route("/findapup")
 def input():
-    # jessica's python
     return render_template("input.html")
+
 
 @app.route("/findapup/create-entry", methods=["POST", "GET"])
 def create_entry():
@@ -50,6 +50,7 @@ def create_entry():
     print(best_pup)
         
     return breeds
+
 
 @app.route("/findapup/mongo-query", methods=["POST", "GET"])
 def mongo_query():
@@ -104,14 +105,21 @@ def mongo_query():
     
 @app.route("/all-dogs")
 def all_dogs():
-    # return render_template("dogs.html")
+    # return render_template("all_dogs.html")
     return "and this one!"
+
+
+@app.route("/visualizations")
+def for_fun():
+    # return render_template("visualizations.html")
+    return "same here"
 
 
 @app.route("/justforfun")
 def for_fun():
     # return render_template("fun.html")
     return "ditto"
+
 
 if __name__ == "__main__":
     app.run(debug=True)
