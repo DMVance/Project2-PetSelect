@@ -3,6 +3,31 @@ td, th {
     padding: 6px 20px;
   }
 
+/* ============ Dropdown List Colors ============ */
+option.black {background-color: black; color: white}
+option.brown {background-color: brown; color: white}
+option.chocolate {background-color: chocolate; color: white}
+option.white {background-color: white; color: black}
+option.tricolor {background-color: rosybrown; color: black}
+option.tan {background-color: tan; color: black}
+option.yellow {background-color: palegoldenrod; color: black}
+option.buff {background-color: lightgoldenrodyellow; color: black}
+option.cream {background-color: lemonchiffon; color: black}
+option.gray {background-color: lightgray; color: black}
+option.blue {background-color: midnightblue; color: white}
+option.red {background-color: indianred; color: white}
+option.sable {background-color: firebrick; color: white}
+option.gold {background-color: gold; color: black}
+option.silver {background-color: silver; color: black}
+option.apricot {background-color: peachpuff; color: black}
+option.brindle {background-color: peru; color: white}
+option.tick {background-color: slategray; color: white}
+option.merle {background-color: steelblue; color: white}
+option.tiger {background-color: lightsteelblue; color: black}
+option.fawn {background-color: wheat; color: black}
+option.liver {background-color: maroon; color: white}
+option.piebald {background-color: linen; color: black}
+
 
 /*                      ========================== ALL PAGES ==========================           
 =========================================================================================================================*/

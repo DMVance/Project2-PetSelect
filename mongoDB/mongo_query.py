@@ -9,7 +9,7 @@ CONN = os.getenv("CONN")
 client = pymongo.MongoClient(CONN)
 db = client.austin_dogs
 
-# pd.options.display.max_columns = 999
+pd.options.display.max_columns = 999
 
 # # FIND ALL
 # all_dogs_list = []
@@ -289,15 +289,21 @@ def user_input():
 
 # combined_queries(*search_params)
 
-dogs_df = combined_queries("German Shepherd", 0, 3, 8, 5, "female", "brown", False)
+# dogs_df = combined_queries("German Shepherd", 0, 3, 8, 5, "female", "brown", False)
 
-columns = ["name", "primary_breed", "secondary_breed", "primary_color", "secondary_color", "age_years", "age_months", "age_days", "intake_condition"]
+dogs_df = combined_queries("", 0, 0, 100, 0, "", "", False)
 
-dogs_df = dogs_df[columns]
+print(dogs_df["primary_color"].unique())
+print(dogs_df["secondary_color"].unique())
 
-dogs_dicts = dogs_df.to_dict("records")
 
-dogs_json = json.dumps(dogs_dicts)
+# columns = ["name", "primary_breed", "secondary_breed", "primary_color", "secondary_color", "age_years", "age_months", "age_days", "intake_condition"]
 
-print(type(dogs_json))
-print(dogs_json)
+# dogs_df = dogs_df[columns]
+
+# dogs_dicts = dogs_df.to_dict("records")
+
+# dogs_json = json.dumps(dogs_dicts)
+
+# print(type(dogs_json))
+# print(dogs_json)
