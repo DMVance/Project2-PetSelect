@@ -5,9 +5,9 @@
         <div class="input-box">
                  <h3>Select the desired weight of your dog</h3>
                         <select name="size" id="size" >
-                                <option value="sm">Small (Under 20 pounds)</option>
-                                <option value="md">Medium (20 - 60 pounds)</option>
-                                <option value="lg">Large (60+ pounds)</option>
+                                <option value="small">Small (Under 20 pounds)</option>
+                                <option value="medium">Medium (20 - 60 pounds)</option>
+                                <option value="large">Large (60+ pounds)</option>
                         </select>
                 <br>
                 <br>     
@@ -57,15 +57,29 @@
         </div>
 <!-- BREED BOX, LOADED BY CHARACTERISTCS -->
         <div class="breed-results" id="breed-results" style="display: none;">
-
-        <h3>Based on your selection, here are your most compatible dog breeds</h3>
+                <h3>Based on your selection, here are your most compatible dog breeds</h3>
                 <ul class="breedList">
-
                 </ul>
+
+                <div id="search-dogs-form">
+                        <h4>Select the desired sex of your dog</h3>
+                        <ul id="sexes">
+                                <li>
+                                        <input type="checkbox" id="female" name="female" value="female" class="checkmark">
+                                                <label for="female">Female</label>
+                                        </input>
+                                </li>
+                                <li>
+                                        <input type="checkbox" id="male" name="male" value="male" class="checkmark">
+                                                <label for="male">Male</label>
+                                        </input>
+                                </li>
+                        </ul>
+                </div>
                 <button class="clickMe" id="clickMe3" onclick="loadDogs()">Submit</button>
         </div>
 
-<!-- DOG BOX, LOADED BY BREED -->
+<!-- DOG BOX, LOADED BY SEARCH -->
 
 
         <div class="dog-results" id="dog-results" style="display: none;">
