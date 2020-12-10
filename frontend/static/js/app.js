@@ -53,99 +53,59 @@ document.getElementById("clickMe").addEventListener("click", function()
         }
     })
 
+// ******************************************** load list of characteristics as checkboxes based on selected weight ************************ 
+function loadChar() {
 
-    function loadChar() {
+    charList = d3.select(".characteristics")
+    let selected_size
+    let options = d3.select("#size").selectAll("option")
+    options.each(function (d, i) {
+    let current_option = d3.select(this)
+    if (current_option.property("selected")) {
+        selected_size = current_option._groups[0][0].value
+    }
 
-        charList = d3.select(".characteristics")
-        let selected_size
-        let options = d3.select("#size").selectAll("option")
-        options.each(function (d, i) {
-        let current_option = d3.select(this)
-        if (current_option.property("selected")) {
-            selected_size = current_option._groups[0][0].value
-        }
 
-   
+})
+console.log(selected_size)
+
+
+    // Reynolds Note
+    // This line takes the size the user selected, e.g. "large"
+    // and concatenates the string "_traits" to it
+    // then assigns the "large_traits" array
+    // to the array that will be used below
+    // This prevents having to use an if statement
+    // to assign the "large_traits" "medium_traits" or "small_traits" 
+    // arrays to the code below
+    traitsForDogSize = eval(selected_size+"_traits")
+
+    let targetPosition = 1000;
+
+    let traitsList = Object.keys(traitsForDogSize[0])
+    .forEach(trait => {
+        listItem = charList.append("li")
+            .classed("char-columns", true)
+        listItem.append("input")
+            .attr("type", "checkbox")
+            .attr("id", trait)
+            .attr("id", "check")
+            .attr("name", trait)
+            .attr("value", trait)
+            .attr("class", "checkmark")
+                
+        listItem.append("label")
+            .attr("for", trait)
+            
+            .text("  " + trait)
     })
+    console.log(options)
+        // document.getElementById("#characterstic-list").selectAll("li").remove()
 
-    console.log(selected_size)
-   
-        if (selected_size === "lg")
-        {
-
-            let targetPosition = 1000;
-
-            let traitsList = Object.keys(large_traits[0])
-            .forEach(trait => {
-                listItem = charList.append("li")
-                    .classed("char-columns", true)
-                listItem.append("input")
-                    .attr("type", "checkbox")
-                    .attr("id", trait)
-                    .attr("id", "check")
-                    .attr("name", trait)
-                    .attr("value", trait)
-                    .attr("class", "checkmark")
-                     
-                listItem.append("label")
-                    .attr("for", trait)
-                   
-                    .text("  " + trait)
-            })
-            console.log(options)
-            // document.getElementById("#characterstic-list").selectAll("li").remove()
-
-        }
-        else if (selected_size === "md")
-        {
-            let targetPosition = 1000;
-            // document.getElementById("#characteristics").selectAll("li").remove()
-            let traitsList = Object.keys(medium_traits[0])
-            traitsList.forEach(trait => {
-                
-                listItem = charList.append("li")
-                    .classed("char-columns", true)
-                listItem.append("input")
-                    .attr("type", "checkbox")
-                    .attr("id", trait)
-                    .attr("id", "check")
-                    .attr("name", trait)
-                    .attr("value", trait)
-                    .attr("class", "checkmark")
-                    
-                listItem.append("label")
-                    .attr("for", trait)
-                    .text("  " + trait)
-            })
-        }
-        else  (selected_size === "sm")
-        {          
-            let targetPosition = 1000;
-            // document.getElementById("#characteristics").selectAll("li").remove()  
-            let traitsList = Object.keys(small_traits[0])
-            traitsList.forEach(trait => {
-                
-                listItem = charList.append("li")
-                    .classed("char-columns", true)
-                listItem.append("input")
-                    .attr("type", "checkbox")
-                    .attr("id", trait)
-                    .attr("id", "check")
-                    .attr("name", trait)
-                    .attr("value", trait)
-                    .attr("class", "checkmark")
-                    
-                listItem.append("label")
-                    .attr("for", trait)
-                    .text("  " + trait)
-            })
-        }
 }
 
 
 //  ******************************************** traits to breeds listener event ************************
-
-
 document.getElementById("clickMe2").addEventListener("click", function()
 {
     console.log("trait-clicked")
@@ -158,90 +118,71 @@ document.getElementById("clickMe2").addEventListener("click", function()
         else
         {
             box2.style.display=="none";
-        } 
-    
-    
-    
-    
+        }    
     
     })
 
 
-    
+//  ******************************************** find & display breeds based on selected characteristics ************************
+function loadBreeds() {
+        // ---vvv---Reynolds code---vvv---
+    let selected_boxes = []
+    let boxes = d3.selectAll("input")
+    boxes.each(function (d, i) {
+                // console.log(d3.select(this).property("checked"))
+            let current_box = d3.select(this)
+            if (current_box.property("checked")) {
+                    selected_boxes.push(current_box._groups[0][0].name)
+            } 
+    })
+    console.log(selected_boxes)
 
-    
+    let selected_size
+    let options = d3.select("#size").selectAll("option")
+    options.each(function (d, i) {
+            let current_option = d3.select(this)
+            if (current_option.property("selected")) {
+                    selected_size = current_option._groups[0][0].value
+            }
+    })
+    console.log(selected_size)
 
+    var entry = {
+            traits: selected_boxes,
+            size: selected_size
+    } 
 
-
-    function loadBreeds() {
-            // ---vvv---Reynolds code---vvv---
-        let selected_boxes = []
-        let boxes = d3.selectAll("input")
-        boxes.each(function (d, i) {
-                    // console.log(d3.select(this).property("checked"))
-                let current_box = d3.select(this)
-                if (current_box.property("checked")) {
-                        selected_boxes.push(current_box._groups[0][0].name)
-                } 
+    fetch(`${window.origin}/findapup/create-entry`, {
+        method: "POST",
+        credentials: "include",
+        body: JSON.stringify(entry), 
+        cache: "no-cache",
+        headers: new Headers({
+                "content-type": "application/json"
         })
-        console.log(selected_boxes)
-
-        let selected_size
-        let options = d3.select("#size").selectAll("option")
-        options.each(function (d, i) {
-                let current_option = d3.select(this)
-                if (current_option.property("selected")) {
-                        selected_size = current_option._groups[0][0].value
+        })
+        .then(function (response) {
+                if (response.status !== 200) {
+                console.log(`Looks like there was a problem. Status code: ${response.status}`);
+                return;
                 }
+                response.json().then(function (data) {
+                console.log(data)
+
+                let results = d3.select("#breed-results").select("ul")
+                for (i in data) {
+                        console.log(data[i])
+                        results.append("li").text(data[i])
+                        }
+                });
         })
-        console.log(selected_size)
-
-        var entry = {
-                traits: selected_boxes,
-                size: selected_size
-        } 
-
-        fetch(`${window.origin}/findapup/create-entry`, {
-            method: "POST",
-            credentials: "include",
-            body: JSON.stringify(entry), 
-            cache: "no-cache",
-            headers: new Headers({
-                    "content-type": "application/json"
-            })
-            })
-            .then(function (response) {
-                    if (response.status !== 200) {
-                    console.log(`Looks like there was a problem. Status code: ${response.status}`);
-                    return;
-                    }
-                    response.json().then(function (data) {
-                    console.log(data)
-
-                    // ---vvv---Reynolds code---vvv---
-                    let results = d3.select("#results")
-                    results.append("h3").text("Your best breeds are:")
-                    let resultsList = results.append("ul")
-                    for (i in data) {
-                            console.log(data[i])
-                            resultsList.append("li").text(data[i])
-                            }
-                    // ---^^^---Reynolds code---^^^---   
-
-                    });
-            })
-            .catch(function (error) {
-                    console.log("Fetch error: " + error);
-            })
-        
-
-    }              
-
+        .catch(function (error) {
+                console.log("Fetch error: " + error);
+        })
+}              
 
 
 //  ******************************************** breeds to dogs listener event ************************
-
-
 document.getElementById("clickMe3").addEventListener("click", function()
 {
     console.log("breed-clicked")
@@ -258,7 +199,8 @@ document.getElementById("clickMe3").addEventListener("click", function()
         } 
     })
 
-    function loadDogs() {
-        // ---vvv---Reynolds code---vvv---
+    
+//  ******************************************** find & display dogs based on search inputs ************************
+function loadDogs() {
     console.log("loadDogs")
 }              
