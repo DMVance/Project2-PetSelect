@@ -212,4 +212,47 @@ function loadDogs() {
             } 
     })
     console.log(selected_sexes)
+
+    var entry = {
+        search_breed: "German Shepherd",
+        youngest_yrs: 0,
+        youngest_mos: 3,
+        oldest_yrs: 8,
+        oldest_mos: 5,
+        search_sex: selected_sexes[0],
+        search_color: "brown",
+        search_injured: false,
+    }
+
+    fetch(`${window.origin}/findapup/mongo-query`, {
+        method: "POST",
+        credentials: "include",
+        body: JSON.stringify(entry), 
+        cache: "no-cache",
+        headers: new Headers({
+                "content-type": "application/json"
+        })
+        })
+        .then(function (response) {
+            console.log(response)
+        })
+        //         if (response.status !== 200) {
+        //         console.log(`Looks like there was a problem. Status code: ${response.status}`);
+        //         return;
+        //         }
+        //         console.log(response)
+        //         // response.then(function (data) 
+        //         // {
+        //         //     console.log(data)
+
+        //         //     // let results = d3.select("#dog-results").select("ul")
+        //         //     // for (i in data) {
+        //         //     //         console.log(data[i])
+        //         //     //         results.append("li").text(data[i])
+        //         //     //         }
+        //         // });
+        // })
+        // .catch(function (error) {
+        //         console.log("Fetch error: " + error);
+        // })
 }              

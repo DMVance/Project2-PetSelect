@@ -8,6 +8,7 @@ import json
 import pandas as pd
 
 from breed_finder import best_breed
+from dog_search import combined_queries
 
 
 app = Flask(__name__)
@@ -49,10 +50,45 @@ def create_entry():
     print(best_pup)
         
     return breeds
+
+@app.route("/findapup/mongo-query", methods=["POST", "GET"])
+def mongo_query():
+
+    req = request.get_json()    
+
+    search_breed = req["search_breed"]
+    youngest_yrs = req["youngest_yrs"]
+    youngest_mos = req["youngest_mos"]
+    oldest_yrs = req["oldest_yrs"]
+    oldest_mos = req["oldest_mos"]
+    search_sex = req["search_sex"]
+    search_color = req["search_color"]
+    search_injured = req["search_injured"]
+
+    print("Search parameters: ")
+    print(search_breed, youngest_yrs, youngest_mos, oldest_yrs, oldest_mos, search_sex, search_color, search_injured)
     
-@app.route("/results")
-def results():
-    # return render_template("results.html")
+
+    df = combined_queries(
+        search_breed, 
+        youngest_yrs, 
+        youngest_mos, 
+        oldest_yrs, 
+        oldest_mos, 
+        search_sex, 
+        search_color, 
+        search_injured
+    )
+
+    dogs_json = df.to_json(orient="records")
+    print(type(dogs_json))
+        
+    return dogs_json
+
+    
+@app.route("/all-dogs")
+def all_dogs():
+    # return render_template("dogs.html")
     return "and this one!"
 
 
