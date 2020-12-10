@@ -202,6 +202,7 @@ document.getElementById("clickMe3").addEventListener("click", function()
 //  ******************************************** find & display dogs based on search inputs ************************
 function loadDogs() {
     console.log("loadDogs")
+
     let selected_sexes = []
     let sexes = d3.select("#sexes").selectAll("input")
     sexes.each(function (d, i) {
@@ -212,6 +213,8 @@ function loadDogs() {
             } 
     })
     console.log(selected_sexes)
+
+    
 
     var entry = {
         search_breed: "German Shepherd",
