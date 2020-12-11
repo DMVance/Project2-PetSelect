@@ -10,19 +10,22 @@ db = client.austin_dogs
 
 # pd.options.display.max_columns = 999
 
-# # FIND ALL
-# all_dogs_list = []
-# all_dogs_query = db.dogs.find()
-# for dog in all_dogs_query:
-#     all_dogs_list.append(dog)
-# all_dogs_df = pd.DataFrame(all_dogs_list).drop(columns=['_id'])
+# FIND ALL
+def all_dogs():
+    all_dogs_list = []
+    all_dogs_query = db.dogs.find()
+    for dog in all_dogs_query:
+        all_dogs_list.append(dog)
+    all_dogs_df = pd.DataFrame(all_dogs_list).drop(columns=['_id'])
 
-# print("""
-# ----------------------------------------
-# All Dogs (Sample of first 20 results)
-# ----------------------------------------
-# """)
-# print(all_dogs_df.head(20)
+    print("""
+    ----------------------------------------
+    All Dogs (Sample of first 20 results)
+    ----------------------------------------
+    """)
+    print(all_dogs_df.head(20)
+
+    return all_dogs_df
 
 
 # FIND BREED
