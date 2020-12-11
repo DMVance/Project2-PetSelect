@@ -7,11 +7,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Dog Data Visualizations</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
 
-<style>
+
+<body>
+
+  <style>
     body {
       background-color: rgb(255, 147, 46);
-        background-image: url('../static/background.jpg'); 
+        background-image: url('background.jpg'); 
         color: black;
         padding: 16px;
         font-size: 16px;
@@ -32,89 +36,47 @@
         margin-bottom: 15px;
         }
     </style>
-</head>
-
-<body>
 
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
         <h1>Dog Data Visualizations</h1>
-        <p>View the charts below to explore the dataset</p>
+        <p>Use the charts below to explore the dog dataset</p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="well">
-          <!-- <h5>Select Breed:</h5> -->
-          <!-- <select id="selDataset" onchange="optionChanged(this.value)"></select> -->
-        </div>
-      </div>
+    
+  <div class='main'>
+    <div id="myPlotBreed"></div>
   </div>
-      
-    <div class='main'>
-      <div id="myPlotBreed"></div>
-    </div>
-    
-    <div class="row">
-      <div class="col-md-12">
-        <div class="well"></div>
-      </div>
-    </div>
 
-    <div class='main'>
-      <div id="myPlotSex"></div>
-    </div>
+  <div class='main'>
+    <div id="myPlotSex"></div>
+  </div>
 
-    <div class="row">
-      <div class="col-md-12">
-        <div class="well"></div>
-      </div>
-    </div>
-  
-    <div class='main'>
-      <div id="myPlotAge"></div>
-    </div>
+  <div class='main'>
+    <div id="myPlotAge"></div>
+  </div>
 
-    <div class="row">
-      <div class="col-md-12">
-        <div class="well"></div>
-      </div>
-    </div>
-  
-    <div class='main'>
-      <div id="myPlotColor"></div>
-    </div>
+  <div class='main'>
+    <div id="myPlotColor"></div>
+  </div>
 
-    <div class="row">
-      <div class="col-md-12">
-        <div class="well"></div>
-      </div>
-    </div>
-  
-    <div class='main'>
-      <div id="myPlotType"></div>
-    </div>
-    
-    <div class="row">
-      <div class="col-md-12">
-        <div class="well"></div>
-      </div>
-    </div>
-  
-    <div class='main'>
-      <div id="myPlotCondition"></div>
-    </div>
-</div>
+  <div class='main'>
+    <div id="myPlotType"></div>
+  </div>
 
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script> -->
-<!-- <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script> -->
+  <div class='main'>
+    <div id="myPlotCondition"></div>
+  </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+<script src ="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
 <script src="https://d3js.org/d3.v6.min.js" charset="utf-8"></script>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <script src="../static/js/visualizations.js"></script>
-
+    
 </body>
 
 </html>
