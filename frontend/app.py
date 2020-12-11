@@ -122,7 +122,7 @@ def visualizations():
 
 @app.route("/ghostviz")
 def viz_dogs():
-    return viz_data()
+    return frontend/dogs.json
 
 @app.route("/fun")
 def fun():
