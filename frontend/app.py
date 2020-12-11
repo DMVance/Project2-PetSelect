@@ -82,7 +82,8 @@ def mongo_query():
     )
 
     columns = [
-        "name", 
+        "name",
+        "sex", 
         "primary_breed", 
         "secondary_breed", 
         "primary_color", 
