@@ -120,6 +120,10 @@ def visualizations():
     return render_template("visualizations.html")
 
 
+@app.route("/ghostviz")
+def viz_dogs():
+    return viz_data()
+
 @app.route("/fun")
 def fun():
     return render_template("fun.html")
