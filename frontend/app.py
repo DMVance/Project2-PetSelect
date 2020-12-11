@@ -82,7 +82,8 @@ def mongo_query():
     )
 
     columns = [
-        "name", 
+        "name",
+        "sex", 
         "primary_breed", 
         "secondary_breed", 
         "primary_color", 
@@ -122,8 +123,8 @@ def mongo_query():
 
 
 
-@app.route("/justforfun")
-def for_fun():
+@app.route("/fun")
+def fun():
     return render_template("fun.html")
 
 
