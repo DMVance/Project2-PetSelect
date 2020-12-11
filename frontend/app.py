@@ -103,22 +103,24 @@ def mongo_query():
     return dogs_json
 
     
-@app.route("/all-dogs")
-def all_dogs():
-    # return render_template("all_dogs.html")
-    return "and this one!"
+# @app.route("/all-dogs")
+# def all_dogs():
+#     # return render_template("all_dogs.html")
+#     return "and this one!"
 
 
-@app.route("/visualizations")
-def for_fun():
-    # return render_template("visualizations.html")
-    return "same here"
+# @app.route("/visualizations")
+# def for_fun():
+#     # return render_template("visualizations.html")
+#     return "same here"
 
 
-@app.route("/justforfun")
-def just_for_fun():
-    # return render_template("fun.html")
-    return "ditto"
+
+# @app.route("/justforfun")
+# def for_fun():
+#     # return render_template("fun.html")
+#     return "ditto"
+
 
 
 if __name__ == "__main__":
