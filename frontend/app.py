@@ -7,8 +7,8 @@ import requests
 import json
 import pandas as pd
 
-from breed_finder import best_breed
-from dog_search import combined_queries, all_dogs
+from frontend.breed_finder import best_breed
+from frontend.dog_search import combined_queries, all_dogs
 
 
 app = Flask(__name__)
@@ -129,6 +129,5 @@ def fun():
 
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+
 
