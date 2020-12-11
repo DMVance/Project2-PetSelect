@@ -23,7 +23,7 @@ def all_dogs():
     All Dogs (Sample of first 20 results)
     ----------------------------------------
     """)
-    print(all_dogs_df.head(20)
+    print(all_dogs_df.head(20))
 
     return all_dogs_df
 

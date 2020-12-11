@@ -8,7 +8,7 @@ import json
 import pandas as pd
 
 from breed_finder import best_breed
-from dog_search import combined_queries
+from dog_search import combined_queries, all_dogs
 
 
 app = Flask(__name__)
@@ -113,6 +113,12 @@ def mongo_query():
 # def for_fun():
 #     # return render_template("visualizations.html")
 #     return "same here"
+
+# dogs_df = all_dogs()
+# dogs_df = dogs_df[columns]
+# dogs_dicts = dogs_df.to_dict("records")
+# dogs_json = json.dumps(dogs_dicts)
+# save to file and reference file in app.js
 
 
 # @app.route("/justforfun")
