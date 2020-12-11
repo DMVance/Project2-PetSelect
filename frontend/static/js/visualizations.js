@@ -1,6 +1,6 @@
 // Plot#1: Connect to json data for dog breed 
  d3.json("frontend/dogs.json").then((data) => {
-    // console.log(data)
+    console.log(data)
   
     // Create plotly bar plot for dog breed; extract list of dog breed from json dataset
     var breed_data = data[0].primary_breed;
