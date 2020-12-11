@@ -115,10 +115,12 @@ def mongo_query():
 #     return "same here"
 
 
+
 # @app.route("/justforfun")
 # def for_fun():
 #     # return render_template("fun.html")
 #     return "ditto"
+
 
 
 if __name__ == "__main__":

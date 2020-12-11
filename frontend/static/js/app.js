@@ -1,6 +1,6 @@
 function smoothScroll(target,duration){
     target = document.querySelector(target);
-    let targetPosition = 5000;
+    let targetPosition = 1550;
     console.log(targetPosition)
     // let startPosition = 0;
     let startPosition = window.pageYOffset;
@@ -79,7 +79,6 @@ function loadChar() {
     // arrays to the code below
     traitsForDogSize = eval(selected_size+"_traits")
 
-    let targetPosition = 1000;
 
     let traitsList = Object.keys(traitsForDogSize[0])
     .forEach(trait => {
@@ -107,8 +106,10 @@ function loadChar() {
 //  ******************************************** traits to breeds listener event ************************
 document.getElementById("clickMe2").addEventListener("click", function()
 {
+    let targetPosition = 2000;
+
     console.log("trait-clicked")
-    smoothScroll(".breed-results", 2000);
+    smoothScroll(".breed-results", 1500);
     const box2=document.getElementById("breed-results");
         if(box2.style.display=="none")
         {
@@ -185,7 +186,8 @@ function loadBreeds() {
 document.getElementById("clickMe3").addEventListener("click", function()
 {
     console.log("breed-clicked")
-    smoothScroll(".dog-results", 2000)
+    
+    smoothScroll(".dog-results", 1500)
 
     const box3=document.getElementById("dog-results");
         if(box3.style.display=="none")
