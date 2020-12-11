@@ -122,10 +122,9 @@ def mongo_query():
 
 
 
-# @app.route("/justforfun")
-# def for_fun():
-#     # return render_template("fun.html")
-#     return "ditto"
+@app.route("/justforfun")
+def for_fun():
+    return render_template("fun.html")
 
 
 
