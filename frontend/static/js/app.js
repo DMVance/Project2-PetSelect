@@ -1,6 +1,6 @@
-function smoothScroll(target,duration){
+function smoothScroll(target,duration,targetPosition){
     target = document.querySelector(target);
-    let targetPosition = 1550;
+    // let targetPosition = 1550;
     console.log(targetPosition)
     // let startPosition = 0;
     let startPosition = window.pageYOffset;
@@ -33,7 +33,10 @@ let traitsList
 document.getElementById("clickMe").addEventListener("click", function()
 {
     console.log("weight-button-clicked")
-    // d3.selectAll(characteristics._groups[0][0].childNodes).remove()
+
+    clear_chars = d3.select("#characteristics")
+    d3.selectAll(clear_chars._groups[0][0].childNodes).remove()
+
     // document.getElementById("#characteristics").selectAll("li").remove()
     const box1=document.getElementById("characteristic-box");
         if(box1.style.display=="none")
@@ -109,7 +112,7 @@ document.getElementById("clickMe2").addEventListener("click", function()
     let targetPosition = 2000;
 
     console.log("trait-clicked")
-    smoothScroll(".breed-results", 1500);
+    smoothScroll(".breed-results", 1500, 1550);
     const box2=document.getElementById("breed-results");
         if(box2.style.display=="none")
         {
@@ -187,7 +190,7 @@ document.getElementById("clickMe3").addEventListener("click", function()
 {
     console.log("breed-clicked")
     
-    smoothScroll(".dog-results", 1500)
+    smoothScroll(".dog-results", 1500, 2500)
 
     const box3=document.getElementById("dog-results");
         if(box3.style.display=="none")
@@ -307,6 +310,7 @@ function loadDogs() {
                     console.log(data)
                     columns = [
                         "name", 
+                        "sex",
                         "primary_breed", 
                         "secondary_breed", 
                         "primary_color", 
@@ -318,6 +322,7 @@ function loadDogs() {
                         ]
                     column_names = [
                         "Name", 
+                        "Male/Female",
                         "Primary breed", 
                         "...mixed with", 
                         "Primary color", 
@@ -339,7 +344,14 @@ function loadDogs() {
 
 //  ******************************************** create table from json ************************
 function tabulate(data, columns, column_names, divName) {
-    var table = d3.select(divName).append('table')
+    if (d3.select("#current-table")) {
+        d3.select("#current-table").remove()
+    }
+    // if (deleteDiv._groups[0][0]) {
+    //     d3.selectAll(deleteDiv._groups[0][0].childNodes).remove()
+    // }
+
+    var table = d3.select(divName).append('table').attr("id", "current-table")
     var thead = table.append('thead')
     var	tbody = table.append('tbody');
 

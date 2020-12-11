@@ -5,9 +5,10 @@ td, th {
 
 /* ============ Dropdown List Colors ============ */
 option {font-family: 'Raleway'}
+option.blank {background-color: whitesmoke; color: black}
 option.black {background-color: black; color: white}
-option.brown {background-color: brown; color: white}
-option.chocolate {background-color: chocolate; color: white}
+option.brown {background-color: chocolate; color: white}
+option.chocolate {background-color: brown; color: white}
 option.white {background-color: white; color: black}
 option.tricolor {background-color: rosybrown; color: black}
 option.tan {background-color: tan; color: black}
@@ -53,14 +54,14 @@ body {
     background: rgba(85, 214, 170);
     width: 100vw;
     top: -15px; 
-    color: white;
+    color: black;
     position: fixed;
     z-index: 1;
 
 }
 
 nav li {
-    color: white;
+    color: black;
     position: relative;
     text-transform: uppercase;
 
@@ -68,12 +69,12 @@ nav li {
  
 nav a {
     text-decoration: none;
-	color: white;
+	color: black;
 	text-transform: uppercase, bold;
 }
 
 nav a:hover {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -130,7 +131,7 @@ nav a:hover::before {
 .box {
     background: rgb(245, 212, 103); 	
 	width: 100vw; 
-	color:white;
+	color:black;
     
 }
 
@@ -142,7 +143,7 @@ nav a:hover::before {
 
 .click a {
     outline: solid white;
-    color: white;
+    color: black;
     padding: 10px;
     size: 10px;
    text-decoration: none;
@@ -150,7 +151,7 @@ nav a:hover::before {
 }
 
 .box p {
-    color: white;
+    color: black;
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -186,7 +187,7 @@ nav a:hover::before {
 .box-3 {
     background: rgb(200, 219, 215); 	
 	width: 100vw; 
-	color:white;
+	color:black;
     /* margin-bottom: 15%; */
     /* margin-top: 400px; */
 }
@@ -207,7 +208,7 @@ nav a:hover::before {
 
 .click a {
     outline: solid white;
-    color: white;
+    color: black;
     padding: 10px;
     size: 10px;
    text-decoration: none;
@@ -215,7 +216,7 @@ nav a:hover::before {
 }
 
 .box p {
-    color: white;
+    color: black;
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -270,7 +271,7 @@ input, button {
     cursor: hand;
     overflow: hidden;    
     outline: solid white;
-    color: white;
+    color: black;
     padding: 10px;
     font-size: 20px;
     text-decoration: none;
@@ -278,13 +279,13 @@ input, button {
 }
 
 button a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 button a:hover {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 
@@ -292,13 +293,13 @@ button a:hover {
 
 
 .input-box {
-    background: rgb(240, 213, 124); 
+    background: lemonchiffon; 
     /* width: 1370px; */
     width: 100vw; 
 	padding: 60px;
 	margin-top: 80px;
     
-	color:white;
+	color:black;
     /* margin-bottom: 15%; */
     
 
@@ -308,7 +309,7 @@ button a:hover {
                                 /* TRAIT BOX *********************************/
 
 .characteristic-box {
-    background: rgb(240, 213, 124); 
+    background: lemonchiffon; 
 
     /* width: 1370px; */
     width: 100vw; 
@@ -316,7 +317,7 @@ button a:hover {
     padding-bottom: 60px;
 	margin-top: 0;
     dislay: none;
-	color:white;
+	color:black;
   
 }
 
@@ -381,17 +382,17 @@ li label {
                                     /* BREED RESULT BOX ************************/ 
 
 .breed-results {
-    background: rgb(240, 213, 124); 
+    background: lemonchiffon; 
     width: 100vw;  
 	padding: 60px;
-	color:white;
+	color:black;
 }
 
                                     /* DOG RESULT BOX ************************/ 
 
 .dog-results {
-    background: rgb(240, 213, 124); 
+    background: lemonchiffon; 
     width: 100vw;  
 	padding: 60px;
-	color:white;
+	color:black;
 }

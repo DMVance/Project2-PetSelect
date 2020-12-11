@@ -7,8 +7,8 @@ import requests
 import json
 import pandas as pd
 
-from breed_finder import best_breed
-from dog_search import combined_queries, all_dogs
+from frontend.breed_finder import best_breed
+from frontend.dog_search import combined_queries, all_dogs
 
 
 app = Flask(__name__)
@@ -82,7 +82,8 @@ def mongo_query():
     )
 
     columns = [
-        "name", 
+        "name",
+        "sex", 
         "primary_breed", 
         "secondary_breed", 
         "primary_color", 
@@ -125,12 +126,11 @@ def visualizations():
     return render_template("visualizations.html")
     # return "same here"
 
-@app.route("/justforfun")
-def for_fun():
+@app.route("/fun")
+def fun():
     return render_template("fun.html")
 
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+
 
