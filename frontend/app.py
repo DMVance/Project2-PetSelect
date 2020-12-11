@@ -121,10 +121,12 @@ def mongo_query():
 # save to file and reference file in app.js
 
 
+
 # @app.route("/justforfun")
 # def for_fun():
 #     # return render_template("fun.html")
 #     return "ditto"
+
 
 
 if __name__ == "__main__":
