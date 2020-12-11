@@ -3,6 +3,7 @@ import pymongo
 import pandas as pd
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
+from flask import jsonify
 
 CONN = os.getenv("CONN")
 client = pymongo.MongoClient(CONN)
@@ -11,21 +12,28 @@ db = client.austin_dogs
 # pd.options.display.max_columns = 999
 
 # FIND ALL
-def all_dogs():
-    all_dogs_list = []
-    all_dogs_query = db.dogs.find()
-    for dog in all_dogs_query:
-        all_dogs_list.append(dog)
-    all_dogs_df = pd.DataFrame(all_dogs_list).drop(columns=['_id'])
+# def all_dogs():
+#     all_dogs_list = []
+#     all_dogs_query = db.dogs.find()
+#     for dog in all_dogs_query:
+#         all_dogs_list.append(dog)
+#     all_dogs_df = pd.DataFrame(all_dogs_list).drop(columns=['_id'])
 
-    print("""
-    ----------------------------------------
-    All Dogs (Sample of first 20 results)
-    ----------------------------------------
-    """)
-    print(all_dogs_df.head(20))
+#     print("""
+#     ----------------------------------------
+#     All Dogs (Sample of first 20 results)
+#     ----------------------------------------
+#     """)
+#     print(all_dogs_df.head(20))
 
-    return all_dogs_df
+#     return all_dogs_df
+
+def all_pups():
+    all_dogs_data = []
+    for i in db.dogs.find():
+        all_dogs_data.append({key: value for key, value in i.items() if not key == "_id"})
+
+    return jsonify(all_dogs_data)
 
 
 # FIND BREED
