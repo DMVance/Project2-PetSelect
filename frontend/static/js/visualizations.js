@@ -22,7 +22,7 @@ let subjectID = "Basset Hound"
 
 // Connect to json data and create initial plots
 function init_build() {
-  d3.json("static/pet_select.json").then(
+  d3.json("pet_select.json").then(
       data => {
           // Extract list of breed from json data
           var breed_data = data[0].primary_breed;
@@ -162,7 +162,7 @@ function populate_charts(data) {
 
 
     // Plot#2: Connect to json data for dog age
-    d3.json("static/pet_select.json").then((data) => {
+    d3.json("pet_select.json").then((data) => {
       // console.log(data)
 
       // Create plotly bar plot for dog sex; extract list of dog sex from json dataset
@@ -200,7 +200,7 @@ function populate_charts(data) {
 
 
     // Plot#3: Connect to json data for dog color
-    d3.json("static/pet_select.json").then((data) => {
+    d3.json("pet_select.json").then((data) => {
       // console.log(data)  
 
       // Create plotly bar plot for dog condition; extract list of dog condition from json dataset
@@ -249,7 +249,7 @@ function populate_charts(data) {
 
 
     // Plot#4: Connect to json data for dog type
-    d3.json("static/pet_select.json").then((data) => {
+    d3.json("pet_select.json").then((data) => {
       // console.log(data)  
 
       // Create plotly bar plot for dog type; extract list of dog type from json dataset
@@ -300,7 +300,7 @@ function populate_charts(data) {
 
 
     // Plot#5: Connect to json data for dog condition
-    d3.json("static/pet_select.json").then((data) => {
+    d3.json("pet_select.json").then((data) => {
       // console.log(data)  
 
       // Create plotly bar plot for dog condition; extract list of dog condition from json dataset
@@ -368,7 +368,7 @@ function optionChanged() {
           clear_all()
           // need to select from .json only those records with the breed selection using a filter or reduce function
           // I think I have a scoping issue here...
-          d3.json("static/pet_select.json").then(
+          d3.json("pet_select.json").then(
             data => {
                 let filtered_data = data.filter(function (e) {
                 let selection = d3.select(this).property("value")
