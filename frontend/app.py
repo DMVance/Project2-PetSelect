@@ -8,7 +8,7 @@ import json
 import pandas as pd
 
 from frontend.breed_finder import best_breed
-from frontend.dog_search import combined_queries, all_pups
+from frontend.dog_search import combined_queries, all_pups, viz_data
 
 
 app = Flask(__name__)
@@ -112,18 +112,13 @@ def all_dogs():
 @app.route("/visualizations")
 def visualizations():
 
-    # dogs_df = all_dogs()
-    # dogs_df = dogs_df[columns]
-    # dogs_dicts = dogs_df.to_dict("records")
-    # dogs_json = json.dumps(dogs_dicts)
-    
-    # save to file and reference file in app.js
-    with open("static/pet_select.json", "w+") as f:
-        f.write(dogs_json) 
+    # writes raw data t0 a json file when a person accesses the page, so the viz code can use it
+    with open("frontend/dogs.json", "w+") as f:
+        f.write(viz_data()) 
         f.close() 
 
     return render_template("visualizations.html")
-    # return "same here"
+
 
 @app.route("/fun")
 def fun():
