@@ -116,7 +116,7 @@ def for_fun():
 
 
 @app.route("/justforfun")
-def for_fun():
+def just_for_fun():
     # return render_template("fun.html")
     return "ditto"
 
