@@ -119,9 +119,9 @@ def visualizations():
     dogs_json = json.dumps(dogs_dicts)
     
     # save to file and reference file in app.js
-    with open("static/pet_select.json", "w+"):
-        pet_select.write(dogs_json) 
-        pet_select.close() 
+    with open("static/pet_select.json", "w+") as f:
+        f.write(dogs_json) 
+        f.close() 
 
     return render_template("visualizations.html")
     # return "same here"
