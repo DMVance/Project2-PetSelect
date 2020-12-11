@@ -8,7 +8,7 @@ import json
 import pandas as pd
 
 from frontend.breed_finder import best_breed
-from frontend.dog_search import combined_queries, all_dogs
+from frontend.dog_search import combined_queries, all_pups
 
 
 app = Flask(__name__)
@@ -104,19 +104,18 @@ def mongo_query():
     return dogs_json
 
     
-# @app.route("/all-dogs")
-# def all_dogs():
-#     # return render_template("all_dogs.html")
-#     return "and this one!"
+@app.route("/all-dogs")
+def all_dogs():
+    return all_pups()
 
 
 @app.route("/visualizations")
 def visualizations():
 
-    dogs_df = all_dogs()
-    dogs_df = dogs_df[columns]
-    dogs_dicts = dogs_df.to_dict("records")
-    dogs_json = json.dumps(dogs_dicts)
+    # dogs_df = all_dogs()
+    # dogs_df = dogs_df[columns]
+    # dogs_dicts = dogs_df.to_dict("records")
+    # dogs_json = json.dumps(dogs_dicts)
     
     # save to file and reference file in app.js
     with open("static/pet_select.json", "w+") as f:
