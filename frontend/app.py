@@ -122,7 +122,7 @@ def visualizations():
     #     f.write(viz_data()) 
     #     f.close() 
 
-    # return render_template("visualizations.html")
+    return render_template("visualizations.html")
 
 @app.route("/visualization-data")
 def visualization_data():

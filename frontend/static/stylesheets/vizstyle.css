@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(245, 212, 103);
+      color: black;
+      padding: 16px;
+      font-size: 16px;
+      /* border: none;
+      cursor: pointer; */
+      }  
+    
+.col-md-12.jumbotron.text-center {
+    background-color: rgba(85, 214, 170);
+      color: black;
+      padding: 16px;
+      font-size: 16px;
+      /* border: none;
+      cursor: pointer; */
+      }     
+
+.main {
+      margin-bottom: 15px;
+      }
