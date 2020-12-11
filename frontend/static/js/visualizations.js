@@ -96,7 +96,18 @@ function populate_charts(data) {
       x: Object.keys(occurrences_breed),
       y: Object.values(occurrences_breed),
       type: 'bar',
-      };  
+      transforms: [{
+      type: 'sort',
+      target: 'y',
+      order: 'descending'
+    // }]
+    }, {
+      type: 'filter',
+      target: 'y',
+      operation: '>',
+      value: 5
+    }]
+    };  
 
 
     var dataBreed = [trace1];
@@ -137,16 +148,12 @@ function populate_charts(data) {
       x: Object.keys(occurrences),
       y: Object.values(occurrences),
       type: 'bar',
-      // text: Object.values(occurrences).map(String),
-      // textposition: 'auto',
-      // hoverinfo: 'none',
-      // marker: {
-      //   color: 'rgb(158,202,225)',
-      //   opacity: 0.6,
-      //   line: {
-      //     color: 'rgb(8,48,107)',
-      //     width: 1.5
-        };  
+      transforms: [{
+      type: 'sort',
+      target: 'y',
+      order: 'descending'
+     }]
+     };  
 
 
     var dataSex = [trace1];
@@ -224,16 +231,12 @@ function populate_charts(data) {
       x: Object.keys(occurrences_color),
       y: Object.values(occurrences_color),
       type: 'bar',
-      // text: Object.values(occurrences).map(String),
-      // textposition: 'auto',
-      // hoverinfo: 'none',
-      // marker: {
-      //   color: 'rgb(158,202,225)',
-      //   opacity: 0.6,
-      //   line: {
-      //     color: 'rgb(8,48,107)',
-      //     width: 1.5
-        };  
+      transforms: [{
+      type: 'sort',
+      target: 'y',
+      order: 'descending'
+     }]
+     };  
 
 
     var dataColor = [trace3];
@@ -274,16 +277,12 @@ function populate_charts(data) {
       x: Object.keys(occurrences_type),
       y: Object.values(occurrences_type),
       type: 'bar',
-      // text: Object.values(occurrences).map(String),
-      // textposition: 'auto',
-      // hoverinfo: 'none',
-      // marker: {
-      //   color: 'rgb(158,202,225)',
-      //   opacity: 0.6,
-      //   line: {
-      //     color: 'rgb(8,48,107)',
-      //     width: 1.5
-        };  
+      transforms: [{
+      type: 'sort',
+      target: 'y',
+      order: 'descending'
+     }]
+     };  
 
 
     var dataType = [trace4];
@@ -324,16 +323,12 @@ function populate_charts(data) {
       x: Object.keys(occurrences_condition),
       y: Object.values(occurrences_condition),
       type: 'bar',
-      // text: Object.values(occurrences).map(String),
-      // textposition: 'auto',
-      // hoverinfo: 'none',
-      // marker: {
-      //   color: 'rgb(158,202,225)',
-      //   opacity: 0.6,
-      //   line: {
-      //     color: 'rgb(8,48,107)',
-      //     width: 1.5
-        };  
+      transforms: [{
+      type: 'sort',
+      target: 'y',
+      order: 'descending'
+     }]
+     };  
 
 
     var dataCondition = [trace5];
