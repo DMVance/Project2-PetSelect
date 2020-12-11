@@ -1,5 +1,5 @@
 // Plot#1: Connect to json data for dog breed 
- d3.json("../../dogs.json").then((data) => {
+ d3.json("dogs.json").then((data) => {
     console.log(data)
   
     // Create plotly bar plot for dog breed; extract list of dog breed from json dataset
@@ -35,7 +35,7 @@
   
   
 // Plot#2: Connect to json data for dog sex
-  d3.json("../../dogs.json").then((data) => {
+  d3.json("dogs.json").then((data) => {
     // console.log(data)
   
     // Create plotly bar plot for dog sex; extract list of dog sex from json dataset
@@ -71,7 +71,7 @@
   
   
   // Plot#3: Connect to json data for dog age
-  d3.json("../../dogs.json").then((data) => {
+  d3.json("dogs.json").then((data) => {
     // console.log(data)
   
     // Create plotly bar plot for dog age; extract list of dog age from json dataset
@@ -109,7 +109,7 @@
   
   
   // Plot#4: Connect to json data for dog color
-  d3.json("../../dogs.json").then((data) => {
+  d3.json("dogs.json").then((data) => {
     // console.log(data)  
   
     // Create plotly bar plot for dog condition; extract list of dog condition from json dataset
@@ -145,7 +145,7 @@
   
   
   // Plot#5: Connect to json data for dog type
-  d3.json("../../dogs.json").then((data) => {
+  d3.json("dogs.json").then((data) => {
     // console.log(data)  
   
     // Create plotly bar plot for dog type; extract list of dog type from json dataset
@@ -185,7 +185,7 @@
   
   
   // Plot#6: Connect to json data for dog condition
-  d3.json("../../dogs.json").then((data) => {
+  d3.json("dogs.json").then((data) => {
     // console.log(data)  
   
     // Create plotly bar plot for dog condition; extract list of dog condition from json dataset
