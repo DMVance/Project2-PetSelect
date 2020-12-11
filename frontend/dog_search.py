@@ -32,8 +32,20 @@ def all_pups():
     all_dogs_data = []
     for i in db.dogs.find():
         all_dogs_data.append({key: value for key, value in i.items() if not key == "_id"})
+    
 
     return jsonify(all_dogs_data)
+
+
+# Visualization Function
+
+def viz_data():
+    all_dogs_data = []
+    for i in db.dogs.find():
+        all_dogs_data.append({key: value for key, value in i.items() if not key == "_id"})
+
+    return str(all_dogs_data)
+
 
 
 # FIND BREED
