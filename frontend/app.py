@@ -123,8 +123,8 @@ def mongo_query():
 
 
 
-@app.route("/justforfun")
-def for_fun():
+@app.route("/fun")
+def fun():
     return render_template("fun.html")
 
 
