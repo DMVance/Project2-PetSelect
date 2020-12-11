@@ -109,18 +109,21 @@ def mongo_query():
 #     return "and this one!"
 
 
-# @app.route("/visualizations")
-# def for_fun():
-#     # return render_template("visualizations.html")
-#     return "same here"
+@app.route("/visualizations")
+def visualizations():
 
-# dogs_df = all_dogs()
-# dogs_df = dogs_df[columns]
-# dogs_dicts = dogs_df.to_dict("records")
-# dogs_json = json.dumps(dogs_dicts)
-# save to file and reference file in app.js
+    dogs_df = all_dogs()
+    dogs_df = dogs_df[columns]
+    dogs_dicts = dogs_df.to_dict("records")
+    dogs_json = json.dumps(dogs_dicts)
+    
+    # save to file and reference file in app.js
+    with open("static/pet_select.json", "w+"):
+        pet_select.write(dogs_json) 
+        pet_select.close() 
 
-
+    return render_template("visualizations.html")
+    # return "same here"
 
 @app.route("/justforfun")
 def for_fun():
