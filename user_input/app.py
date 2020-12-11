@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-#     CONN="mongodb+srv://project-team:QA2yoZpRa9yZ3ZFV@cluster0.duyza.mongodb.net/austin_dogs?retryWrites=true&w=majority"
+#     CONN=string
 #     client = pymongo.MongoClient(CONN)
 #     db = client.austin_dogs
 
