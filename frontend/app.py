@@ -124,6 +124,18 @@ def visualizations():
 
     return render_template("visualizations.html")
 
+@app.route("/visualization-data")
+def visualization_data():
+    data_list = []
+    with open("frontend/static/js/pet_select.json") as file:
+        data = json.load(file)
+        for i in data:
+            data_list.append({key: value for key, value in i.items()})
+        data_json = jsonify(data_list)
+        print(type(data_json))
+        file.close()
+
+        return data_json
 
 # @app.route("/ghostviz")
 # def viz_dogs():

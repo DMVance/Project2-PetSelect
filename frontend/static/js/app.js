@@ -112,7 +112,7 @@ document.getElementById("clickMe2").addEventListener("click", function()
     let targetPosition = 2000;
 
     console.log("trait-clicked")
-    smoothScroll(".breed-results", 1500, 1550);
+    smoothScroll(".breed-results", 1500, 1000);
     const box2=document.getElementById("breed-results");
         if(box2.style.display=="none")
         {
@@ -190,7 +190,7 @@ document.getElementById("clickMe3").addEventListener("click", function()
 {
     console.log("breed-clicked")
     
-    smoothScroll(".dog-results", 1500, 2500)
+    smoothScroll(".dog-results", 1500, 1800)
 
     const box3=document.getElementById("dog-results");
         if(box3.style.display=="none")
