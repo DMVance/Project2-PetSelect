@@ -35,7 +35,24 @@
         margin-bottom: 15px;
         }
     </style>
-
+  <div class="header">
+        <br>
+        <h1 class="text-center">puppyFinder</h1> 
+          
+        <nav>
+            <ul class="list-inline text-center">
+                <li class="list-inline-item"><a href="{{ url_for('index') }}">Home</a></li>
+                <li class="list-inline-item">|</li>
+                <li class="list-inline-item"><a href="{{ url_for('input') }}">Find a Dog!</a></li>
+                <li class="list-inline-item">|</li>
+                <li class="list-inline-item"><a href="{{ url_for('visualizations') }}">Visualizations</a></li>
+                <li class="list-inline-item">|</li>
+                <li class="list-inline-item"><a href="{{ url_for('fun') }}">Just For Fun</a></li>
+            </ul>
+        </nav>  
+        
+      
+    </div>  
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
