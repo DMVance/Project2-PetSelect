@@ -113,7 +113,7 @@ def all_dogs():
 def visualizations():
 
     # writes raw data t0 a json file when a person accesses the page, so the viz code can use it
-    with open("frontend/dogs.json", "w+") as f:
+    with open("frontend/static/js/dogs.json", "w+") as f:
         f.write(viz_data()) 
         f.close() 
 
