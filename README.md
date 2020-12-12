@@ -15,10 +15,10 @@ To develop the "Puppy Finder" app, we have utilized two types of data; static da
 
 The static "size" data is defined by three categories - small (under 20 pounds), medium (20 to 60 pounds), and large (60+ pounds). The static "characteristics" data is defined by 37 categories; for creating the "characteristics" data, we have extracted the Temperament attribute from the following api: https://api.thedogapi.com/v1/breeds
 
-To make sure our app is accessing the latest data of the Austin Animal Center in producing the final puppy list, our Mongo-Atlas database is programmatically updated to generate the up-to-date daily data. To extract the most recent data on the available puppies and their features, we have used the following api and got it connected to our dynamic Mongo-Atlas database: https://data.austintexas.gov/resource/wter-evkm.json
+To make sure our app is accessing the latest data of Austin Animal Center in producing the final puppy list, our Mongo-Atlas database is programmatically updated to generate up-to-date daily data. To extract the most recent data on available puppies and their features, we have used the following api and got it connected to our dynamic Mongo-Atlas database: https://data.austintexas.gov/resource/wter-evkm.json
 
 ## Additional Features:
-The "Puppy Finder" app includes a visualization page, which provides a visual representation the of Austin Animal Center data. Users can explore the plots/charts for a quick summary. Also, the app includes a fun page for the puppy lovers. Users can play games in the fun page and go to the youtube links to watch informative videos on the puppy breeds.  
+The "Puppy Finder" app includes a visualization page, which provides a visual representation of the Austin Animal Center data. Users can explore the plots/charts for a quick summary. Also, the app includes a fun page for the puppy lovers. Users can play games in the fun page and go to the youtube links to watch informative videos on the puppy breeds.  
 
 ## Applied Technologies:
 * Api & JSON
