@@ -15,7 +15,7 @@ To develop the "Puppy Finder" app, we have utilized two types of data; static da
 
 The static "size" data is defined by three categories - small (under 20 pounds), medium (20 to 60 pounds), and large (60+ pounds). The static "characteristics" data is defined by 37 categories; for creating the "characteristics" data, we have extracted the Temperament attribute from the following api: https://api.thedogapi.com/v1/breeds
 
-To make sure, our app is accessing the latest data of the Austin Animal Center in producing the final puppy list, our Mongo-Atlas database is programmatically updated to generate the up-to-date daily data. To extract the most recent data on the available puppies and their features, we have used the following api and got it connected to our dynamic Mongo-Atlas database: https://data.austintexas.gov/resource/wter-evkm.json
+To make sure our app is accessing the latest data of the Austin Animal Center in producing the final puppy list, our Mongo-Atlas database is programmatically updated to generate the up-to-date daily data. To extract the most recent data on the available puppies and their features, we have used the following api and got it connected to our dynamic Mongo-Atlas database: https://data.austintexas.gov/resource/wter-evkm.json
 
 ## Additional Features:
 The "Puppy Finder" app includes a visualization page, which provides a visual representation the of Austin Animal Center data. Users can explore the plots/charts for a quick summary. Also, the app includes a fun page for the puppy lovers. Users can play games in the fun page and go to the youtube links to watch informative videos on the puppy breeds.  
@@ -30,9 +30,9 @@ The "Puppy Finder" app includes a visualization page, which provides a visual re
 * Heroku
 
 ## Highlights of Tasks:
-* Stacks queries of Mongo DB as a list of dictionaries to combine search parameters as a single DB query
+* Stacks queries of Mongo DB as a list of dictionaries to combine search parameters as a single DB query.
 * Python loops through every dog breed when a user selects a characteristic and adds points to the breed, then sums up and groups the breeds in order to find the top 5. 
-* 
+* Fetch carries data between the python backend and the javascript frontend.
 
 ## App Routes:
 * @app.route("/")
@@ -67,7 +67,6 @@ The "Puppy Finder" app includes a visualization page, which provides a visual re
 
 ## Limitations & Future Plan:
 * The find a dog page would ideally have pictures of the dogs available to be adopted, but the Animal Shelter API did not offer that. In the future, it would connect to each dogs page on our site so they can go straight to the Animal Shelter site to get more information about that specific dog. 
-* 
 * "Visualizations" page does not include any selector. We plan to address this limitation by including a selector for puppy "breeds" and make the page more interactive, where the users can visualize the dynamic plots according to their "breed" choice.
 * Link visualizations to live data rather than static JSON file.
 
