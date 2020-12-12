@@ -49,7 +49,7 @@ The "Puppy Finder" app includes a visualization page, which provides a visual re
 
 ![screen-2](ScreenShots/screen_2.PNG)
 
-## Screen Shot: FIND DOG BREED 
+## Screen Shot: FIND TOP 5 DOG BREEDS 
 
 ![screen-3](ScreenShots/screen_3.PNG)
 
@@ -58,12 +58,12 @@ The "Puppy Finder" app includes a visualization page, which provides a visual re
 ![screen-4](ScreenShots/screen_4.PNG)
 
 ## Screen Shot: VISUALIZATIONS
-* Plotly plots for breed, gender, age, color, type, and condition.
+* This page provides interactive plotly plots for breed, gender, age, color, type, and condition.
 
-![screen-5](ScreenShots/screen_6.PNG)
+![screen-5](ScreenShots/screen_5.PNG)
 
 ## Screen Shot: FUN PAGE
-* Games and informative videos for puppy lovers.
+* This page offers fun games and informative videos for puppy lovers.
 
 ![screen-6](ScreenShots/screen_fun.PNG)
 
