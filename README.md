@@ -68,7 +68,8 @@ The "Puppy Finder" app includes a visualization page, which provides a visual re
 ## Limitations & Future Plan:
 * 
 * 
-* "Visualizations" page does not include any selector. We plan to address this limitation by including a selector for puppy "breeds" and make the page more interactive, where the users can visualize the dynamic plots according to their "breed" choice. 
+* "Visualizations" page does not include any selector. We plan to address this limitation by including a selector for puppy "breeds" and make the page more interactive, where the users can visualize the dynamic plots according to their "breed" choice.
+* Link visualizations to live data rather than static JSON file.
 
 
 
