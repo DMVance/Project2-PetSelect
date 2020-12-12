@@ -1,9 +1,9 @@
 Data Analysis & Visualization Bootcamp | UT-Austin McCombs | Fall 2020
-# **Project2: Puppy Finder**
-
-Link:
+# **Project 2: Puppy Finder**
 
 ![screen-1](ScreenShots/screen_1.PNG)
+
+Link:
 
 ## Key Features:
 Our app connects the users to their perfect puppy. It begins with a survey, where the users can input information about their preferred puppy "size" (small, medium, and large) and puppy "characteristics" (playful, active, loving, sensitive, etc.). The output then produces a list of puppy "breed" that matches with the specified preferences. For a particular "breed", the users can continue to select additional puppy features; such as gender, color, age, and health condition. As the final outcome, the app generates a list of desirable puppies that are available for adoption at the Austin Animal Center. 
@@ -34,7 +34,9 @@ The "Puppy Finder" app includes a visualization page, which provides a visual re
 * 
 * 
 
-## Screen Shot:
+## Screen Shot: FIND A DOG
+![screen-2](ScreenShots/screen_2.PNG)
+
 
 ## Limitations & Future Plan:
 * 
