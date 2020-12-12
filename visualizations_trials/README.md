@@ -1,5 +1,5 @@
-Data Analysis & Visualization Bootcamp | UT-Austin McCombs | Fall 2020
-##### Group Members: David Vance, Jessica Bates, Michelle Nguyen, Rachel Reynolds, Reid Haynie, & Sabrina Saleh
+##### Data Analysis & Visualization Bootcamp | UT-Austin McCombs | Fall 2020
+##### David Vance, Jessica Bates, Michelle Nguyen, Rachel Reynolds, Reid Haynie, & Sabrina Saleh
 
 # **Project 2: Puppy Finder**
 
