@@ -31,7 +31,7 @@ The "Puppy Finder" app includes a visualization page, which provides a visual re
 
 ## Highlights of Tasks:
 * Stacks queries of Mongo DB as a list of dictionaries to combine search parameters as a single DB query
-* 
+* Python loops through every dog breed when a user selects a characteristic and adds points to the breed, then sums up and groups the breeds in order to find the top 5. 
 * 
 
 ## App Routes:
@@ -66,7 +66,7 @@ The "Puppy Finder" app includes a visualization page, which provides a visual re
 ![screen-fun](ScreenShots/screen_fun.PNG)
 
 ## Limitations & Future Plan:
-* 
+* The find a dog page would ideally have pictures of the dogs available to be adopted, but the Animal Shelter API did not offer that. In the future, it would connect to each dogs page on our site so they can go straight to the Animal Shelter site to get more information about that specific dog. 
 * 
 * "Visualizations" page does not include any selector. We plan to address this limitation by including a selector for puppy "breeds" and make the page more interactive, where the users can visualize the dynamic plots according to their "breed" choice.
 * Link visualizations to live data rather than static JSON file.
