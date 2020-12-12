@@ -1,0 +1,1001 @@
+,animal_id,intake_datetime,found_address,found_city,found_state,intake_type,intake_condition,sex,birthday,age_years,age_months,age_days,mixed_breed,primary_breed,secondary_breed,primary_color,secondary_color,name
+0,A827019,2020-12-11 09:36:00,5002 Nuckols Crossing,Austin,TX,Stray,Normal,Male,2018-12-11 09:36:00,2,0,0,False,Dachshund Longhair,None,Tan,Black,Oreo
+1,A826969,2020-12-10 08:30:00,6001 Eflen Drive,Austin,TX,Stray,Normal,Male,2016-12-10 08:30:00,4,0,1,False,German Shepherd,None,Black,None,Bodhi
+2,A826968,2020-12-10 08:30:00,6001 Eflen Drive,Austin,TX,Stray,Normal,Male,2016-12-10 08:30:00,4,0,1,True,Labrador Retriever,Mix,Brown,White,Kai
+3,A826994,2020-12-10 13:08:00,13021 Dessau Road,Travis,TX,Stray,Normal,Male,2019-12-10 13:08:00,1,0,1,False,Chihuahua Shorthair,None,Black,None,Oreo
+4,A827003,2020-12-10 15:24:00,401 Little Texas Lane,Austin,TX,Abandoned,Normal,Male,2018-12-10 15:24:00,2,0,1,False,Australian Cattle Dog,None,Red Merle,White,Nico
+5,A812974,2020-12-01 09:32:00,8506 Evelyn Road,Mustang Ridge,TX,Stray,Normal,Female,2018-12-01 09:32:00,2,0,10,True,Labrador Retriever,Mix,Tan,White,Sugar
+6,A827016,2020-12-11 08:31:00,Wideleaf Drive And Belafonte Boulevard,Travis,TX,Stray,Normal,Unknown,2020-05-11 08:31:00,0,7,0,False,German Shepherd,None,Black,Brown,None
+7,A812974,2020-02-01 13:33:00,8905 Burleson Manor Road,Travis,TX,Stray,Normal,Female,2018-02-01 13:33:00,2,10,10,True,Labrador Retriever,Mix,Tan,White,Sugar
+8,A812974,2020-12-08 11:46:00,Outside Jurisdiction,None,None,Owner Surrender,Normal,Female,2018-12-08 11:46:00,2,0,3,True,Labrador Retriever,Mix,Tan,White,Sugar
+9,A827012,2020-12-10 17:48:00,1011 Barton Spings,Austin,TX,Public Assist,Normal,Female,2016-12-10 17:48:00,4,0,0,True,Australian Shepherd,Siberian Husky,White,Brown,None
+10,A827010,2020-12-10 16:51:00,None,Austin,TX,Owner Surrender,Nursing,Female,2020-11-19 16:51:00,0,0,22,True,Australian Cattle Dog,Mix,Black,Brown Brindle,None
+11,A827009,2020-12-10 16:51:00,None,Austin,TX,Owner Surrender,Nursing,Female,2020-11-19 16:51:00,0,0,22,True,Australian Cattle Dog,Mix,Black,Brown,None
+12,A827011,2020-12-10 16:51:00,None,Austin,TX,Owner Surrender,Nursing,Female,2020-11-19 16:51:00,0,0,22,True,Australian Cattle Dog,Mix,Black,White,None
+13,A827008,2020-12-10 16:51:00,None,Austin,TX,Owner Surrender,Nursing,Female,2019-12-10 16:51:00,1,0,1,True,Australian Cattle Dog,Mix,White,Black,None
+14,A826785,2020-12-06 11:56:00,6110 Calmar Cove,Austin,TX,Stray,Normal,Female,2018-12-06 11:56:00,2,0,5,False,Rottweiler,None,Black,Brown,Brunhilda
+15,A827005,2020-12-10 16:02:00,None,Austin,TX,Owner Surrender,Normal,Male,2007-12-10 16:02:00,13,0,1,False,Jindo,None,White,None,Bogdol
+16,A827001,2020-12-10 15:13:00,5315 Ed Bluestein,Austin,TX,Stray,Sick,Female,2019-12-10 15:13:00,1,0,1,False,German Shepherd,None,Black,Brown,None
+17,A827006,2020-12-10 16:02:00,None,Austin,TX,Owner Surrender,Normal,Female,2005-12-10 16:02:00,15,0,1,True,Jindo,Siberian Husky,Red,Tan,Happy
+18,A826820,2020-12-07 12:24:00,1606 Colony Creek Drive,Austin,TX,Stray,Normal,Male,2018-12-07 12:24:00,2,0,4,False,Chihuahua Shorthair,None,Red,White,None
+19,A827002,2020-12-10 14:48:00,Cromwell Circle,Austin,TX,Stray,Normal,Female,2020-10-10 14:48:00,0,2,1,False,Labrador Retriever,None,Tricolor,None,None
+20,A747214,2020-12-10 15:02:00,7511 Cameron Rd,Austin,TX,Owner Surrender,Normal,Male,2016-12-10 15:02:00,4,0,1,False,German Shepherd,None,Sable,Tan,Zeus
+21,A826999,2020-12-10 14:48:00,Cromwell Circle,Austin,TX,Stray,Normal,Female,2020-10-10 14:48:00,0,2,1,False,Labrador Retriever,None,Tan,White,None
+22,A827000,2020-12-10 14:48:00,Cromwell Circle,Austin,TX,Stray,Normal,Male,2020-10-10 14:48:00,0,2,1,False,Labrador Retriever,None,Tan,White,None
+23,A809249,2020-12-10 14:13:00,7207 Thannas Way,Austin,TX,Stray,Normal,Male,2016-12-10 14:13:00,4,0,1,False,Pit Bull,None,Chocolate,None,Buddy
+24,A826995,2020-12-10 13:09:00,Duval Road,Austin,TX,Stray,Normal,Male,2014-12-10 13:09:00,6,0,1,False,Pit Bull,None,Brown Brindle,None,None
+25,A826761,2020-12-05 15:01:00,Fm 1826 And Slaughter Lane,Austin,TX,Stray,Normal,Female,2015-12-05 15:01:00,5,0,6,False,German Shepherd,None,White,Yellow,Leona
+26,A826996,2020-12-10 13:09:00,Duval Road,Austin,TX,Stray,Normal,Female,2018-12-10 13:09:00,2,0,1,False,Labrador Retriever,None,Tan,White,None
+27,A826967,2020-12-10 13:06:00,None,Austin,TX,Owner Surrender,Normal,Male,2018-12-10 13:06:00,2,0,1,False,Pit Bull,None,White,Brown,Bango
+28,A826784,2020-12-06 11:27:00,816 Gunter Street,Austin,TX,Stray,Normal,Female,2019-12-06 11:27:00,1,0,5,True,Labrador Retriever,Mix,Chocolate,White,Moonshine
+29,A826980,2020-12-10 11:49:00,Cypress Bend,Austin,TX,Stray,Normal,Male,2019-12-10 11:49:00,1,0,1,False,Pit Bull,None,White,Blue,Blue
+30,A826935,2020-12-09 15:55:00,11118 Dessau Road,Austin,TX,Stray,Normal,Male,2018-12-09 15:55:00,2,0,2,False,German Shepherd,None,Black,None,Cash
+31,A826981,2020-12-10 11:39:00,None,Austin,TX,Owner Surrender,Normal,Female,2012-12-10 11:39:00,8,0,1,False,Labrador Retriever,None,Black,None,Baby Girl
+32,A826869,2020-12-09 14:06:00,11708 Tallow Field Way,Austin,TX,Stray,Normal,Male,2018-12-09 14:06:00,2,0,2,False,Chow Chow,None,Brown,None,None
+33,A826905,2020-12-08 15:24:00,1541 West Cesar Chavez,Austin,TX,Stray,Normal,Female,2018-12-08 15:24:00,2,0,3,True,Catahoula,Pit Bull,Blue Merle,White,None
+34,A826979,2020-12-10 11:09:00,None,Austin,TX,Owner Surrender,Normal,Female,2020-01-10 11:09:00,0,11,1,True,Jack Russell Terrier,Mix,Brown,White,Tiny
+35,A826944,2020-12-09 13:11:00,1900 Barge Street,Austin,TX,Stray,Normal,Male,2019-12-09 13:11:00,1,0,2,True,Anatol Shepherd,Mix,Brown,Black,None
+36,A826964,2020-12-09 18:39:00,400 Grove Blvd,Austin,TX,Stray,Normal,Male,2017-12-09 18:39:00,3,0,1,True,German Shepherd,Mix,Black,None,Frank
+37,A817061,2020-05-07 08:21:00,11204 Moore,Travis,TX,Stray,Injured,Female,2019-08-07 08:21:00,1,4,4,True,German Shepherd,Mix,Black,Brown,Envy
+38,A826679,2020-12-03 12:21:00,East Riverside And Wickersham Lane,Austin,TX,Stray,Injured,Female,2020-10-03 12:21:00,0,2,8,True,Miniature Schnauzer,Mix,Black,Brown,Deedee
+39,A826962,2020-12-09 16:47:00,None,Leander,TX,Owner Surrender,Normal,Male,2018-12-09 16:47:00,2,0,2,True,Australian Shepherd,Border Collie,Chocolate,White,Choco
+40,A826975,2020-12-10 09:48:00,1504 Citation Circle,Travis,TX,Stray,Normal,Male,2020-08-10 09:48:00,0,4,1,True,Labrador Retriever,Mix,Brown,Black,None
+41,A826899,2020-12-08 13:14:00,1006 Silbury Drive,Austin,TX,Stray,Injured,Male,2006-12-08 13:14:00,14,0,3,False,Pit Bull,None,Blue,White,Polo
+42,A826947,2020-12-09 14:11:00,18133 Ryegate Drive,Travis,TX,Stray,Normal,Female,2006-12-09 14:11:00,14,0,2,False,Toy Poodle,None,White,None,Nina
+43,A826888,2020-12-08 13:14:00,7111 East 290 Highway Service Road,Austin,TX,Stray,Medical,Female,2020-07-08 13:14:00,0,5,3,True,German Shepherd,Mix,Brown,Black,None
+44,A826965,2020-12-09 23:24:00,111 East Cesar Chavez,Austin,TX,Public Assist,Normal,Male,2017-12-09 23:24:00,3,0,1,False,Great Dane,None,Fawn,White,Diesel
+45,A826949,2020-12-09 14:11:00,1013 Bird Creek Drive,Austin,TX,Stray,Normal,Male,2019-12-09 14:11:00,1,0,2,True,Miniature Poodle,Mix,White,None,None
+46,A826907,2020-12-08 17:01:00,9112 Evelyn Road,Travis,TX,Stray,Normal,Female,2019-12-08 17:01:00,1,0,3,True,Plott Hound,Catahoula,Brown Brindle,None,Cleo
+47,A826945,2020-12-09 13:34:00,1255 South Dunlap Road,Travis,TX,Stray,Normal,Male,2018-12-09 13:34:00,2,0,2,False,American Pit Bull Terrier,None,Black,White,None
+48,A826922,2020-12-09 08:38:00,12105 Old Stage Trail,Austin,TX,Stray,Normal,Female,2018-12-09 08:38:00,2,0,2,False,Pit Bull,None,Brown,None,None
+49,A826923,2020-12-09 09:45:00,15109 Bullace Street,Travis,TX,Stray,Injured,Male,2017-12-09 09:45:00,3,0,2,True,German Shepherd,Mix,Tan,None,None
+50,A826973,2020-12-10 09:48:00,1504 Citation Circle,Travis,TX,Stray,Normal,Male,2020-08-10 09:48:00,0,4,1,True,Labrador Retriever,Mix,Black,White,None
+51,A826966,2020-12-10 06:41:00,10800 Lakeline Boulevard,Austin,TX,Public Assist,Normal,Male,2019-12-10 06:41:00,1,0,1,False,French Bulldog,None,Tan,Black,None
+52,A826974,2020-12-10 09:48:00,1504 Citation Circle,Travis,TX,Stray,Normal,Male,2020-08-10 09:48:00,0,4,1,True,Labrador Retriever,Mix,Black,White,None
+53,A826794,2020-12-06 14:36:00,306 West Rundberg,Austin,TX,Stray,Normal,Female,2020-10-06 14:36:00,0,2,5,False,Jack Russell Terrier,None,White,None,None
+54,A826542,2020-12-04 19:15:00,2305 Rachael Court,Austin,TX,Stray,Normal,Female,2018-12-04 19:15:00,2,0,6,False,American Staffordshire Terrier,None,Gray,White,Mia
+55,A813325,2020-12-06 22:00:00,1301 West Oltorf,Austin,TX,Stray,Normal,Male,2019-12-06 22:00:00,1,0,4,True,Border Collie,Labrador Retriever,Black,None,Jay
+56,A826777,2020-12-05 17:38:00,6405 Circle S Road,Austin,TX,Stray,Normal,Female,2020-08-05 17:38:00,0,4,5,True,Pit Bull,Mix,Black,White,None
+57,A825700,2020-12-04 12:52:00,9500 Dessau Road,Austin,TX,Owner Surrender,Normal,Male,2020-09-04 12:52:00,0,3,7,True,Plott Hound,Mix,Brown Brindle,White,None
+58,A826796,2020-12-06 16:33:00,Manor Road And Airport Boulevard,Austin,TX,Stray,Normal,Male,2020-01-06 16:33:00,0,11,5,False,Pit Bull,None,White,Tan,Derby
+59,A826828,2020-12-07 14:01:00,East 12Th Street,Austin,TX,Stray,Sick,Male,2020-11-09 14:01:00,0,1,2,True,Chihuahua Shorthair,Mix,Black,Tan,None
+60,A826724,2020-12-04 13:16:00,1305 Dobie Drive,Austin,TX,Stray,Normal,Female,2019-12-04 13:16:00,1,0,7,True,Labrador Retriever,Mix,White,None,Celeste
+61,A826878,2020-12-08 09:46:00,8140 North Lamar Boulevard,Austin,TX,Stray,Normal,Male,2017-12-08 09:46:00,3,0,3,False,Pit Bull,None,Blue,White,None
+62,A826861,2020-12-07 18:42:00,2400 East Cesar Chavez,Austin,TX,Stray,Normal,Male,2018-12-07 18:42:00,2,0,3,False,Chihuahua Shorthair,None,White,Tan,None
+63,A826813,2020-12-07 12:02:00,124 West Anderson Lane,Austin,TX,Abandoned,Normal,Female,2018-12-07 12:02:00,2,0,4,True,Pit Bull,Mix,Blue,None,None
+64,A825253,2020-12-06 13:11:00,5501 South Mopac,Austin,TX,Stray,Normal,Male,2019-12-06 13:11:00,1,0,5,False,Boxer,None,Black,White,Buddy
+65,A826703,2020-12-04 09:17:00,Lexington And East Murray,Travis,TX,Stray,Normal,Female,2019-12-04 09:17:00,1,0,7,True,Black Mouth Cur,Mix,Brown,None,Ximena
+66,A826789,2020-12-06 13:22:00,East 6Th Street At  Ih 35,Austin,TX,Stray,Injured,Female,2020-03-06 13:22:00,0,9,5,True,Finnish Spitz,Mix,Red,White,None
+67,A826843,2020-12-07 16:32:00,2206 Bahama Road,Austin,TX,Stray,Normal,Male,2020-04-07 16:32:00,0,8,4,False,Pit Bull,None,Blue Tiger,None,Moose
+68,A813064,2020-12-06 15:24:00,3118  Windsor Road,Austin,TX,Owner Surrender,Normal,Male,2019-12-06 15:24:00,1,0,5,False,Chihuahua Shorthair,None,Black,White,Baby Boy
+69,A826765,2020-12-06 11:44:00,1156 West Cesar Chavez,Austin,TX,Public Assist,Normal,Male,2012-12-06 11:44:00,8,0,5,True,Labrador Retriever,Mix,Black,None,Poundcake
+70,A826797,2020-12-06 16:38:00,4626 Philco Drive,Austin,TX,Public Assist,Normal,Female,2013-12-06 16:38:00,7,0,5,True,Rottweiler,Beagle,Black,Brown,Riley
+71,A826858,2020-12-07 20:56:00,4434 Frontier Trail,Austin,TX,Owner Surrender,Injured,Male,2020-08-07 20:56:00,0,4,3,True,Chihuahua Longhair,Mix,Black,White,Charlee
+72,A826519,2020-11-30 14:06:00,9201 Circuit Of The Americas,Travis,TX,Stray,Normal,Female,2019-11-30 14:06:00,1,0,11,False,German Shepherd,None,Brown,Black,Nara
+73,A815498,2020-03-17 10:25:00,14735 Bratton Lane,Austin,TX,Abandoned,Normal,Female,2019-03-17 10:25:00,1,8,24,False,Pit Bull,None,Black,White,Luna
+74,A815498,2020-12-09 17:08:00,None,Travis,TX,Owner Surrender,Normal,Female,2019-12-09 17:08:00,1,0,1,False,Pit Bull,None,Black,White,Luna
+75,A804784,2020-12-09 16:10:00,8800 Research Boulevard,Austin,TX,Stray,Normal,Female,2016-12-09 16:10:00,4,0,2,False,American Pit Bull Terrier,None,White,Black,Diamond
+76,A826817,2020-12-07 11:47:00,None,Austin,TX,Owner Surrender,Normal,Female,2020-05-07 11:47:00,0,7,4,False,Labrador Retriever,None,Brown,White,Bonnie
+77,A826958,2020-12-09 15:31:00,George Street And Stassney,Austin,TX,Stray,Normal,Female,2018-12-09 15:31:00,2,0,2,False,Chihuahua Longhair,None,Brown,White,None
+78,A826818,2020-12-07 11:47:00,None,Austin,TX,Owner Surrender,Normal,Male,2020-05-07 11:47:00,0,7,4,False,Labrador Retriever,None,Brown,White,Clyde
+79,A825593,2020-11-06 12:00:00,2006 Blue Meadow,Austin,TX,Abandoned,Normal,Female,2018-11-06 12:00:00,2,1,5,True,Chihuahua Shorthair,Mix,White,Brown,Gale
+80,A747214,2017-04-16 15:42:00,Sterlinghill Dr And Carlsharlton Dr,Austin,TX,Stray,Normal,Male,2016-09-16 15:42:00,4,2,25,False,German Shepherd,None,Sable,Tan,Zeus
+81,A826795,2020-12-06 14:49:00,8412 Fall Meadow,Austin,TX,Stray,Normal,Female,2020-09-06 14:49:00,0,3,5,False,Rottweiler,None,Black,Brown,None
+82,A826788,2020-12-06 12:42:00,1912 East William Cannon Drive,Austin,TX,Stray,Normal,Female,2020-11-06 12:42:00,0,1,5,True,Australian Shepherd,Mix,Brown Merle,White,None
+83,A826713,2020-12-04 11:21:00,Tower Road And Samuel Welch Road,Travis,TX,Stray,Normal,Male,2019-12-04 11:21:00,1,0,7,False,Great Pyrenees,None,White,Tan,Lasso
+84,A826946,2020-12-09 13:33:00,None,Austin,TX,Owner Surrender,Normal,Male,2019-12-09 13:33:00,1,0,2,True,Dachshund,Mix,Blue,Brown,Lennon
+85,A750904,2020-11-06 12:00:00,2006 Blue Meadow,Austin,TX,Abandoned,Normal,Male,2015-11-06 12:00:00,5,1,5,True,Pit Bull,Mix,Brown Brindle,White,Sonic
+86,A750904,2017-06-02 09:20:00,7707 Ih 35,Austin,TX,Stray,Normal,Male,2015-06-02 09:20:00,5,6,9,True,Pit Bull,Mix,Brown Brindle,White,Sonic
+87,A826941,2020-12-09 12:32:00,7530 Compass,Travis,TX,Stray,Sick,Female,2020-11-09 12:32:00,0,1,2,False,Labrador Retriever,None,Brown Brindle,White,None
+88,A826051,2020-11-18 12:25:00,None,Austin,TX,Owner Surrender,Normal,Female,2015-11-18 12:25:00,5,0,23,True,German Shepherd,Mix,Black,None,Suki
+89,A826836,2020-12-07 15:25:00,None,Travis,TX,Owner Surrender,Normal,Female,2019-12-07 15:25:00,1,0,4,True,Labrador Retriever,Mix,Black,White,Shira
+90,A826920,2020-12-09 07:46:00,4434 Frontier Trail,Austin,TX,Owner Surrender,Injured,Female,2020-09-09 07:46:00,0,3,2,False,German Shepherd,None,Black,Brown,Zel
+91,A826259,2020-12-08 17:51:00,Outside Jurisdiction,None,None,Owner Surrender,Normal,Male,2018-12-08 17:51:00,2,0,2,False,German Shepherd,None,Brown,Black,Agent 47
+92,A788817,2020-12-07 16:51:00,7101 Sentry Path,Austin,TX,Stray,Normal,Female,2018-12-07 16:51:00,2,0,4,True,Staffordshire,Mix,Fawn,White,Catherine
+93,A788817,2020-02-09 16:26:00,None,Austin,TX,Owner Surrender,Sick,Female,2019-02-09 16:26:00,1,10,2,True,Staffordshire,Mix,Fawn,White,Catherine
+94,A788817,2019-02-09 14:38:00,2302 East William Cannon,Austin,TX,Stray,Normal,Female,2018-04-09 14:38:00,2,8,2,True,Staffordshire,Mix,Fawn,White,Catherine
+95,A826912,2020-12-08 16:55:00,None,Creedmoor,TX,Owner Surrender,Aged,Female,2004-12-08 16:55:00,16,0,3,True,Collie Smooth,Chow Chow,Red,None,None
+96,A826894,2020-12-08 12:31:00,None,Austin,TX,Owner Surrender,Normal,Female,2019-12-08 12:31:00,1,0,3,False,Staffordshire,None,Blue,None,Charara
+97,A826890,2020-12-08 12:31:00,None,Austin,TX,Owner Surrender,Normal,Female,2018-12-08 12:31:00,2,0,3,False,Staffordshire,None,Tan,White,Canche
+98,A826738,2020-12-04 17:40:00,9000 South 183,Austin,TX,Stray,Normal,Male,2019-12-04 17:40:00,1,0,6,True,German Shepherd,Mix,Brown,Black,Sawyer
+99,A826892,2020-12-08 12:31:00,None,Austin,TX,Owner Surrender,Normal,Female,2019-12-08 12:31:00,1,0,3,False,Staffordshire,None,Blue,White,Flaka
+100,A826782,2020-12-08 11:48:00,6603 Sunstrip,Austin,TX,Public Assist,Normal,Male,2017-12-08 11:48:00,3,0,3,False,Labrador Retriever,None,Brown,None,Wallace
+101,A826886,2020-12-08 11:16:00,None,Austin,TX,Owner Surrender,Normal,Male,2013-12-08 11:16:00,7,0,3,True,Dachshund,Chihuahua Shorthair,Red,None,Peanut
+102,A826358,2020-11-25 11:18:00,1100 Garland Avenue,Austin,TX,Stray,Normal,Male,2018-11-25 11:18:00,2,0,16,False,Shih Tzu,None,Chocolate,White,Java
+103,A826231,2020-11-23 07:37:00,8529 Linden,Travis,TX,Stray,Injured,Female,2019-11-23 07:37:00,1,0,18,False,Whippet,None,Tan,White,Jenny
+104,A826860,2020-12-07 18:28:00,1701 Timberwood Dr,Austin,TX,Stray,Normal,Female,2015-12-07 18:28:00,5,0,3,True,German Shepherd,Mix,Tan,White,Chi Chi
+105,A826844,2020-12-07 16:10:00,None,Austin,TX,Owner Surrender,Normal,Male,2020-03-07 16:10:00,0,9,4,True,Pharaoh Hound,Mix,Gray,White,Santos
+106,A826855,2020-12-07 16:57:00,None,Austin,TX,Owner Surrender,Normal,Female,2020-05-07 16:57:00,0,7,4,True,Pekingese,Mix,Brown,Black,Lucy
+107,A817551,2020-11-15 11:54:00,11621 Sun Glide Lane,Travis,TX,Owner Surrender,Behavior,Male,2018-11-15 11:54:00,2,0,26,True,Australian Cattle Dog,St. Bernard Smooth Coat,Brown,White,Bean
+108,A826839,2020-12-07 15:25:00,None,Travis,TX,Owner Surrender,Normal,Male,2020-11-16 15:25:00,0,0,25,True,Labrador Retriever,Mix,Black,White,None
+109,A817551,2020-07-07 13:04:00,None,Austin,TX,Owner Surrender,Normal,Male,2018-07-07 13:04:00,2,5,4,True,Australian Cattle Dog,St. Bernard Smooth Coat,Brown,White,Bean
+110,A817551,2020-05-20 12:02:00,None,Austin,TX,Owner Surrender,Normal,Male,2018-05-20 12:02:00,2,6,21,True,Australian Cattle Dog,St. Bernard Smooth Coat,Brown,White,Bean
+111,A826838,2020-12-07 15:25:00,None,Travis,TX,Owner Surrender,Normal,Male,2020-11-16 15:25:00,0,0,25,True,Labrador Retriever,Mix,Black,White,None
+112,A826841,2020-12-07 15:25:00,None,Travis,TX,Owner Surrender,Normal,Male,2020-11-16 15:25:00,0,0,25,True,Labrador Retriever,Mix,Black,White,None
+113,A826840,2020-12-07 15:25:00,None,Travis,TX,Owner Surrender,Normal,Female,2020-11-16 15:25:00,0,0,25,True,Labrador Retriever,Mix,Black,White,None
+114,A825896,2020-11-15 08:38:00,Fort Drum Drive,Austin,TX,Stray,Injured,Male,2004-11-15 08:38:00,16,0,26,False,Boxer,None,Brown Brindle,White,Axel
+115,A826842,2020-12-07 15:25:00,None,Travis,TX,Owner Surrender,Normal,Female,2020-11-16 15:25:00,0,0,25,True,Labrador Retriever,Mix,Black,White,None
+116,A825027,2020-10-26 15:05:00,6918 Cherrydale Drive,Austin,TX,Stray,Injured,Male,2009-10-26 15:05:00,11,1,15,True,Rottweiler,Labrador Retriever,Black,Brown,Moody
+117,A826298,2020-11-23 17:52:00,None,Austin,TX,Owner Surrender,Normal,Female,2017-11-23 17:52:00,3,0,17,True,Labrador Retriever,Mix,Brown,Black,Harley
+118,A826609,2020-12-02 11:06:00,6914 Shannon Drive,Austin,TX,Stray,Normal,Male,2019-12-02 11:06:00,1,0,9,False,German Shepherd,None,Black,Brown,Billy
+119,A826611,2020-12-02 11:06:00,6914 Shannon Drive,Austin,TX,Stray,Normal,Male,2019-12-02 11:06:00,1,0,9,True,Border Collie,German Shepherd,Black,Brown,Bobby
+120,A826814,2020-12-07 11:47:00,None,Austin,TX,Owner Surrender,Normal,Female,2020-10-07 11:47:00,0,2,4,False,Labrador Retriever,None,Brown Brindle,White,None
+121,A826819,2020-12-07 11:47:00,None,Austin,TX,Owner Surrender,Normal,Female,2020-05-07 11:47:00,0,7,4,False,Labrador Retriever,None,Brown Brindle,None,None
+122,A826640,2020-12-02 18:20:00,11846 Jollyville Road,Austin,TX,Stray,Normal,Female,2018-12-02 18:20:00,2,0,8,True,Pit Bull,Mix,White,Brown,Marki
+123,A826815,2020-12-07 11:47:00,None,Austin,TX,Owner Surrender,Normal,Female,2020-10-07 11:47:00,0,2,4,False,Labrador Retriever,None,Brown,White,None
+124,A826615,2020-12-02 12:23:00,None,Austin,TX,Owner Surrender,Normal,Female,2019-12-02 12:23:00,1,0,9,True,German Shepherd,Mix,Tan,White,Darlin
+125,A826619,2020-12-02 13:13:00,1805 Scofield Drive,Austin,TX,Stray,Normal,Female,2018-12-02 13:13:00,2,0,9,True,Pit Bull,Mix,White,Brown Brindle,Brandy
+126,A799813,2019-07-12 11:28:00,5403 Stuart Circle,Austin,TX,Stray,Injured,Female,2018-07-12 11:28:00,2,4,29,False,Chihuahua Shorthair,None,Brown,Black,Brandi
+127,A826618,2020-12-02 13:13:00,1805 Scofield Drive,Austin,TX,Stray,Normal,Female,2018-12-02 13:13:00,2,0,9,False,Pit Bull,None,Brown,None,Winnie
+128,A826816,2020-12-07 11:47:00,None,Austin,TX,Owner Surrender,Normal,Male,2020-10-07 11:47:00,0,2,4,False,Labrador Retriever,None,Brown,White,None
+129,A825792,2020-11-12 15:12:00,None,Austin,TX,Owner Surrender,Nursing,Female,2020-11-06 15:12:00,0,1,5,False,Chihuahua Shorthair,None,Brown,White,Sesame
+130,A825789,2020-11-12 15:12:00,None,Austin,TX,Owner Surrender,Nursing,Male,2020-11-06 15:12:00,0,1,5,True,Chihuahua Shorthair,Mix,Brown,White,Randy
+131,A825790,2020-11-12 15:12:00,None,Austin,TX,Owner Surrender,Nursing,Female,2020-11-06 15:12:00,0,1,5,True,Chihuahua Shorthair,Mix,Tan,None,Wolfie
+132,A826811,2020-12-07 11:35:00,8506 Evelyn Road,Travis,TX,Stray,Normal,Female,2018-12-07 11:35:00,2,0,4,False,Chihuahua Shorthair,None,Black,Tan,None
+133,A825791,2020-11-12 15:12:00,None,Austin,TX,Owner Surrender,Nursing,Male,2020-11-06 15:12:00,0,1,5,True,Chihuahua Shorthair,Mix,Brown,White,Soda-Pop
+134,A788075,2019-01-25 18:13:00,Mary And 5Th St,Austin,TX,Stray,Normal,Male,2015-01-25 18:13:00,5,10,15,True,Chihuahua Shorthair,Dachshund,Brown,Red,Pickles
+135,A826321,2020-11-24 14:40:00,14501 Reynero Lane,Travis,TX,Stray,Normal,Male,2019-11-24 14:40:00,1,0,17,False,German Shepherd,None,Brown,Black,Sammy
+136,A826359,2020-11-25 13:25:00,5609 Samuel Huston Avenue,Austin,TX,Abandoned,Normal,Male,2018-11-25 13:25:00,2,0,16,False,Shih Tzu,None,Black,White,Chip
+137,A826801,2020-12-07 09:54:00,600 Wood Street,Austin,TX,Public Assist,Normal,Male,2020-11-07 09:54:00,0,1,4,False,German Shorthair Pointer,None,Chocolate,White,None
+138,A826800,2020-12-07 08:14:00,4434 Frontier Trail,Austin,TX,Owner Surrender,Sick,Female,2020-10-07 08:14:00,0,2,4,False,Maltese,None,Black,White,Lola
+139,A826799,2020-12-07 08:00:00,4434 Frontier Trail,Austin,TX,Owner Surrender,Injured,Male,2009-12-07 08:00:00,11,0,4,False,Pug,None,Black,White,Chanchito
+140,A826787,2020-12-06 12:14:00,Anahuac Trail And Brandt Road,Austin,TX,Stray,Injured,Female,2020-07-06 12:14:00,0,5,5,False,Labrador Retriever,None,Black,Black,None
+141,A826641,2020-12-02 16:19:00,9704 Carson Creek Boulevard,Austin,TX,Stray,Normal,Male,2019-12-02 16:19:00,1,0,9,True,Labrador Retriever,Border Collie,Black,White,Whirlaway
+142,A826786,2020-12-06 12:14:00,Anahuac Trail And Brandt Road,Austin,TX,Stray,Injured,Female,2020-07-06 12:14:00,0,5,5,False,Labrador Retriever,None,Black,Black,None
+143,A826608,2020-12-02 11:03:00,10001 Burleson Road,Travis,TX,Stray,Nursing,Female,2018-12-02 11:03:00,2,0,9,False,Pit Bull,None,Tan,None,Dumplin
+144,A826536,2020-12-01 09:49:00,Montopolis Drive And Bastrop Highway,Austin,TX,Stray,Normal,Male,2019-12-01 09:49:00,1,0,10,False,German Shepherd,None,Black,Brown,Hayes
+145,A826398,2020-11-26 09:37:00,4434 Frontier Trail,Austin,TX,Public Assist,Sick,Male,2020-10-29 09:37:00,0,1,12,True,Jack Russell Terrier,Dachshund,White,Red,Max
+146,A826403,2020-11-26 17:13:00,6603 North Ih 35,Austin,TX,Owner Surrender,Normal,Male,2019-11-26 17:13:00,1,0,14,False,Pointer,None,White,Brown,Baby Boots
+147,A826770,2020-12-05 16:37:00,8107 Manassas,Austin,TX,Stray,Injured,Female,2010-12-05 16:37:00,10,0,6,False,Lhasa Apso,None,White,White,Lexi
+148,A826779,2020-12-06 08:10:00,4434 Frontier Trail,Austin,TX,Stray,Sick,Male,2020-07-06 08:10:00,0,5,5,False,Catahoula,None,Blue Merle,White,None
+149,A784710,2020-11-19 15:05:00,None,Austin,TX,Owner Surrender,Normal,Male,2018-11-19 15:05:00,2,0,22,False,Labrador Retriever,None,Black,White,Maximus
+150,A784710,2018-11-19 12:20:00,2801 Palomino Trail,Austin,TX,Stray,Normal,Male,2018-10-19 12:20:00,2,1,22,False,Labrador Retriever,None,Black,White,Maximus
+151,A822473,2020-12-05 16:04:00,Macmora And Jordan,Austin,TX,Stray,Normal,Male,2015-12-05 16:04:00,5,0,6,False,Pit Bull,None,Blue Cream,White,Blue
+152,A784710,2020-12-02 12:15:00,None,Austin,TX,Owner Surrender,Normal,Male,2018-12-02 12:15:00,2,0,9,False,Labrador Retriever,None,Black,White,Maximus
+153,A826762,2020-12-05 15:23:00,5516 Icon Street,Austin,TX,Stray,Normal,Male,2019-12-05 15:23:00,1,0,6,True,Pit Bull,Catahoula,Brown Brindle,White,None
+154,A826472,2020-11-29 15:32:00,8500 East Highway 290,Austin,TX,Stray,Normal,Female,2018-11-29 15:32:00,2,0,12,False,Pit Bull,None,Black,None,Electra
+155,A826586,2020-12-01 16:45:00,5509 South Hearsey Drive,Austin,TX,Stray,Normal,Female,2018-12-01 16:45:00,2,0,10,True,German Shepherd,Alaskan Husky,White,Brown,Prancer
+156,A826753,2020-12-05 12:22:00,9345 East Us 290,Austin,TX,Stray,Normal,Male,2020-06-05 12:22:00,0,6,6,False,Pit Bull,None,Brown Brindle,White,Tyson
+157,A826754,2020-12-05 12:22:00,9345 East Us 290,Austin,TX,Stray,Normal,Female,2020-06-05 12:22:00,0,6,6,False,Pit Bull,None,Blue,White,Finesse
+158,A676663,2020-12-05 10:40:00,6212 Crow Lane,Austin,TX,Public Assist,Normal,Male,2011-12-05 10:40:00,9,0,6,True,Chihuahua Shorthair,Mix,Black,White,Fred
+159,A826750,2020-12-05 09:59:00,2708 Aftonshire Way,Austin,TX,Owner Surrender,Normal,Female,2015-12-05 09:59:00,5,0,6,False,Pit Bull,None,Black,White,Ava
+160,A826747,2020-12-05 07:45:00,None,Austin,TX,Owner Surrender,Sick,Female,2018-12-05 07:45:00,2,0,6,False,Yorkshire Terrier,None,Brown,Black,Nellie
+161,A826341,2020-11-25 07:16:00,Darrin Lane And Apperson Street,Travis,TX,Stray,Injured,Female,2019-11-25 07:16:00,1,0,16,False,Australian Cattle Dog,None,Red Tick,White,Wynonna
+162,A826741,2020-12-04 17:40:00,9000 South 183,Austin,TX,Stray,Normal,Female,2020-06-04 17:40:00,0,6,6,False,Basset Hound,None,Tricolor,None,None
+163,A826740,2020-12-04 17:40:00,9000 South 183,Austin,TX,Stray,Normal,Male,2019-12-04 17:40:00,1,0,6,False,Basset Hound,None,Tricolor,None,None
+164,A826628,2020-12-02 15:19:00,907 Thompson Lane,Austin,TX,Stray,Normal,Female,2018-12-02 15:19:00,2,0,9,False,Chihuahua Shorthair,None,Tricolor,White,None
+165,A826305,2020-11-24 08:02:00,12212 Brigadoon Lane,Austin,TX,Public Assist,Normal,Male,2018-11-24 08:02:00,2,0,17,True,Pit Bull,Mix,White,Black,Chuck
+166,A826736,2020-12-04 17:06:00,None,Austin,TX,Owner Surrender,Normal,Male,2015-12-04 17:06:00,5,0,6,False,French Bulldog,None,Fawn,None,Farquad
+167,A761479,2020-12-04 17:19:00,None,Austin,TX,Owner Surrender,Normal,Female,2017-12-04 17:19:00,3,0,6,True,Doberman Pinsch,Mix,Black,Brown,Baby Girl
+168,A826727,2020-12-04 14:45:00,None,Austin,TX,Owner Surrender,Normal,Male,2018-12-04 14:45:00,2,0,7,True,American Bulldog,Mix,Brown,White,Big Mac
+169,A826352,2020-12-04 16:42:00,None,Travis,TX,Public Assist,Normal,Male,2018-12-04 16:42:00,2,0,7,False,Beagle,None,Tricolor,None,Otto
+170,A826728,2020-12-04 14:45:00,None,Austin,TX,Owner Surrender,Normal,Female,2015-12-04 14:45:00,5,0,7,True,Labrador Retriever,Mix,Tan,White,Mama Dog
+171,A826733,2020-12-04 16:03:00,None,Austin,TX,Owner Surrender,Normal,Female,2012-12-04 16:03:00,8,0,7,True,German Shepherd,Mix,Brown,None,Baby
+172,A826729,2020-12-04 14:45:00,None,Austin,TX,Owner Surrender,Normal,Female,2019-12-04 14:45:00,1,0,7,True,Labrador Retriever,Mix,Tan,White,Goldie
+173,A815227,2020-03-12 13:52:00,12305 Zeller Lane,Austin,TX,Stray,Normal,Female,2020-02-12 13:52:00,0,9,29,False,Norfolk Terrier,None,Brown,Cream,Baby
+174,A826461,2020-11-29 11:39:00,5812 Arbor Pavillion,Austin,TX,Stray,Injured,Female,2010-11-29 11:39:00,10,0,12,True,Maltese,Mix,White,None,Lily
+175,A826692,2020-12-03 15:51:00,None,Austin,TX,Owner Surrender,Normal,Male,2018-12-03 15:51:00,2,0,8,False,French Bulldog,None,Tricolor,None,Morty
+176,A826422,2020-11-28 07:39:00,None,Austin,TX,Stray,Normal,Male,2010-11-28 07:39:00,10,0,13,False,Labrador Retriever,None,Black,None,Nelson
+177,A826651,2020-12-02 20:19:00,8601 Anderson Mill Road,Austin,TX,Public Assist,Normal,Female,2020-10-02 20:19:00,0,2,8,True,Catahoula,Mix,Brown Merle,None,None
+178,A826672,2020-12-03 11:10:00,Eric Circle,Austin,TX,Stray,Nursing,Female,2020-11-30 11:10:00,0,0,11,False,Labrador Retriever,None,Black,White,265 Grams
+179,A826411,2020-11-27 12:14:00,6105 Pino Lane,Austin,TX,Stray,Sick,Female,2018-11-27 12:14:00,2,0,14,True,Great Pyrenees,Mix,White,None,Annie
+180,A826671,2020-12-03 11:10:00,Eric Circle,Austin,TX,Stray,Nursing,Female,2020-11-30 11:10:00,0,0,11,False,Labrador Retriever,None,Black,White,315 Grams
+181,A811025,2020-12-03 12:36:00,Outside Jurisdiction,None,None,Owner Surrender,Normal,Male,2019-12-03 12:36:00,1,0,8,True,Plott Hound,Mix,Brown Brindle,None,Buddy
+182,A826670,2020-12-03 11:10:00,Eric Circle,Austin,TX,Stray,Nursing,Male,2020-11-30 11:10:00,0,0,11,False,Labrador Retriever,None,Black,White,401 Grams
+183,A826482,2020-11-30 13:17:00,Oasis Drive And Richard King Trail,Austin,TX,Stray,Normal,Female,2020-06-30 13:17:00,0,5,11,True,Labrador Retriever,Mix,Tan,White,Chloe
+184,A825775,2020-11-12 11:26:00,None,Austin,TX,Owner Surrender,Normal,Female,2016-11-12 11:26:00,4,0,29,True,German Shepherd,Mix,Tan,White,Amy
+185,A826113,2020-11-19 13:14:00,None,Travis,TX,Owner Surrender,Normal,Male,2020-09-19 13:14:00,0,2,22,True,Great Pyrenees,Labrador Retriever,Black,White,Murphy
+186,A826673,2020-12-03 11:10:00,Eric Circle,Austin,TX,Stray,Nursing,Female,2020-11-30 11:10:00,0,0,11,False,Labrador Retriever,None,Black,White,266 Grams
+187,A826643,2020-12-02 16:23:00,None,Austin,TX,Owner Surrender,Normal,Male,2019-12-02 16:23:00,1,0,9,False,Pomeranian,None,Sable,None,Colt
+188,A826351,2020-11-25 10:39:00,2302 East William Cannon Drive,Austin,TX,Stray,Normal,Female,2018-11-25 10:39:00,2,0,16,True,Pit Bull,Mix,Tan,None,Sunny
+189,A826510,2020-11-30 12:00:00,None,Travis,TX,Owner Surrender,Normal,Male,2018-11-30 12:00:00,2,0,11,False,Labrador Retriever,None,Chocolate,White,Moko
+190,A826661,2020-12-03 10:06:00,5212 North Ih 35,Austin,TX,Public Assist,Normal,Male,2019-12-03 10:06:00,1,0,8,True,Labrador Retriever,Mix,Red,White,Ace
+191,A826652,2020-12-03 07:36:00,None,Austin,TX,Owner Surrender,Sick,Male,2020-11-03 07:36:00,0,1,8,False,Chihuahua Longhair,None,Brown,Black,Duki
+192,A826642,2020-12-02 16:19:00,9704 Carson Creek Boulevard,Austin,TX,Stray,Normal,Male,2020-10-02 16:19:00,0,2,9,True,Australian Cattle Dog,Labrador Retriever,Tricolor,Black,None
+193,A826450,2020-11-28 15:21:00,8708 Linden Road,Travis,TX,Stray,Injured,Male,2018-11-28 15:21:00,2,0,13,False,Labrador Retriever,None,Chocolate,None,Kirby
+194,A826579,2020-12-01 16:31:00,None,Austin,TX,Owner Surrender,Normal,Male,2019-12-01 16:31:00,1,0,10,True,Labrador Retriever,Whippet,Tan,White,Spike
+195,A826602,2020-12-02 09:55:00,3000 Rogge Lane,Austin,TX,Stray,Sick,Female,2010-12-02 09:55:00,10,0,9,False,Labrador Retriever,None,Brown,White,Xena
+196,A826646,2020-12-02 17:03:00,7808 Linden Road,Travis,TX,Stray,Sick,Female,2020-07-02 17:03:00,0,5,9,False,Yorkshire Terrier,None,Black,White,None
+197,A813055,2020-12-02 16:01:00,Outside Jurisdiction,None,None,Owner Surrender,Normal,Male,2018-12-02 16:01:00,2,0,9,True,German Shepherd,Mix,Tan,Black,Rocko
+198,A826428,2020-11-28 10:53:00,Intertate 35 And Crown Colony Drive,Austin,TX,Stray,Normal,Male,2018-11-28 10:53:00,2,0,13,False,Pit Bull,None,Gray,White,Wiggles
+199,A826639,2020-12-02 15:49:00,None,Austin,TX,Owner Surrender,Normal,Male,2019-12-02 15:49:00,1,0,9,False,German Shepherd,None,Brown,Black,T-Rex
+200,A804783,2020-02-23 15:49:00,None,Austin,TX,Public Assist,Normal,Male,2019-02-23 15:49:00,1,9,18,True,Pit Bull,Labrador Retriever,White,Black,Rocko
+201,A804783,2020-03-26 15:29:00,None,Austin,TX,Public Assist,Normal,Male,2019-03-26 15:29:00,1,8,15,True,Pit Bull,Labrador Retriever,White,Black,Rocko
+202,A804783,2019-09-19 17:00:00,None,Austin,TX,Public Assist,Normal,Male,2018-12-19 17:00:00,1,11,22,True,Pit Bull,Labrador Retriever,White,Black,Rocko
+203,A646990,2020-12-02 15:22:00,5500 Icon Street,Austin,TX,Stray,Normal,Male,2012-12-02 15:22:00,8,0,9,True,Pit Bull,Mix,Chocolate,White,King
+204,A826452,2020-11-28 16:17:00,1804 Smith Road,Austin,TX,Stray,Normal,Male,2019-11-28 16:17:00,1,0,13,False,German Shepherd,None,Brown,None,Hiccup
+205,A826625,2020-12-02 14:34:00,Lexington Meadow Lane,Austin,TX,Stray,Normal,Female,2018-12-02 14:34:00,2,0,9,False,Siberian Husky,None,Tan,None,None
+206,A712868,2020-12-02 14:12:00,None,Austin,TX,Owner Surrender,Normal,Male,2013-12-02 14:12:00,7,0,9,False,Chihuahua Shorthair,None,Sable,White,Joey
+207,A826367,2020-11-25 12:59:00,12301 Yarmont Way,Austin,TX,Stray,Normal,Male,2018-11-25 12:59:00,2,0,16,False,American Bulldog,None,White,Tan, B.G. (Big Guy)
+208,A712868,2015-09-29 12:42:00,10015 Lake Creek Pkwy,Austin,TX,Stray,Normal,Male,2013-09-29 12:42:00,7,2,12,False,Chihuahua Shorthair,None,Sable,White,Joey
+209,A826350,2020-11-25 10:39:00,2302 East William Cannon Drive,Austin,TX,Stray,Normal,Male,2018-11-25 10:39:00,2,0,16,True,Boxer,Mix,Brown,White,Howdy
+210,A826617,2020-12-02 13:08:00,None,Austin,TX,Owner Surrender,Sick,Female,2013-12-02 13:08:00,7,0,9,False,Cocker Spaniel,None,Tricolor,None,Miranda
+211,A826044,2020-11-18 11:43:00,None,Travis,TX,Owner Surrender,Normal,Male,2020-10-28 11:43:00,0,1,13,True,Chihuahua Shorthair,Mix,Black,None,Pip
+212,A826043,2020-11-18 11:43:00,None,Travis,TX,Owner Surrender,Normal,Male,2020-10-28 11:43:00,0,1,13,True,Chihuahua Shorthair,Mix,Chocolate,None,Pac
+213,A826614,2020-12-02 12:05:00,None,Austin,TX,Owner Surrender,Sick,Female,2017-12-02 12:05:00,3,0,9,False,Cavalier Span,None,White,Brown,Butterscotch
+214,A826437,2020-11-28 11:28:00,123 Farm Road 812,Travis,TX,Stray,Normal,Male,2020-01-28 11:28:00,0,10,13,False,German Shepherd,None,Tricolor,None,None
+215,A826591,2020-12-01 17:24:00,15001 Wells Port,Travis,TX,Stray,Normal,Male,2018-12-01 17:24:00,2,0,9,True,Pit Bull,Mix,Tan,White,Bobo
+216,A826610,2020-12-02 10:54:00,None,Travis,TX,Owner Surrender,Normal,Female,2020-06-02 10:54:00,0,6,9,False,Pit Bull,None,Brown,None,Cici
+217,A826613,2020-12-02 10:54:00,None,Austin,TX,Owner Surrender,Normal,Male,2019-12-02 10:54:00,1,0,9,True,Pointer,Boxer,Black,White,Chief
+218,A786218,2020-07-14 16:08:00,15000 Chamberlain Court,Travis,TX,Stray,Normal,Male,2019-07-14 16:08:00,1,4,27,True,German Shepherd,Mix,Tan,Black,Jace
+219,A786218,2020-10-18 20:30:00,14011 Fm 969,Travis,TX,Public Assist,Normal,Male,2018-10-18 20:30:00,2,1,22,True,German Shepherd,Mix,Tan,Black,Jace
+220,A786218,2018-12-19 14:45:00,Duval Street And East 45Th Street,Austin,TX,Stray,Normal,Male,2018-08-19 14:45:00,2,3,22,True,German Shepherd,Mix,Tan,Black,Jace
+221,A826229,2020-11-22 17:51:00,Tx 45 And Fm 1625,Travis,TX,Stray,Normal,Male,2017-11-22 17:51:00,3,0,18,True,Landseer,Great Pyrenees,Black,White,Oreo
+222,A825701,2020-11-09 18:30:00,6517 River Road,Travis,TX,Owner Surrender,Normal,Male,2017-11-09 18:30:00,3,1,1,False,German Shepherd,None,White,Black,Carter
+223,A826596,2020-12-02 00:13:00,4301 Grand Avenue Parkway,Travis,TX,Public Assist,Other,Female,2019-12-02 00:13:00,1,0,9,False,Boxer,None,Brown,White,None
+224,A802180,2019-08-15 01:54:00,14002 Rock Cliff Drive,Travis,TX,Stray,Normal,Female,2016-08-15 01:54:00,4,3,26,True,Labrador Retriever,Mix,White,Tan,Virginia Lynn
+225,A826575,2020-12-01 16:00:00,10610 Morado Circle,Austin,TX,Public Assist,Normal,Unknown,2018-12-01 16:00:00,2,0,10,True,Cairn Terrier,Mix,Black,None,None
+226,A678068,2020-12-01 16:00:00,10610 Morado Circle,Austin,TX,Public Assist,Normal,Male,2012-12-01 16:00:00,8,0,10,True,Cairn Terrier,Mix,Brown,None,None
+227,A767759,2020-12-01 15:44:00,Springdale Drive And Delores Avenue,Austin,TX,Stray,Normal,Male,2016-12-01 15:44:00,4,0,10,True,Labrador Retriever,Mix,Black,None,Rodeo
+228,A826594,2020-12-01 20:58:00,6203 Adalee,Austin,TX,Stray,Normal,Male,2020-04-01 20:58:00,0,8,9,True,Cairn Terrier,Mix,Black,None,None
+229,A826357,2020-11-25 11:18:00,1100 Garland Avenue,Austin,TX,Stray,Normal,Male,2019-11-25 11:18:00,1,0,16,False,Labrador Retriever,None,White,None,Texas
+230,A767759,2018-03-06 13:00:00,1203 Springdale Road,Austin,TX,Stray,Normal,Male,2016-03-06 13:00:00,4,9,5,True,Labrador Retriever,Mix,Black,None,Rodeo
+231,A826166,2020-12-01 16:49:00,None,Austin,TX,Owner Surrender,Normal,Female,2018-12-01 16:49:00,2,0,10,False,German Shepherd,None,Black,Brown,Ophelia
+232,A784105,2020-12-01 16:51:00,7105 Gunnison Pass,Austin,TX,Stray,Medical,Male,2018-12-01 16:51:00,2,0,10,True,American Pit Bull Terrier,German Shorthair Pointer,Liver Tick,None,Frankie
+233,A796681,2019-06-04 12:02:00,14815 Johnson Road Trl,Manor,TX,Stray,Normal,Male,2019-05-04 12:02:00,1,7,7,False,Rat Terrier,None,Black,None,Pablo
+234,A784105,2020-11-23 13:20:00,5903 Coolbrook Drive,Austin,TX,Stray,Normal,Male,2018-11-23 13:20:00,2,0,18,True,American Pit Bull Terrier,German Shorthair Pointer,Liver Tick,None,Frankie
+235,A826453,2020-11-26 00:00:00,500 West William Cannon Drive,Austin,TX,Public Assist,Normal,Female,2003-11-26 00:00:00,17,0,15,True,Chihuahua Shorthair,Mix,Gray,White,Precious
+236,A826372,2020-11-25 14:40:00,8601 Anderson Mill Road,Austin,TX,Stray,Normal,Female,2018-11-25 14:40:00,2,0,16,True,Labrador Retriever,Mix,Yellow,None,Reba
+237,A826562,2020-12-01 14:11:00,Sauls Drive,Austin,TX,Abandoned,Normal,Male,2016-12-01 14:11:00,4,0,10,True,German Shepherd,Mix,Black,Tan,Diesel
+238,A826323,2020-11-24 14:40:00,14501 Reynero Lane,Travis,TX,Stray,Normal,Female,2019-11-24 14:40:00,1,0,17,False,Border Collie,None,White,Black,Patsy
+239,A825624,2020-11-07 18:58:00,2501 Magin Meadow Drive,Austin,TX,Stray,Normal,Male,2018-11-07 18:58:00,2,1,3,False,Labrador Retriever,None,Tan,White,Hambone
+240,A825495,2020-11-05 10:55:00,8102 Wolf Lane,Travis,TX,Stray,Normal,Male,2020-10-08 10:55:00,0,2,3,True,Labrador Retriever,German Shepherd,Brown,White,None
+241,A825494,2020-11-05 10:55:00,8102 Wolf Lane,Travis,TX,Stray,Normal,Male,2020-10-08 10:55:00,0,2,3,True,Labrador Retriever,German Shepherd,Brown,None,None
+242,A825491,2020-11-05 10:55:00,8102 Wolf Lane,Travis,TX,Stray,Normal,Male,2020-10-08 10:55:00,0,2,3,True,Labrador Retriever,Mix,Black,None,None
+243,A826387,2020-11-25 15:48:00,North Lamar And West Rundberg Lane,Austin,TX,Stray,Normal,Male,2020-06-25 15:48:00,0,5,16,True,Labrador Retriever,Mix,Black,None,Pokey
+244,A825493,2020-11-05 10:55:00,8102 Wolf Lane,Travis,TX,Stray,Normal,Male,2020-10-08 10:55:00,0,2,3,True,Labrador Retriever,German Shepherd,Brown,None,None
+245,A825490,2020-11-05 10:55:00,8102 Wolf Lane,Travis,TX,Stray,Normal,Female,2020-10-08 10:55:00,0,2,3,True,Labrador Retriever,Mix,Black,None,None
+246,A813731,2020-02-17 11:06:00,8201 N Lamar Boulevard,Austin,TX,Stray,Normal,Male,2018-02-17 11:06:00,2,9,24,False,Chihuahua Shorthair,None,Tan,White,Max
+247,A826333,2020-11-24 15:32:00,Loyola,Austin,TX,Stray,Nursing,Male,2020-10-24 15:32:00,0,1,17,True,Dachshund,Mix,Brown,White,None
+248,A826546,2020-12-01 11:45:00,1928 Gaston Place,Austin,TX,Stray,Normal,Female,2020-08-01 11:45:00,0,4,10,True,Black,Tan Hound,Black,Tricolor,None
+249,A826418,2020-11-27 16:50:00,Magin Meadow Drive,Austin,TX,Stray,Normal,Female,2018-11-27 16:50:00,2,0,14,True,American Bulldog,American Staffordshire Terrier,White,None,Dolly
+250,A826511,2020-11-30 12:32:00,5801 Ainez Drive,Austin,TX,Stray,Normal,Female,2018-11-30 12:32:00,2,0,11,False,Border Terrier,None,White,None,None
+251,A721943,2020-11-30 14:11:00,Ih 35,Austin,TX,Stray,Normal,Female,2015-11-30 14:11:00,5,0,11,True,German Shepherd,Mix,Black,Tan,Brunhilde
+252,A826535,2020-11-30 20:16:00,21646 Fm 1431,Travis,TX,Public Assist,Normal,Female,2010-11-30 20:16:00,10,0,10,True,Border Collie,Mix,Black,None,Maggie
+253,A826533,2020-11-30 18:00:00,Shropshire Boulevard And Dessau Road,Austin,TX,Stray,Normal,Male,2020-06-30 18:00:00,0,5,10,False,Chihuahua Shorthair,None,Brown,White,None
+254,A826116,2020-11-19 13:14:00,None,Travis,TX,Owner Surrender,Normal,Male,2020-09-19 13:14:00,0,2,22,True,Great Pyrenees,Labrador Retriever,Tan,None,Kona
+255,A825971,2020-11-16 21:11:00,12825 Basket Flower,Travis,TX,Stray,Normal,Female,2018-11-16 21:11:00,2,0,24,False,Pit Bull,None,Brown,White,Mia
+256,A826419,2020-11-27 17:43:00,13776 South 183 Highway,Austin,TX,Stray,Injured,Female,2013-11-27 17:43:00,7,0,13,False,Chihuahua Shorthair,None,Brown,None,None
+257,A826518,2020-11-30 14:04:00,1117 Echo Lane,Austin,TX,Stray,Sick,Female,2014-11-30 14:04:00,6,0,11,False,Miniature Poodle,None,Brown,Gray,None
+258,A826214,2020-11-22 11:34:00,None,Austin,TX,Stray,Normal,Female,2019-11-22 11:34:00,1,0,19,True,German Wirehaired Pointer,Mix,Tricolor,None,Pilot
+259,A826529,2020-11-30 16:34:00,None,Travis,TX,Owner Surrender,Normal,Female,2019-11-30 16:34:00,1,0,11,False,Pit Bull,None,Black,White,Diamond
+260,A826512,2020-11-30 12:44:00,East Braker Lane And Joseph Clayton Drive,Austin,TX,Stray,Normal,Male,2018-11-30 12:44:00,2,0,11,True,Chihuahua Shorthair,Mix,Red,White,None
+261,A826530,2020-11-30 16:34:00,None,Travis,TX,Owner Surrender,Normal,Female,2019-11-30 16:34:00,1,0,11,False,Pit Bull,None,Brown,White,Sugar
+262,A826162,2020-11-20 13:31:00,10908 Jones Road,Manor,TX,Stray,Normal,Female,2019-11-20 13:31:00,1,0,21,False,Pit Bull,None,Blue,White,Stella (Luna)
+263,A823060,2020-09-15 13:42:00,137 West St Elmo Road,Austin,TX,Stray,Normal,Male,2018-09-15 13:42:00,2,2,26,False,Boxer,None,Brown Brindle,White,Tater
+264,A823060,2020-10-13 12:01:00,9801 Curlew Dr,Austin,TX,Stray,Injured,Male,2018-10-13 12:01:00,2,1,28,False,Boxer,None,Brown Brindle,White,Tater
+265,A685529,2016-07-13 11:45:00,None,Austin,TX,Public Assist,Normal,Male,2009-07-13 11:45:00,11,4,28,True,Chinese Sharpei,Mix,Brown Brindle,None,Murphy
+266,A826313,2020-11-24 11:25:00,2930 Ellon Road,Travis,TX,Stray,Normal,Male,2017-11-24 11:25:00,3,0,17,True,Labrador Retriever,German Shepherd,Black,Brown,Yee Haw
+267,A821631,2020-10-29 17:04:00,North Oaks Drive And Berrywood Drive,Austin,TX,Stray,Normal,Male,2017-10-29 17:04:00,3,1,12,True,Basset Hound,Cardigan Welsh Corgi,Black,Brown,Gino
+268,A826241,2020-11-23 10:36:00,6933 Thistle Way,Austin,TX,Stray,Normal,Male,2018-11-23 10:36:00,2,0,18,False,American Pit Bull Terrier,None,Tan,White,Spurs
+269,A826366,2020-11-25 12:12:00,5700 Blue Bluff,Austin,TX,Stray,Normal,Female,2019-11-25 12:12:00,1,0,16,True,German Shepherd,Siberian Husky,Tan,Black,Miss Kitty
+270,A821631,2020-08-15 09:06:00,11441 North Interstate Highway 35,Austin,TX,Stray,Normal,Male,2018-08-15 09:06:00,2,3,26,True,Basset Hound,Cardigan Welsh Corgi,Black,Brown,Gino
+271,A826500,2020-11-30 09:53:00,4419 Dovemeadow Drive,Austin,TX,Stray,Nursing,Female,2018-11-30 09:53:00,2,0,11,True,Norfolk Terrier,Chihuahua Shorthair,Brown,White,None
+272,A826499,2020-11-30 09:53:00,4419 Dovemeadow Drive,Austin,TX,Stray,Nursing,Female,2020-10-30 09:53:00,0,1,11,True,Jack Russell Terrier,Chihuahua Shorthair,Brown,None,None
+273,A826494,2020-11-30 09:53:00,4419 Dovemeadow Drive,Austin,TX,Stray,Nursing,Female,2020-10-30 09:53:00,0,1,11,True,Jack Russell Terrier,Chihuahua Shorthair,Tan,White,None
+274,A826498,2020-11-30 09:53:00,4419 Dovemeadow Drive,Austin,TX,Stray,Nursing,Female,2020-10-30 09:53:00,0,1,11,True,Jack Russell Terrier,Chihuahua Shorthair,Brown,White,None
+275,A826495,2020-11-30 09:53:00,4419 Dovemeadow Drive,Austin,TX,Stray,Nursing,Male,2020-10-30 09:53:00,0,1,11,True,Jack Russell Terrier,Chihuahua Shorthair,Tan,Black,None
+276,A826496,2020-11-30 09:53:00,4419 Dovemeadow Drive,Austin,TX,Stray,Nursing,Male,2020-10-30 09:53:00,0,1,11,True,Jack Russell Terrier,Chihuahua Shorthair,Brown,None,None
+277,A826497,2020-11-30 09:53:00,4419 Dovemeadow Drive,Austin,TX,Stray,Nursing,Male,2020-10-30 09:53:00,0,1,11,True,Jack Russell Terrier,Chihuahua Shorthair,Tan,White,None
+278,A826493,2020-11-30 09:53:00,4419 Dovemeadow Drive,Austin,TX,Stray,Nursing,Male,2020-10-30 09:53:00,0,1,11,True,Jack Russell Terrier,Chihuahua Shorthair,Tricolor,None,None
+279,A826382,2020-11-25 15:13:00,1009 Edgecliff Terrace,Austin,TX,Stray,Normal,Male,2018-11-25 15:13:00,2,0,16,False,German Shepherd,None,Brown,Black,Rocky
+280,A826504,2020-11-30 10:21:00,None,Travis,TX,Owner Surrender,Normal,Male,2010-11-30 10:21:00,10,0,11,False,Lhasa Apso,None,Black,None,Button
+281,A826209,2020-11-22 08:21:00,4701 South Ih 35,Austin,TX,Stray,Injured,Female,2018-11-22 08:21:00,2,0,19,False,Tibetan Spaniel,None,Tricolor,None,Cindy Lou
+282,A826360,2020-11-25 11:34:00,5002 Spruce Lane,Austin,TX,Stray,Normal,Male,2020-05-25 11:34:00,0,6,16,True,Australian Cattle Dog,Mix,Blue Tick,Tricolor,None
+283,A826447,2020-11-28 15:49:00,7912 Running Water Drive,Austin,TX,Public Assist,Normal,Male,2018-11-28 15:49:00,2,0,13,True,German Shepherd,Siberian Husky,Black,Tricolor,Quinn
+284,A826474,2020-11-29 16:36:00,4719 Harmon Avenue,Austin,TX,Stray,Sick,Male,2020-10-29 16:36:00,0,1,12,True,American Pit Bull Terrier,Mix,Black,White,None
+285,A826440,2020-11-28 12:04:00,1200 Bonnie Brae Street,Austin,TX,Stray,Normal,Female,2020-06-28 12:04:00,0,5,13,False,Chihuahua Shorthair,None,Tan,None,None
+286,A811263,2020-11-29 15:07:00,Ih 35 And Howard Lane,Austin,TX,Stray,Normal,Male,2019-11-29 15:07:00,1,0,12,False,Pit Bull,None,White,Black,Scout
+287,A826395,2020-11-26 09:51:00,320 North Ih 35 Service Road South,Austin,TX,Public Assist,Injured,Male,2017-11-26 09:51:00,3,0,15,True,Pit Bull,Mix,Tan,None,Max
+288,A826396,2020-11-26 09:23:00,West Parmer Lane And Metric Boulevard,Austin,TX,Stray,Normal,Male,2019-11-26 09:23:00,1,0,15,False,German Shepherd,None,Black,None,Ruger
+289,A822885,2020-11-27 10:31:00,North Lamar And Highway 183 Service Road,Austin,TX,Stray,Normal,Male,2014-11-27 10:31:00,6,0,14,False,Pit Bull,None,Blue Tiger,None,Scrappy
+290,A826404,2020-11-26 17:13:00,6603 North Ih 35,Austin,TX,Owner Surrender,Normal,Female,2019-11-26 17:13:00,1,0,14,False,Pointer,None,White,Black,Cookie
+291,A826399,2020-11-26 11:26:00,3603 Southridge Drive,Austin,TX,Public Assist,Normal,Male,2020-08-26 11:26:00,0,3,15,True,Labrador Retriever,Mix,Black,White,None
+292,A826386,2020-11-25 15:48:00,North Lamar And West Rundberg Lane,Austin,TX,Stray,Normal,Male,2018-11-25 15:48:00,2,0,16,True,Australian Shepherd,Mix,Brown,White,None
+293,A826475,2020-11-29 17:42:00,Mankato Drive,Austin,TX,Owner Surrender,Normal,Male,2020-10-29 17:42:00,0,1,11,False,Great Pyrenees,None,Black,White,None
+294,A826227,2020-11-22 16:21:00,Burleson Road And Supply Court,Austin,TX,Stray,Normal,Male,2020-10-22 16:21:00,0,1,19,False,Australian Shepherd,None,White,Brown,Patches
+295,A825779,2020-11-12 12:58:00,6405 Del Monte,Austin,TX,Stray,Normal,Female,2010-11-12 12:58:00,10,0,29,False,Labrador Retriever,None,Black,None,Baby Girl
+296,A826195,2020-11-21 12:42:00,308 John Nance Garner Circle,Austin,TX,Stray,Normal,Male,2010-11-21 12:42:00,10,0,20,False,Beagle,None,Brown,None,Waylon
+297,A826259,2020-11-23 12:13:00,183 And Montopolis,Austin,TX,Stray,Normal,Male,2018-11-23 12:13:00,2,0,18,False,German Shepherd,None,Brown,Black,Agent 47
+298,A825081,2020-10-27 14:56:00,1801 Wells Branch Pkwy,Austin,TX,Stray,Nursing,Male,2020-10-26 14:56:00,0,1,15,True,Siberian Husky,Mix,Black,Tan,Brussels Sprout
+299,A825066,2020-11-15 16:07:00,None,Austin,TX,Owner Surrender,Normal,Female,2020-08-15 16:07:00,0,3,26,True,Pointer,Mix,Black,White,Cookie
+300,A825066,2020-10-27 13:22:00,5800 Techni Center Dr,Austin,TX,Public Assist,Injured,Female,2020-07-27 13:22:00,0,4,14,True,Pointer,Mix,Black,White,Cookie
+301,A826327,2020-11-28 14:34:00,None,Travis,TX,Public Assist,Normal,Female,2015-11-28 14:34:00,5,0,13,False,Labrador Retriever,None,Tan,None,Chikis
+302,A826154,2020-11-20 11:12:00,4604 South 1St,Austin,TX,Stray,Normal,Male,2020-10-23 11:12:00,0,1,18,True,Pit Bull,Mix,Chocolate,White,None
+303,A826250,2020-11-23 11:25:00,208 North Pace Bend,Travis,TX,Stray,Injured,Male,2018-11-23 11:25:00,2,0,18,False,German Shepherd,None,White,Brown,Strider
+304,A810805,2019-12-20 18:35:00,10001 Burleson Road,Austin,TX,Stray,Normal,Male,2017-12-20 18:35:00,2,11,20,True,Beagle,Mix,Tan,None,Buddy
+305,A826152,2020-11-20 11:12:00,4604 South 1St,Austin,TX,Stray,Normal,Male,2018-11-20 11:12:00,2,0,21,True,Labrador Retriever,Border Collie,Black,White,Wally
+306,A826276,2020-11-23 14:49:00,7203 Brodie Lane,Austin,TX,Stray,Normal,Male,2014-11-23 14:49:00,6,0,18,True,Boxer,Mix,White,Brown,Sport
+307,A826322,2020-11-24 14:40:00,14501 Reynero Lane,Travis,TX,Stray,Normal,Male,2018-11-24 14:40:00,2,0,17,False,German Shepherd,None,Brown,Black,Hopper
+308,A826354,2020-11-25 13:31:00,6209 Thurgood Avenue,Austin,TX,Owner Surrender,Behavior,Male,2020-04-25 13:31:00,0,7,16,True,Treeing Walker Coonhound,Mix,Tricolor,None,Kiko
+309,A825658,2020-11-23 11:53:00,2705 Northeast Drive,Austin,TX,Owner Surrender,Normal,Male,2019-11-23 11:53:00,1,0,18,True,Chihuahua Shorthair,Mix,Black,White,Squeaky
+310,A824438,2020-10-14 14:24:00,14946 Swiss Drive,Travis,TX,Stray,Sick,Female,2012-10-14 14:24:00,8,1,27,False,German Shepherd,None,Tan,Black,Rose
+311,A826166,2020-11-20 14:48:00,1433 Bradbury Lane,Austin,TX,Stray,Normal,Female,2018-11-20 14:48:00,2,0,21,False,German Shepherd,None,Black,Brown,Ophelia
+312,A826402,2020-11-26 14:56:00,4507 Aristocrat Drive,Austin,TX,Stray,Injured,Male,2018-11-26 14:56:00,2,0,15,True,Chihuahua Shorthair,Mix,Tricolor,None,None
+313,A826391,2020-11-25 17:15:00,Red Trails Drive And Hunters Bend,Austin,TX,Stray,Normal,Male,2019-11-25 17:15:00,1,0,15,True,Miniature Schnauzer,Mix,Black,None,None
+314,A826389,2020-11-25 17:15:00,Red Trails Drive And Hunters Bend,Austin,TX,Stray,Normal,Female,2019-11-25 17:15:00,1,0,15,True,Miniature Schnauzer,Mix,Black,None,None
+315,A825969,2020-11-16 18:26:00,1157 Salina Street,Austin,TX,Stray,Normal,Female,2015-11-16 18:26:00,5,0,24,True,Boxer,Mix,Brown,White,Janie
+316,A826388,2020-11-25 16:08:00,None,Austin,TX,Owner Surrender,Normal,Male,2018-11-25 16:08:00,2,0,16,False,Pit Bull,None,Fawn,White,Dart
+317,A826384,2020-11-25 15:38:00,13805 Briarcreek Loop,Travis,TX,Stray,Normal,Female,2017-11-25 15:38:00,3,0,16,False,Labrador Retriever,None,Chocolate,None,None
+318,A772728,2020-11-25 15:40:00,None,Austin,TX,Owner Surrender,Normal,Female,2015-11-25 15:40:00,5,0,16,True,Pit Bull,Mix,Blue,White,Luna
+319,A822648,2020-09-07 14:45:00,305 E Yager Ln,Austin,TX,Stray,Normal,Male,2018-09-07 14:45:00,2,3,4,False,Labrador Retriever,None,Brown,None,Julius
+320,A826311,2020-11-24 10:53:00,None,Austin,TX,Owner Surrender,Normal,Male,2017-11-24 10:53:00,3,0,17,True,Australian Kelpie,Mix,Brown,Black,Charlie
+321,A826371,2020-11-25 13:32:00,Palo Blanco,Austin,TX,Stray,Normal,Female,2017-11-25 13:32:00,3,0,16,False,Yorkshire Terrier,None,Tan,Black,None
+322,A826349,2020-11-25 10:39:00,2302 East William Cannon Drive,Austin,TX,Stray,Normal,Female,2018-11-25 10:39:00,2,0,16,False,Chihuahua Shorthair,None,Tan,None,None
+323,A826356,2020-11-25 11:12:00,5804 South Congress Avenue,Austin,TX,Stray,Nursing,Female,2015-11-25 11:12:00,5,0,16,False,German Shepherd,None,Black,Brown,None
+324,A826347,2020-11-25 09:48:00,Lindell Avenue And Barlett Street,Austin,TX,Stray,Normal,Male,2019-11-25 09:48:00,1,0,16,True,Pit Bull,Mix,White,Brown,None
+325,A807930,2020-11-25 13:19:00,Ponca And Vargas,Austin,TX,Stray,Normal,Male,2019-11-25 13:19:00,1,0,16,False,Pit Bull,None,Blue,White,Tobby
+326,A819304,2020-06-25 14:13:00,6901 Wentworth Dr,Austin,TX,Stray,Sick,Male,2018-06-25 14:13:00,2,5,16,True,Pointer,Mix,Black,White,Oslo
+327,A825712,2020-11-10 10:57:00,None,Austin,TX,Owner Surrender,Normal,Male,2018-11-10 10:57:00,2,1,1,True,Treeing Cur,Mix,Brown,White,Blu
+328,A825731,2020-11-10 14:14:00,11213 Metric Boulevard,Austin,TX,Owner Surrender,Normal,Male,2020-02-10 14:14:00,0,10,1,True,Rottweiler,Mix,Black,Tan,Higol
+329,A819304,2020-11-25 12:03:00,None,Austin,TX,Owner Surrender,Normal,Male,2018-11-25 12:03:00,2,0,16,True,Pointer,Mix,Black,White,Oslo
+330,A826337,2020-11-24 17:07:00,Nogales,Austin,TX,Stray,Normal,Female,2018-11-24 17:07:00,2,0,16,False,German Shepherd,None,Tan,Black,Nova
+331,A826332,2020-11-24 15:32:00,Loyola,Austin,TX,Stray,Nursing,Male,2020-10-24 15:32:00,0,1,17,True,Dachshund,Mix,White,Brown,None
+332,A826328,2020-11-24 15:32:00,Loyola,Austin,TX,Stray,Nursing,Female,2020-10-24 15:32:00,0,1,17,True,Dachshund,Mix,Brown,White,None
+333,A826324,2020-11-24 14:40:00,14501 Reynero Lane,Travis,TX,Stray,Normal,Female,2018-11-24 14:40:00,2,0,17,False,Australian Cattle Dog,None,White,Brown,None
+334,A826326,2020-11-24 14:40:00,14501 Reynero Lane,Travis,TX,Stray,Normal,Female,2020-01-24 14:40:00,0,10,17,False,Border Collie,None,White,Brown,None
+335,A825796,2020-11-12 15:28:00,7603 Oak Hedge Place,Austin,TX,Stray,Normal,Male,2018-11-12 15:28:00,2,0,29,True,Black Mouth Cur,Mix,Red,None,Axel
+336,A655155,2020-11-24 13:22:00,None,Austin,TX,Stray,Injured,Male,2010-11-24 13:22:00,10,0,17,True,Chihuahua Shorthair,Mix,Tan,White,Kiwi
+337,A815423,2020-03-15 15:01:00,None,Austin,TX,Owner Surrender,Normal,Male,2020-02-15 15:01:00,0,9,26,False,Chihuahua Shorthair,None,Tricolor,None,Buster
+338,A815424,2020-03-15 15:01:00,None,Austin,TX,Owner Surrender,Normal,Female,2020-02-15 15:01:00,0,9,26,False,Chihuahua Shorthair,None,Tricolor,None,Sky
+339,A821201,2020-11-24 13:19:00,None,Austin,TX,Owner Surrender,Normal,Male,2019-11-24 13:19:00,1,0,17,True,Smooth Fox Terrier,Mix,White,Blue Merle,Prince
+340,A826315,2020-11-24 11:58:00,8220 Research,Austin,TX,Stray,Normal,Female,2015-11-24 11:58:00,5,0,17,True,Plott Hound,Mix,Brown Brindle,White,Harper
+341,A824008,2020-11-24 12:43:00,None,Travis,TX,Owner Surrender,Normal,Male,2017-11-24 12:43:00,3,0,17,True,Border Collie,Mix,Red,White,Max
+342,A826168,2020-11-20 16:27:00,6301 West Slaughter Lane,Austin,TX,Abandoned,Normal,Female,2019-11-20 16:27:00,1,0,21,False,Siberian Husky,None,Brown,White,Yuna
+343,A826307,2020-11-24 09:54:00,None,Austin,TX,Owner Surrender,Normal,Female,2019-11-24 09:54:00,1,0,17,True,Beagle,Mix,Brown,White,Firefly
+344,A825895,2020-11-15 08:31:00,Old Lockhart And Elm Grove,Travis,TX,Stray,Injured,Male,2020-01-15 08:31:00,0,10,26,False,Great Pyrenees,None,White,None,Marty
+345,A825988,2020-11-17 12:22:00,Martin Luther King Jr And 183,Austin,TX,Stray,Sick,Female,2020-05-17 12:22:00,0,6,24,False,Great Pyrenees,None,White,None,Ruby
+346,A825915,2020-11-15 15:46:00,124 West Anderson Lane,Austin,TX,Stray,Normal,Male,2018-11-15 15:46:00,2,0,26,False,Pit Bull,None,Brown,Gray,Waluigi
+347,A826303,2020-11-24 07:45:00,Lamar And Bluestein,Austin,TX,Stray,Injured,Male,2018-11-24 07:45:00,2,0,17,True,Chihuahua Shorthair,Dachshund,Brown,None,None
+348,A826290,2020-11-23 16:33:00,7300 Daffan Lane,Austin,TX,Stray,Nursing,Male,2020-11-02 16:33:00,0,1,9,False,Labrador Retriever,None,Brown Brindle,White,None
+349,A826014,2020-11-17 16:01:00,4501 Depew Ave,Austin,TX,Stray,Normal,Male,2018-11-17 16:01:00,2,0,24,True,Pit Bull,Labrador Retriever,Black,None,Bartleby
+350,A825297,2020-11-01 10:14:00,10564 Becker Lane,Travis,TX,Stray,Sick,Female,2020-09-01 10:14:00,0,3,10,True,Australian Shepherd,Border Collie,White,Black,Taro
+351,A826285,2020-11-23 16:33:00,7300 Daffan Lane,Austin,TX,Stray,Nursing,Male,2020-11-02 16:33:00,0,1,9,False,Labrador Retriever,None,Tricolor,None,None
+352,A825297,2020-11-19 13:34:00,Outside Jurisdiction,None,None,Owner Surrender,Normal,Female,2020-09-19 13:34:00,0,2,22,True,Australian Shepherd,Border Collie,White,Black,Taro
+353,A826228,2020-11-22 17:51:00,Tx 45 And Fm 1625,Travis,TX,Stray,Normal,Male,2019-11-22 17:51:00,1,0,18,False,Great Pyrenees,None,White,None,Snowball
+354,A825694,2020-11-09 16:25:00,5105 Pepper Lane,Austin,TX,Stray,Sick,Male,2020-03-09 16:25:00,0,9,2,True,Australian Cattle Dog,Mix,White,Tan,Willikins
+355,A826248,2020-11-23 11:10:00,None,Austin,TX,Owner Surrender,Sick,Male,2020-11-09 11:10:00,0,1,2,True,German Shepherd,Mix,Tricolor,None,None
+356,A825925,2020-11-16 08:37:00,13601 Sea Biscuit Drive,Travis,TX,Owner Surrender,Normal,Female,2018-11-16 08:37:00,2,0,25,False,American Staffordshire Terrier,None,Gray,White,Bluebonnet
+357,A825744,2020-11-22 14:47:00,None,Pflugerville,TX,Owner Surrender,Normal,Male,2020-08-22 14:47:00,0,3,19,True,Pit Bull,Mix,Brown Brindle,White,Karwan
+358,A826244,2020-11-23 10:49:00,None,Travis,TX,Owner Surrender,Normal,Male,2020-01-23 10:49:00,0,10,18,False,Great Pyrenees,None,White,Brown,Ranger
+359,A825744,2020-11-10 18:05:00,10501 North Ih 35,Austin,TX,Stray,Normal,Male,2020-08-10 18:05:00,0,4,0,True,Pit Bull,Mix,Brown Brindle,White,Karwan
+360,A826205,2020-11-21 17:50:00,None,Austin,TX,Owner Surrender,Aged,Female,2010-11-21 17:50:00,10,0,19,False,Chihuahua Longhair,None,Brown Brindle,None,Cookie
+361,A825963,2020-11-16 17:07:00,Warrington Drive And Applegate,Austin,TX,Stray,Normal,Male,2019-11-16 17:07:00,1,0,24,False,Chihuahua Shorthair,None,Tricolor,None,Bashi
+362,A826216,2020-11-22 11:47:00,Watson And Morrow Street,Austin,TX,Stray,Normal,Female,2017-11-22 11:47:00,3,0,19,True,Staffordshire,Mix,Black,None,Athena
+363,A826230,2020-11-22 20:08:00,5300 Jimmy Clay Dr,Austin,TX,Stray,Normal,Male,2020-09-22 20:08:00,0,2,18,True,English Springer Spaniel,Mix,Tan,None,None
+364,A826201,2020-11-21 14:56:00,7605 Crystalbrook Cove,Austin,TX,Stray,Normal,Female,2019-11-21 14:56:00,1,0,20,False,Chihuahua Shorthair,None,Brown,None,Weda
+365,A826194,2020-11-21 12:34:00,4507 Felicity Lane,Austin,TX,Stray,Injured,Male,2018-11-21 12:34:00,2,0,20,False,Chihuahua Shorthair,None,Brown,None,None
+366,A826141,2020-11-20 08:17:00,Stassney Lane And Palo Blanco,Austin,TX,Stray,Injured,Male,2018-11-20 08:17:00,2,0,21,True,Pit Bull,Mix,Brown,White,None
+367,A826163,2020-11-20 13:19:00,9007 Hobby Lane,Jonestown,TX,Owner Surrender,Normal,Male,2014-11-20 13:19:00,6,0,21,True,Catahoula,Mix,Brown,White,Pancho Villa
+368,A826180,2020-11-21 15:47:00,3004 Kenner Drive,Austin,TX,Owner Surrender,Normal,Male,2017-11-21 15:47:00,3,0,20,True,Australian Shepherd,Mix,Black,Tricolor,Titus
+369,A826210,2020-11-22 08:13:00,11900 Garden Grove Drive,Travis,TX,Stray,Sick,Male,2020-10-22 08:13:00,0,1,19,True,Labrador Retriever,Collie Rough,Black,None,None
+370,A825853,2020-11-13 16:17:00,Spring Fever Trail,Austin,TX,Stray,Normal,Female,2018-11-13 16:17:00,2,0,28,True,Basset Hound,Mix,Black,Brown,Darla Jane
+371,A826169,2020-11-20 15:57:00,8407 Coulver Road,Travis,TX,Stray,Normal,Male,2020-02-20 15:57:00,0,9,21,True,Rhod Ridgeback,Mix,Brown,White,Chango
+372,A825203,2020-10-29 18:36:00,None,Austin,TX,Owner Surrender,Normal,Male,2015-10-29 18:36:00,5,1,11,False,Pit Bull,None,Blue,White,Niño
+373,A826215,2020-11-22 11:34:00,None,Austin,TX,Stray,Normal,Male,2017-11-22 11:34:00,3,0,19,True,German Shepherd,Mix,Black,Tricolor,None
+374,A786269,2020-11-21 15:56:00,None,Travis,TX,Public Assist,Normal,Male,2018-11-21 15:56:00,2,0,20,True,Labrador Retriever,Mix,Chocolate,White,Sully
+375,A825920,2020-11-15 17:24:00,14707 Reynero,Travis,TX,Stray,Normal,Female,2020-10-15 17:24:00,0,1,25,True,Australian Cattle Dog,Mix,Red Tick,White,Sandy
+376,A826004,2020-11-17 15:12:00,12102 Clickett Cove,Austin,TX,Stray,Nursing,Female,2018-11-17 15:12:00,2,0,24,True,Labrador Retriever,Mix,Tricolor,None,Jenny
+377,A826193,2020-11-21 11:51:00,None,Austin,TX,Owner Surrender,Normal,Female,2020-09-21 11:51:00,0,2,20,False,Labrador Retriever,None,Brown,None,None
+378,A826192,2020-11-21 11:51:00,None,Austin,TX,Owner Surrender,Normal,Female,2020-09-21 11:51:00,0,2,20,False,Labrador Retriever,None,Brown,Black,None
+379,A826191,2020-11-21 11:51:00,None,Austin,TX,Owner Surrender,Normal,Female,2020-09-21 11:51:00,0,2,20,False,Labrador Retriever,None,Black,White,None
+380,A825080,2020-10-27 14:56:00,1801 Wells Branch Pkwy,Austin,TX,Stray,Nursing,Male,2020-10-26 14:56:00,0,1,15,True,Siberian Husky,Mix,Black,Tan,Gravy
+381,A825079,2020-10-27 14:56:00,1801 Wells Branch Pkwy,Austin,TX,Stray,Nursing,Male,2020-10-26 14:56:00,0,1,15,True,Siberian Husky,Mix,Brown,White,Mashed Potato
+382,A825077,2020-10-27 14:56:00,1801 Wells Branch Pkwy,Austin,TX,Stray,Nursing,Male,2020-10-26 14:56:00,0,1,15,True,Siberian Husky,Mix,Brown,None,Green Bean
+383,A825078,2020-10-27 14:56:00,1801 Wells Branch Pkwy,Austin,TX,Stray,Nursing,Male,2020-10-26 14:56:00,0,1,15,True,Siberian Husky,Mix,Brown,White,Cornbread
+384,A825082,2020-10-27 14:56:00,1801 Wells Branch Pkwy,Austin,TX,Stray,Nursing,Female,2020-10-26 14:56:00,0,1,15,True,Siberian Husky,Mix,Black,Tan,Cranberry
+385,A826170,2020-11-20 16:50:00,None,Austin,TX,Owner Surrender,Normal,Male,2019-11-20 16:50:00,1,0,21,True,Dachshund,Pbgv,White,None,None
+386,A826172,2020-11-20 17:40:00,2410 East Riverside,Austin,TX,Stray,Normal,Female,2020-07-20 17:40:00,0,4,20,True,Labrador Retriever,Mix,Black,White,None
+387,A826171,2020-11-20 17:13:00,None,Austin,TX,Owner Surrender,Aged,Male,2005-11-20 17:13:00,15,0,20,False,Chihuahua Shorthair,None,Black,Tan,Forest
+388,A822132,2020-09-22 12:11:00,None,Austin,TX,Owner Surrender,Normal,Female,2018-09-22 12:11:00,2,2,19,True,Great Pyrenees,Mix,Cream,None,Susi
+389,A822132,2020-08-27 10:58:00,None,Austin,TX,Owner Surrender,Normal,Female,2018-08-27 10:58:00,2,3,14,True,Great Pyrenees,Mix,Cream,None,Susi
+390,A822132,2020-10-01 14:01:00,None,Austin,TX,Owner Surrender,Normal,Female,2018-10-01 14:01:00,2,2,10,True,Great Pyrenees,Mix,Cream,None,Susi
+391,A824357,2020-11-20 16:51:00,None,Manor,TX,Owner Surrender,Normal,Male,2018-11-20 16:51:00,2,0,21,True,Pit Bull,Mix,Brown,None,Kobe
+392,A826090,2020-11-19 10:10:00,2813 Mablo Ridge Drive,Travis,TX,Stray,Normal,Male,2018-11-19 10:10:00,2,0,22,False,Shih Tzu,None,Black,White,Ramon
+393,A825706,2020-11-10 09:47:00,8400 Finial Drive,Travis,TX,Public Assist,Normal,Female,2015-11-10 09:47:00,5,1,1,True,Labrador Retriever,Mix,Tan,None,Babs
+394,A826091,2020-11-19 10:10:00,2813 Mablo Ridge Drive,Travis,TX,Stray,Normal,Male,2020-04-19 10:10:00,0,7,22,True,Chihuahua Longhair,Mix,Black,White,Bobby
+395,A825906,2020-11-15 10:44:00,10608 Plains Trail,Austin,TX,Stray,Normal,Female,2009-11-15 10:44:00,11,0,26,False,Chihuahua Shorthair,None,Black,White,Clove
+396,A822113,2020-08-26 16:55:00,None,Travis,TX,Owner Surrender,Normal,Female,2016-08-26 16:55:00,4,3,15,True,Black Mouth Cur,Mix,Tan,None,Leia
+397,A825200,2020-10-29 17:29:00,None,Austin,TX,Owner Surrender,Normal,Female,2018-10-29 17:29:00,2,1,11,True,Pit Bull,Mix,Brown Brindle,White,Manchas
+398,A785481,2020-08-20 12:30:00,None,Austin,TX,Owner Surrender,Normal,Male,2017-08-20 12:30:00,3,3,21,False,Black Mouth Cur,None,Brown,None,Brady
+399,A722781,2016-03-22 11:21:00,None,Austin,TX,Owner Surrender,Normal,Female,2016-02-22 11:21:00,4,9,19,True,Pit Bull,Mix,White,Brown,Luna
+400,A824647,2020-10-19 12:56:00,6107 Diamondleaf Bend,Travis,TX,Stray,Normal,Male,2018-10-19 12:56:00,2,1,22,True,German Shepherd,Mix,Black,Tan,Jenson
+401,A761565,2017-11-06 18:43:00,11906 Bronco Circle,Austin,TX,Stray,Normal,Female,2017-11-06 18:43:00,3,1,4,True,Black,Tan Hound,Black,Tricolor,Xena
+402,A825660,2020-11-08 17:53:00,5200 Ross Road,Travis,TX,Stray,Injured,Male,2020-04-08 17:53:00,0,8,2,True,Labrador Retriever,Mix,Fawn,White,Bingo
+403,A722781,2020-11-13 15:01:00,None,Austin,TX,Owner Surrender,Normal,Female,2016-11-13 15:01:00,4,0,28,True,Pit Bull,Mix,White,Brown,Luna
+404,A761565,2020-11-10 17:06:00,None,Austin,TX,Owner Surrender,Normal,Female,2017-11-10 17:06:00,3,1,0,True,Black,Tan Hound,Black,Tricolor,Xena
+405,A785481,2018-12-05 17:08:00,None,Austin,TX,Public Assist,Normal,Male,2016-12-05 17:08:00,4,0,5,False,Black Mouth Cur,None,Brown,None,Brady
+406,A826159,2020-11-20 12:32:00,None,Austin,TX,Owner Surrender,Sick,Female,2014-11-20 12:32:00,6,0,21,False,Chihuahua Shorthair,None,White,None,Little
+407,A826067,2020-11-20 11:46:00,None,Austin,TX,Owner Surrender,Normal,Male,2019-11-20 11:46:00,1,0,21,False,Dachshund Wirehair,None,Black,Tan,Bear Bear
+408,A826153,2020-11-20 11:12:00,4604 South 1St,Austin,TX,Stray,Normal,Female,2018-11-20 11:12:00,2,0,21,True,Beagle,Mix,Black,White,None
+409,A826115,2020-11-19 13:14:00,None,Travis,TX,Owner Surrender,Normal,Male,2020-09-19 13:14:00,0,2,22,True,Great Pyrenees,Labrador Retriever,Black,White,None
+410,A825964,2020-11-16 17:16:00,7112 Ed Bluestein,Austin,TX,Stray,Normal,Male,2020-03-16 17:16:00,0,8,24,True,Boxer,Mix,Brown,White,Zee
+411,A825863,2020-11-19 19:15:00,None,Austin,TX,Owner Surrender,Normal,Female,2020-03-19 19:15:00,0,8,21,True,Labrador Retriever,Mix,Brown,White,Poppet
+412,A825863,2020-11-14 08:36:00,15204 Eilers Road,Travis,TX,Stray,Normal,Female,2020-03-14 08:36:00,0,8,27,True,Labrador Retriever,Mix,Brown,White,Poppet
+413,A825862,2020-11-14 08:36:00,15204 Eilers Road,Travis,TX,Stray,Normal,Male,2020-03-14 08:36:00,0,8,27,True,Labrador Retriever,Mix,Brown,White,Pickles
+414,A825846,2020-11-13 13:54:00,East Pheasant Drive And Oriole Drive,Austin,TX,Stray,Normal,Female,2019-11-13 13:54:00,1,0,28,True,Plott Hound,Mix,Brown Brindle,White,Lena
+415,A826098,2020-11-19 11:04:00,513 Vargas Road,Austin,TX,Stray,Normal,Female,2020-10-19 11:04:00,0,1,22,True,German Shepherd,Mix,Black,Brown,Turkey
+416,A826100,2020-11-19 11:04:00,513 Vargas Road,Austin,TX,Stray,Normal,Female,2020-10-19 11:04:00,0,1,22,True,German Shepherd,Mix,Black,Brown,Pumpkin Pie
+417,A826099,2020-11-19 11:04:00,513 Vargas Road,Austin,TX,Stray,Normal,Female,2020-10-19 11:04:00,0,1,22,True,German Shepherd,Mix,Black,Brown,Ham
+418,A826087,2020-11-19 09:46:00,15705 Pearce Lane,Travis,TX,Owner Surrender,Sick,Female,2020-10-22 09:46:00,0,1,19,False,Unknown,None,Black,None,Bertha
+419,A825700,2020-11-19 19:15:00,None,Austin,TX,Owner Surrender,Normal,Male,2020-08-19 19:15:00,0,3,21,True,Plott Hound,Mix,Brown Brindle,White,None
+420,A826035,2020-11-18 09:41:00,12161 Abbey Glen Ln,Austin,TX,Stray,Normal,Male,2018-11-18 09:41:00,2,0,23,False,Chihuahua Longhair,None,Black,Brown,Chewy
+421,A764206,2020-11-19 11:40:00,None,Austin,TX,Owner Surrender,Normal,Male,2017-11-19 11:40:00,3,0,22,False,Siberian Husky,None,Black,Gray,Hachi
+422,A826003,2020-11-17 13:53:00,Cherry Hollow,Travis,TX,Stray,Normal,Male,2014-11-17 13:53:00,6,0,24,False,Yorkshire Terrier,None,Brown,None,Peter
+423,A825076,2020-10-27 14:56:00,1801 Wells Branch Pkwy,Austin,TX,Stray,Nursing,Female,2018-10-27 14:56:00,2,1,14,True,Australian Kelpie,Siberian Husky,Brown Brindle,White,Violet
+424,A826112,2020-11-19 13:14:00,None,Travis,TX,Owner Surrender,Normal,Male,2020-09-19 13:14:00,0,2,22,True,Great Pyrenees,Labrador Retriever,White,None,None
+425,A826118,2020-11-19 13:14:00,None,Travis,TX,Owner Surrender,Normal,Male,2020-09-19 13:14:00,0,2,22,True,Great Pyrenees,Labrador Retriever,Tan,White,None
+426,A825298,2020-11-19 13:34:00,Outside Jurisdiction,None,None,Owner Surrender,Normal,Male,2020-09-19 13:34:00,0,2,22,True,Australian Shepherd,Border Collie,White,Brown,Comet
+427,A826102,2020-11-19 11:13:00,None,Austin,TX,Owner Surrender,Normal,Female,2018-11-19 11:13:00,2,0,22,True,Siberian Husky,Mix,Black,Tricolor,Sasha
+428,A825899,2020-11-15 09:39:00,6113 Club Terrace,Austin,TX,Stray,Normal,Female,2008-11-15 09:39:00,12,0,26,False,Chihuahua Shorthair,None,Brown Brindle,None,Princess
+429,A809193,2020-11-19 11:46:00,None,Austin,TX,Owner Surrender,Normal,Female,2015-11-19 11:46:00,5,0,22,False,Pit Bull,None,Brown Brindle,White,Pepper
+430,A825851,2020-11-13 15:11:00,Alemoor Drive,Austin,TX,Stray,Normal,Female,2018-11-13 15:11:00,2,0,28,True,Siberian Husky,Mix,Tricolor,None,Zelda
+431,A825908,2020-11-15 13:46:00,Koenig Lane,Austin,TX,Stray,Normal,Male,2019-11-15 13:46:00,1,0,26,False,Chihuahua Shorthair,None,Tan,None,Geordi
+432,A826052,2020-11-18 12:42:00,Tudor House And Wells Branch,Travis,TX,Stray,Normal,Female,2020-06-18 12:42:00,0,5,23,False,Labrador Retriever,None,Brown,White,None
+433,A784348,2020-12-04 15:17:00,None,Travis,TX,Owner Surrender,Normal,Male,2018-12-04 15:17:00,2,0,7,True,Labrador Retriever,Pit Bull,Brown,White,Charley
+434,A826531,2020-11-30 16:53:00,Camacho And Berkman,Austin,TX,Stray,Normal,Male,2018-11-30 16:53:00,2,0,11,False,Pit Bull,None,Black,None,Truyo
+435,A826459,2020-11-29 11:22:00,9603 Chukar Circle,Austin,TX,Stray,Normal,Male,2019-11-29 11:22:00,1,0,12,False,Alaskan Husky,None,Brown,White,Floofer
+436,A826507,2020-11-30 12:08:00,8102 Dampton Lane,Austin,TX,Stray,Normal,Male,2018-11-30 12:08:00,2,0,11,False,Pit Bull,None,Brown Merle,White,Olvo
+437,A814641,2020-03-03 11:31:00,2009 Blue Meadow Drive,Austin,TX,Owner Surrender,Normal,Male,2020-02-03 11:31:00,0,10,8,True,Australian Shepherd,Mix,Black,White,Kodi
+438,A814639,2020-03-03 11:31:00,2009 Blue Meadow Drive,Austin,TX,Owner Surrender,Normal,Male,2020-02-03 11:31:00,0,10,8,True,Australian Shepherd,Mix,Black,White,Bowie
+439,A814723,2020-12-04 13:25:00,None,Austin,TX,Owner Surrender,Normal,Female,2019-12-04 13:25:00,1,0,7,False,Pit Bull,None,Black Brindle,None,Boba
+440,A825492,2020-12-04 12:40:00,None,Manor,TX,Owner Surrender,Normal,Female,2020-11-04 12:40:00,0,1,7,True,Labrador Retriever,Mix,Black,None,Luna
+441,A826339,2020-11-24 17:25:00,West Live Oak Street,Austin,TX,Stray,Normal,Male,2018-11-24 17:25:00,2,0,16,False,Pit Bull,None,Fawn,White,Koji
+442,A814642,2020-03-03 11:31:00,2009 Blue Meadow Drive,Austin,TX,Owner Surrender,Normal,Male,2020-02-03 11:31:00,0,10,8,True,Australian Shepherd,Mix,Black,White,Cosmo
+443,A826720,2020-12-04 13:04:00,South First Street And West Stassney Lane,Austin,TX,Stray,Normal,Female,2020-11-04 13:04:00,0,1,7,True,Chihuahua Shorthair,Mix,Black,Brown,None
+444,A826485,2020-11-30 08:48:00,13321 Crane Rd,Travis,TX,Stray,Normal,Male,2018-11-30 08:48:00,2,0,11,True,Alaskan Husky,Border Collie,Brown,White,Nibblets
+445,A825614,2020-11-07 13:50:00,Fm 973 And 130,Travis,TX,Stray,Normal,Female,2020-01-07 13:50:00,0,11,4,False,Pointer,None,Black,White,Gemma
+446,A826532,2020-11-30 18:00:00,Shropshire Boulevard And Dessau Road,Austin,TX,Stray,Normal,Male,2019-11-30 18:00:00,1,0,10,False,Pomeranian,None,Buff,None,Julio
+447,A826592,2020-12-01 17:28:00,None,Austin,TX,Owner Surrender,Normal,Male,2019-12-01 17:28:00,1,0,9,False,Chihuahua Shorthair,None,White,None,Eddy
+448,A826714,2020-12-04 11:31:00,2501 Sanders Lane,Travis,TX,Stray,Normal,Female,2018-12-04 11:31:00,2,0,7,False,Black Mouth Cur,None,Brown,White,Roxy
+449,A826715,2020-12-04 11:31:00,2501 Sanders Lane,Travis,TX,Stray,Normal,Female,2018-12-04 11:31:00,2,0,7,False,Black Mouth Cur,None,Brown,White,Nala
+450,A825492,2020-11-05 10:55:00,8102 Wolf Lane,Travis,TX,Stray,Normal,Female,2020-10-08 10:55:00,0,2,3,True,Labrador Retriever,Mix,Black,None,Luna
+451,A826712,2020-12-04 11:21:00,Tower Road And Samuel Welch Road,Travis,TX,Stray,Normal,Male,2019-12-04 11:21:00,1,0,7,False,Chihuahua Longhair,None,Tan,White,None
+452,A826026,2020-11-17 17:25:00,5347 Mission Circle,Austin,TX,Stray,Normal,Female,2020-10-17 17:25:00,0,1,23,True,Labrador Retriever,Mix,Black,None,Gigi
+453,A825743,2020-11-10 17:47:00,Palo Blanco And Encinal Cove,Austin,TX,Stray,Normal,Male,2018-11-10 17:47:00,2,1,0,True,Blue Lacy,Mix,Blue,White,Merrimac
+454,A804995,2019-09-21 12:39:00,None,Travis,TX,Owner Surrender,Normal,Female,2016-09-21 12:39:00,4,2,20,False,Chihuahua Shorthair,None,Tan,None,Lady
+455,A826693,2020-12-03 16:00:00,5711 Blythewood,Austin,TX,Stray,Normal,Male,2018-12-03 16:00:00,2,0,8,False,Labrador Retriever,None,Black,White,Popo
+456,A594659,2020-12-03 15:20:00,Fireoak Drive And Barrington Way,Austin,TX,Stray,Sick,Male,2009-12-03 15:20:00,11,0,8,True,Labrador Retriever,Mix,Black,White,Xander
+457,A826656,2020-12-03 09:12:00,Montopolis And Marigold Terrace,Austin,TX,Stray,Normal,Female,2018-12-03 09:12:00,2,0,8,True,German Shepherd,Siberian Husky,Black,Tan,None
+458,A826655,2020-12-03 09:12:00,Montopolis And Marigold Terrace,Austin,TX,Stray,Normal,Male,2018-12-03 09:12:00,2,0,8,True,Siberian Husky,German Shepherd,Black,Tan,None
+459,A826665,2020-12-03 10:32:00,2601 South Pleasant Valley,Austin,TX,Stray,Normal,Female,2018-12-03 10:32:00,2,0,8,True,West Highland,Mix,Cream,None,None
+460,A826691,2020-12-03 15:31:00,6200 Loyola Lane,Austin,TX,Stray,Normal,Male,2020-08-03 15:31:00,0,4,8,False,Chihuahua Shorthair,None,Brown,None,None
+461,A814106,2020-02-24 13:03:00,Point North Drive And Johnny Morris Road,Austin,TX,Stray,Normal,Female,2020-01-27 13:03:00,0,10,14,True,Golden Retriever,Mix,Tan,None,Ziggy
+462,A814568,2020-12-03 17:20:00,None,Austin,TX,Owner Surrender,Normal,Female,2017-12-03 17:20:00,3,0,7,True,Labrador Retriever,Mix,Black,White,Nikita
+463,A814568,2020-03-02 13:21:00,None,Austin,TX,Owner Surrender,Normal,Female,2018-03-02 13:21:00,2,9,9,True,Labrador Retriever,Mix,Black,White,Nikita
+464,A824108,2020-10-06 17:19:00,None,Manor,TX,Owner Surrender,Normal,Male,2017-10-06 17:19:00,3,2,4,True,Blue Lacy,Mix,Chocolate,White,Bear
+465,A785605,2018-12-05 18:10:00,1825 South Pleasant Valley Road,Austin,TX,Stray,Normal,Male,2017-12-05 18:10:00,3,0,5,True,Labrador Retriever,Pit Bull,Brown Brindle,White,Hopscotch
+466,A785605,2020-11-17 11:06:00,None,Austin,TX,Owner Surrender,Normal,Male,2018-11-17 11:06:00,2,0,24,True,Labrador Retriever,Pit Bull,Brown Brindle,White,Hopscotch
+467,A826079,2020-11-18 20:27:00,12001 Dessau,Austin,TX,Stray,Normal,Male,2012-11-18 20:27:00,8,0,22,False,Maltese,None,White,None,Louie
+468,A823136,2020-11-18 18:44:00,None,Austin,TX,Owner Surrender,Normal,Male,2016-11-18 18:44:00,4,0,22,True,American Bulldog,Mix,Tan,White,Gaston
+469,A826075,2020-11-18 17:19:00,None,Austin,TX,Abandoned,Normal,Female,2019-11-18 17:19:00,1,0,22,True,Pit Bull,Mix,Black,White,Poppy
+470,A744414,2017-02-28 14:37:00,10600 Lakeline Mall,Austin,TX,Public Assist,Normal,Male,2014-02-28 14:37:00,6,9,13,True,Pit Bull,Mix,Tan,White,Jacob
+471,A744414,2020-11-18 16:11:00,None,Austin,TX,Owner Surrender,Normal,Male,2014-11-18 16:11:00,6,0,23,True,Pit Bull,Mix,Tan,White,Jacob
+472,A790155,2020-11-18 15:56:00,None,Austin,TX,Owner Surrender,Normal,Male,2018-11-18 15:56:00,2,0,23,True,Australian Cattle Dog,Mix,Black,White,Chico
+473,A790155,2019-08-04 16:39:00,Stassney And S 1St St,Austin,TX,Stray,Normal,Male,2018-08-04 16:39:00,2,4,7,True,Australian Cattle Dog,Mix,Black,White,Chico
+474,A790155,2020-02-07 16:52:00,730 West Stassney Lane,Austin,TX,Stray,Normal,Male,2018-02-07 16:52:00,2,10,4,True,Australian Cattle Dog,Mix,Black,White,Chico
+475,A826046,2020-11-18 11:43:00,None,Travis,TX,Owner Surrender,Normal,Male,2020-10-28 11:43:00,0,1,13,True,Chihuahua Shorthair,Mix,Black,None,None
+476,A826045,2020-11-18 11:43:00,None,Travis,TX,Owner Surrender,Normal,Male,2020-10-28 11:43:00,0,1,13,True,Chihuahua Shorthair,Mix,Black,White,None
+477,A825801,2020-11-12 16:22:00,16902 Fagerquist Road,Travis,TX,Stray,Injured,Male,2011-11-12 16:22:00,9,0,29,True,Labrador Retriever,Australian Shepherd,Tricolor,None,Hero
+478,A826034,2020-11-18 09:27:00,1500 South Lamar,Austin,TX,Public Assist,Normal,Male,2009-11-18 09:27:00,11,0,23,False,Shiba Inu,None,Tan,White,Max
+479,A824357,2020-10-13 07:57:00,8207 Canoga Ave,Travis,TX,Stray,Normal,Male,2018-10-13 07:57:00,2,1,28,True,Pit Bull,Mix,Brown,None,Kobe
+480,A820850,2020-11-10 11:07:00,900 East Koenig Lane,Austin,TX,Public Assist,Normal,Male,2019-11-10 11:07:00,1,1,1,False,Pit Bull,None,Brown,White,Paw Paw
+481,A824965,2020-10-24 13:49:00,14000 Renaissance Ct,Austin,TX,Abandoned,Normal,Female,2018-10-24 13:49:00,2,1,17,False,Pit Bull,None,Blue,White,Puddin
+482,A782770,2020-11-18 12:36:00,6814 East Riverside Drive,Austin,TX,Stray,Normal,Male,2017-11-18 12:36:00,3,0,23,True,Pit Bull,Mix,White,Gray,Dewey
+483,A825994,2020-11-17 12:49:00,107 Oertli Lane,Austin,TX,Stray,Normal,Female,2018-11-17 12:49:00,2,0,24,True,Siberian Husky,Mix,Gray,White,Honey
+484,A820850,2020-09-08 10:12:00,900 East Koening Lane,Austin,TX,Public Assist,Normal,Male,2019-09-08 10:12:00,1,3,3,False,Pit Bull,None,Brown,White,Paw Paw
+485,A826048,2020-11-18 11:51:00,Pearce Lane,Travis,TX,Stray,Normal,Female,2020-10-21 11:51:00,0,1,20,False,Siberian Husky,None,White,Tan,None
+486,A826016,2020-11-17 16:21:00,5716 Malarkey Road,Austin,TX,Stray,Normal,Female,2018-11-17 16:21:00,2,0,24,True,Chihuahua Shorthair,Boston Terrier,Brown,White,None
+487,A825991,2020-11-18 11:07:00,None,Austin,TX,Public Assist,Normal,Female,2020-03-18 11:07:00,0,8,23,True,Border Collie,Mix,Black,White,Luna
+488,A825961,2020-11-16 17:08:00,Canterbury And South Pleasant Valley,Austin,TX,Stray,Normal,Female,2018-11-16 17:08:00,2,0,24,True,German Shepherd,Mix,Black,Brown,Mila
+489,A826024,2020-11-17 17:25:00,5347 Mission Circle,Austin,TX,Stray,Normal,Female,2020-10-17 17:25:00,0,1,23,True,Labrador Retriever,Mix,Black,None,None
+490,A826023,2020-11-17 17:25:00,5347 Mission Circle,Austin,TX,Stray,Normal,Male,2020-10-17 17:25:00,0,1,23,True,Labrador Retriever,Mix,Black,None,None
+491,A826022,2020-11-17 17:25:00,5347 Mission Circle,Austin,TX,Stray,Normal,Female,2017-11-17 17:25:00,3,0,23,True,Border Collie,Labrador Retriever,Black,None,Rosaline
+492,A826025,2020-11-17 17:25:00,5347 Mission Circle,Austin,TX,Stray,Normal,Male,2020-10-17 17:25:00,0,1,23,True,Labrador Retriever,Mix,Black,None,None
+493,A826027,2020-11-17 17:25:00,5347 Mission Circle,Austin,TX,Stray,Normal,Female,2020-10-17 17:25:00,0,1,23,True,Labrador Retriever,Mix,Brown Brindle,None,None
+494,A748674,2020-11-17 12:49:00,107 Oertli Lane,Austin,TX,Stray,Normal,Female,2016-11-17 12:49:00,4,0,24,True,German Shepherd,Mix,Tan,None,Princess
+495,A825833,2020-11-13 11:29:00,Deer Run And Blue Dawn,Austin,TX,Stray,Normal,Female,2020-10-13 11:29:00,0,1,28,True,German Shepherd,Mix,Black,Brown,Olive
+496,A818906,2020-06-17 13:46:00,Cameron Road And Parmer Lane,Austin,TX,Stray,Injured,Female,2020-03-17 13:46:00,0,8,24,True,German Shepherd,Siberian Husky,Buff,White,Buffy
+497,A826029,2020-11-17 22:45:00,11801 Arnold,Austin,TX,Owner Surrender,Sick,Male,2020-10-20 22:45:00,0,1,20,True,Labrador Retriever,Mix,Tan,None,Blaze
+498,A826011,2020-11-17 15:58:00,1071 Clayton Lane,Austin,TX,Stray,Sick,Unknown,2020-05-17 15:58:00,0,6,24,True,Catahoula,Mix,Brown Brindle,White,None
+499,A825839,2020-11-13 12:51:00,None,Austin,TX,Owner Surrender,Normal,Male,2020-02-13 12:51:00,0,9,28,True,Chihuahua Shorthair,Rat Terrier,Tan,White,Ford
+500,A825840,2020-11-13 12:51:00,None,Austin,TX,Owner Surrender,Normal,Male,2020-02-13 12:51:00,0,9,28,True,Chihuahua Shorthair,Rat Terrier,Tan,White,Brahm
+501,A825785,2020-11-13 07:36:00,5701 Johnny Morris,Austin,TX,Stray,Normal,Male,2020-05-13 07:36:00,0,6,28,True,Chihuahua Shorthair,Mix,Chocolate,Tan,Anubis
+502,A648265,2020-11-17 12:38:00,None,Austin,TX,Owner Surrender,Injured,Male,2013-11-17 12:38:00,7,0,24,True,Chihuahua Shorthair,Mix,Tan,Cream,Toby
+503,A803141,2020-11-17 13:30:00,2615 Crystal Bend Drive,Travis,TX,Stray,Normal,Female,2018-11-17 13:30:00,2,0,24,False,Siberian Husky,None,Black,White,Sky
+504,A819676,2020-07-02 18:29:00,15419 Giese Ln,Manor,TX,Stray,Normal,Female,2018-07-02 18:29:00,2,5,8,True,Chow Chow,Siberian Husky,Black,Brown,Maya
+505,A825847,2020-11-13 14:24:00,3101 Loyola Lane,Austin,TX,Stray,Normal,Female,2018-11-13 14:24:00,2,0,28,False,Labrador Retriever,None,Yellow,None,Ellie
+506,A819676,2020-11-17 13:37:00,None,Austin,TX,Owner Surrender,Normal,Female,2018-11-17 13:37:00,2,0,24,True,Chow Chow,Siberian Husky,Black,Brown,Maya
+507,A825738,2020-11-10 15:49:00,Samuel Huston And Hillcrest,Austin,TX,Stray,Sick,Female,2020-05-10 15:49:00,0,7,1,True,Beagle,Labrador Retriever,Tan,White,Monkey
+508,A825989,2020-11-17 12:24:00,None,Austin,TX,Owner Surrender,Normal,Male,2020-01-17 12:24:00,0,10,24,False,Jack Russell Terrier,None,White,Red,Canelo
+509,A825777,2020-11-12 11:39:00,11036 Short Springs Drive,Austin,TX,Stray,Normal,Female,2018-11-12 11:39:00,2,0,29,False,Siberian Husky,None,Black,White,None
+510,A806317,2020-11-17 11:51:00,None,Austin,TX,Owner Surrender,Normal,Female,2017-11-17 11:51:00,3,0,24,False,Pit Bull,None,Brown Brindle,White,Jessica
+511,A825770,2020-11-12 11:00:00,18801 James Carter Jr Street,Travis,TX,Stray,Normal,Male,2019-11-12 11:00:00,1,0,29,False,Siberian Husky,None,White,Gray,None
+512,A809088,2020-11-14 12:30:00,500 West Cesar Chavez,Austin,TX,Stray,Normal,Male,2019-11-14 12:30:00,1,0,27,True,Pit Bull,Mix,Tan,White,Gordon Ramsay
+513,A825919,2020-11-15 17:18:00,6700 Savanna Canyon,Austin,TX,Stray,Normal,Female,2018-11-15 17:18:00,2,0,25,True,Pit Bull,Mix,Red,White,Roxy
+514,A667873,2020-11-14 13:46:00,6906 Felix Avenue,Austin,TX,Stray,Normal,Male,2013-11-14 13:46:00,7,0,27,True,Chihuahua Shorthair,Mix,Tan,White,Gee
+515,A825886,2020-11-14 15:09:00,6900 Wentworth Drive,Austin,TX,Stray,Normal,Male,2019-11-14 15:09:00,1,0,27,False,American Pit Bull Terrier,None,Brown,White,Mojo
+516,A825910,2020-11-16 11:00:00,12705 Cardinal Flower Drive,Austin,TX,Public Assist,Normal,Female,2018-11-16 11:00:00,2,0,25,True,Rottweiler,Labrador Retriever,Brown,Tan,Coco
+517,A825621,2020-11-07 16:31:00,Hokanson Road And Caracas Drive,Travis,TX,Stray,Normal,Male,2020-09-07 16:31:00,0,3,4,False,Labrador Retriever,None,Yellow,None,None
+518,A742281,2020-11-09 18:30:00,6517 River Road,Travis,TX,Owner Surrender,Normal,Male,2015-11-09 18:30:00,5,1,1,True,Great Pyrenees,Mix,White,None,Oso
+519,A825623,2020-11-07 16:31:00,Hokanson Road And Caracas Drive,Travis,TX,Stray,Normal,Male,2020-09-07 16:31:00,0,3,4,False,Labrador Retriever,None,Yellow,None,None
+520,A825601,2020-11-07 09:50:00,4221 Camacho Street,Austin,TX,Stray,Injured,Female,2018-11-07 09:50:00,2,1,4,False,Pit Bull,None,Brown,White,Kiley
+521,A825659,2020-11-08 08:08:00,606 West Grady Drive,Austin,TX,Stray,Normal,Male,2018-11-08 08:08:00,2,1,3,True,Golden Retriever,Mix,White,None,Wander
+522,A825475,2020-11-04 17:52:00,1106 Reinli Street,Austin,TX,Abandoned,Normal,Female,2018-11-04 17:52:00,2,1,6,True,Dachshund,Pit Bull,White,Tan,None
+523,A825523,2020-11-05 13:14:00,21407 Union Lee Church Road,Travis,TX,Stray,Normal,Male,2018-11-05 13:14:00,2,1,6,False,Collie Smooth,None,Black,White,None
+524,A825726,2020-11-10 13:33:00,1313 Newton Street,Austin,TX,Stray,Normal,Male,2020-10-10 13:33:00,0,2,1,True,Cocker Spaniel,Dachshund,Black,White,None
+525,A825727,2020-11-10 13:33:00,1313 Newton Street,Austin,TX,Stray,Normal,Female,2020-10-10 13:33:00,0,2,1,True,Cocker Spaniel,Dachshund,Black,White,None
+526,A825506,2020-11-05 11:55:00,18204 Flat Head Drive,Travis,TX,Stray,Normal,Male,2007-11-05 11:55:00,13,1,6,False,Chihuahua Shorthair,None,Brown,None,Carlos
+527,A825723,2020-11-10 13:33:00,1313 Newton Street,Austin,TX,Stray,Normal,Male,2020-10-10 13:33:00,0,2,1,True,Cocker Spaniel,Dachshund,Black,White,None
+528,A825707,2020-11-10 09:52:00,Decker Lane And Canoga Avenue,Austin,TX,Stray,Normal,Male,2018-11-10 09:52:00,2,1,1,True,Chihuahua Shorthair,Mix,White,Black,Andy
+529,A825884,2020-11-14 14:04:00,508 East Braker Lane,Austin,TX,Stray,Normal,Male,2015-11-14 14:04:00,5,0,27,False,Chihuahua Shorthair,None,Tan,None,Chubby
+530,A825797,2020-11-12 15:34:00,None,Austin,TX,Owner Surrender,Normal,Male,2018-11-12 15:34:00,2,0,29,False,Redbone Hound,None,Red,Black,Cedar
+531,A786269,2018-12-20 17:06:00,6855 East Us 290 Highway,Austin,TX,Stray,Normal,Male,2017-12-20 17:06:00,2,11,20,True,Labrador Retriever,Mix,Chocolate,White,Sully
+532,A825881,2020-11-14 13:39:00,Teri Road And Pleasant Valley Road,Austin,TX,Stray,Normal,Male,2020-09-14 13:39:00,0,2,27,True,Pit Bull,Mix,Brown Brindle,White,None
+533,A743428,2017-02-10 12:42:00,7201 Levander Loop,Austin,TX,Stray,Normal,Male,2012-02-10 12:42:00,8,10,1,True,English Bulldog,Mix,Brown Brindle,White,Binx
+534,A806429,2020-11-14 08:56:00,707 Huerta Street,Austin,TX,Stray,Normal,Male,2018-11-14 08:56:00,2,0,27,False,Boxer,None,Brown Brindle,White,Duke
+535,A786884,2019-01-03 16:19:00,2501 Magin Meadow Dr,Austin,TX,Stray,Normal,Male,2017-01-03 16:19:00,3,11,8,True,Beagle,Mix,Tricolor,None,Brock
+536,A706918,2015-07-05 12:59:00,9409 Bluegrass Dr,Austin,TX,Stray,Normal,Female,2007-07-05 12:59:00,13,5,6,False,English Springer Spaniel,None,White,Liver,Belle
+537,A724273,2016-04-14 18:43:00,2818 Palomino Trail,Austin,TX,Stray,Normal,Male,2015-05-14 18:43:00,5,6,26,True,Basenji,Mix,Sable,White,Runster
+538,A682524,2014-06-29 10:38:00,800 Grove Blvd,Austin,TX,Stray,Normal,Male,2010-06-29 10:38:00,10,5,12,True,Doberman Pinsch,Australian Cattle Dog,Tan,Gray,Rio
+539,A743852,2017-02-18 12:46:00,None,Austin,TX,Owner Surrender,Normal,Male,2015-02-18 12:46:00,5,9,23,True,Labrador Retriever,Mix,Chocolate,None,Odin
+540,A635072,2019-04-16 09:53:00,415 East Mary Street,Austin,TX,Public Assist,Normal,Male,2013-04-16 09:53:00,7,7,25,True,Great Dane,Mix,Black,None,Beowulf
+541,A708452,2015-07-30 14:37:00,None,Austin,TX,Public Assist,Normal,Male,2013-07-30 14:37:00,7,4,11,True,Labrador Retriever,Mix,Black,White,Mumble
+542,A760053,2017-10-11 15:46:00,8800 South First Street,Austin,TX,Stray,Normal,Male,2015-10-11 15:46:00,5,2,0,False,Chihuahua Shorthair,None,White,Tan,None
+543,A707375,2015-07-11 18:19:00,Galilee Court And Damita Jo Dr,Manor,TX,Stray,Normal,Female,2015-02-11 18:19:00,5,9,29,False,Pit Bull,None,Brown,White,Candy Cane
+544,A696408,2015-02-04 12:58:00,9705 Thaxton,Austin,TX,Stray,Normal,Female,2013-02-04 12:58:00,7,10,7,False,Chihuahua Shorthair,None,Tricolor,None,Pearl
+545,A697950,2015-03-04 11:22:00,1501 S Fm 973,Austin,TX,Stray,Normal,Female,2015-01-04 11:22:00,5,11,7,True,Australian Cattle Dog,Labrador Retriever,Tan,White,None
+546,A298074,2015-09-06 14:21:00,1801 Westridge,Austin,TX,Stray,Normal,Female,1997-09-06 14:21:00,23,3,5,True,Parson Russell Terrier,Mix,Black,White,Stumpy
+547,A754715,2019-07-29 17:19:00,None,Austin,TX,Owner Surrender,Normal,Female,2017-07-29 17:19:00,3,4,11,True,Labrador Retriever,Mix,Black,White,Rheia
+548,A769764,2018-04-09 19:03:00,7500 South Interstate 35,Austin,TX,Stray,Normal,Female,2017-11-09 19:03:00,3,1,1,True,Yorkshire Terrier,Mix,White,Black,None
+549,A682230,2014-06-25 16:27:00,3737 Keats Dr,Austin,TX,Stray,Normal,Female,2014-01-25 16:27:00,6,10,16,True,Maltese,Mix,White,None,None
+550,A749436,2017-05-15 09:50:00,East Pleasant Valley And Stassney,Austin,TX,Stray,Normal,Male,2017-01-15 09:50:00,3,10,26,True,Dachshund,Mix,Brown,White,None
+551,A759935,2017-10-09 22:39:00,4800 Cottonwood St,Austin,TX,Stray,Normal,Female,2017-09-09 22:39:00,3,3,1,True,Labrador Retriever,Mix,Black,None,Dieve
+552,A666877,2013-11-08 15:24:00,Guadalupe/St. Johns,Austin,TX,Stray,Normal,Male,2012-11-08 15:24:00,8,1,3,True,Dachshund,Mix,Tan,White,Romeo
+553,A794334,2019-09-02 11:52:00,Outside Jurisdiction,None,None,Owner Surrender,Sick,Female,2016-09-02 11:52:00,4,3,9,True,Boxer,Mix,White,None,Pearl
+554,A732903,2016-08-14 15:02:00,None,Austin,TX,Stray,Injured,Female,2016-06-14 15:02:00,4,5,27,True,Labrador Retriever,Mix,Black,White,Raven
+555,A769816,2018-04-10 16:46:00,17833 Basket Flower Bend,Travis,TX,Stray,Normal,Male,2013-04-10 16:46:00,7,8,1,True,Plott Hound,Mix,Brown Brindle,White,Wallace
+556,A812244,2020-01-18 14:14:00,None,Travis,TX,Owner Surrender,Normal,Male,2019-12-18 14:14:00,0,11,23,False,Labrador Retriever,None,Tan,None,None
+557,A700396,2015-12-07 09:11:00,4200 Smith School Rd,Austin,TX,Stray,Normal,Female,2012-12-07 09:11:00,8,0,4,True,Pit Bull,Mix,Black,White,Calseta
+558,A724378,2016-04-16 13:36:00,None,Austin,TX,Owner Surrender,Normal,Male,2012-04-16 13:36:00,8,7,25,True,Tibetan Spaniel,Mix,Black,White,Boxer
+559,A702701,2015-05-16 18:38:00,Mcneil Drive & Burnet Road,Austin,TX,Stray,Normal,Female,2013-05-16 18:38:00,7,6,24,True,Miniature Pinscher,Mix,Chocolate,Brown,Pepper
+560,A745133,2017-03-13 12:50:00,11699 James B Connolly Ln,Austin,TX,Stray,Normal,Male,2016-03-13 12:50:00,4,8,28,True,Chihuahua Shorthair,Mix,Tan,None,Magic
+561,A772747,2019-01-07 13:41:00,Thaxton And Sassman,Austin,TX,Stray,Normal,Male,2018-01-07 13:41:00,2,11,4,True,Pit Bull,Australian Cattle Dog,White,None,Lamar
+562,A810820,2019-12-21 11:09:00,20209 Grover Cleaveland Way,Manor,TX,Stray,Normal,Female,2012-12-21 11:09:00,7,11,20,False,Yorkshire Terrier,None,Black,Gray,None
+563,A721791,2016-03-04 14:18:00,12928 Ceder,Travis,TX,Stray,Normal,Male,2016-01-04 14:18:00,4,11,7,True,Dachshund,Chihuahua Shorthair,Brown Merle,None,None
+564,A675555,2015-04-04 11:09:00,Loyola And Sandshof,Austin,TX,Stray,Normal,Male,2012-04-04 11:09:00,8,8,7,True,German Shepherd,Chow Chow,Sable,Tan,Guardian
+565,A747964,2017-04-27 13:23:00,15207 Tacon Ln,Pflugerville,TX,Stray,Normal,Male,2011-04-27 13:23:00,9,7,14,True,Miniature Schnauzer,Mix,White,Gray,None
+566,A813757,2020-02-18 12:26:00,Colonial Park And Weidemar,Austin,TX,Stray,Normal,Female,2019-02-18 12:26:00,1,9,23,True,German Shepherd,Australian Cattle Dog,Black,Tricolor,None
+567,A760116,2019-01-07 12:07:00,None,Austin,TX,Owner Surrender,Normal,Female,2012-01-07 12:07:00,8,11,4,False,German Shepherd,None,Brown,Black,Jasmine
+568,A800456,2019-07-21 14:19:00,14229 Gilford Drive,Travis,TX,Stray,Normal,Male,2018-07-21 14:19:00,2,4,20,False,Great Dane,None,Black,Brown Brindle,Samson
+569,A774099,2018-07-30 14:50:00,None,Austin,TX,Owner Surrender,Normal,Female,2017-07-30 14:50:00,3,4,11,True,Australian Kelpie,Mix,Black,White,Chloe
+570,A767767,2018-03-06 14:07:00,11204 Liberty Farms Drive,Austin,TX,Stray,Normal,Female,2017-03-06 14:07:00,3,9,5,True,Labrador Retriever,Mix,Yellow,None,Valerie
+571,A803768,2019-11-15 18:35:00,None,Travis,TX,Owner Surrender,Normal,Male,2018-11-15 18:35:00,2,0,25,False,Alaskan Husky,None,Brown,None,Kylo
+572,A770916,2018-04-27 11:43:00,10195 Thistle Ridge,Austin,TX,Stray,Normal,Male,2017-04-27 11:43:00,3,7,14,True,Great Pyrenees,Mix,White,Cream,Oso
+573,A722856,2016-05-05 15:24:00,None,Austin,TX,Owner Surrender,Normal,Male,2012-05-05 15:24:00,8,7,6,True,Labrador Retriever,Mix,White,Black,Chico
+574,A710890,2015-08-29 13:15:00,14901 Mossycup Ln,Travis,TX,Stray,Normal,Male,2012-08-29 13:15:00,8,3,12,True,Great Pyrenees,Mix,White,None,The Dude
+575,A683884,2014-07-16 15:52:00,7619 E Ben White Blvd,Austin,TX,Stray,Injured,Male,2012-07-16 15:52:00,8,4,25,True,German Shepherd,Mix,Black,Tan,Blackie
+576,A724359,2016-04-16 10:59:00,Research And Anderson Square,Austin,TX,Stray,Normal,Male,2015-12-16 10:59:00,4,11,25,True,Feist,Beagle,Black,Brown,Hercules
+577,A676263,2014-04-07 11:57:00,Elfen Way,Austin,TX,Stray,Normal,Male,2012-04-07 11:57:00,8,8,4,True,Pit Bull,Mix,Blue,White,Stanley
+578,A736719,2016-10-16 10:37:00,2115 Campfield Pkwy,Austin,TX,Stray,Normal,Female,2004-10-16 10:37:00,16,1,25,True,Labrador Retriever,Mix,Tan,White,Dreamer
+579,A791540,2019-03-27 11:36:00,Martin Luther King Boulevard E And Sendero Hills Parkway,Austin,TX,Stray,Normal,Female,2018-03-27 11:36:00,2,8,14,True,Pit Bull,Mix,White,Black,Milkbone
+580,A770028,2018-04-14 12:50:00,None,Austin,TX,Owner Surrender,Normal,Female,2017-10-14 12:50:00,3,1,27,True,American Pit Bull Terrier,Mix,White,Brown,Ladybird
+581,A611226,2015-03-20 14:09:00,4703 Nuckols Crossing,Austin,TX,Stray,Normal,Male,2011-03-20 14:09:00,9,8,21,True,Norfolk Terrier,Mix,Brown,None,Leon
+582,A707943,2015-07-20 14:46:00,None,Austin,TX,Owner Surrender,Normal,Female,2015-06-20 14:46:00,5,5,21,True,Rottweiler,Mix,Black,Tan,London
+583,A696333,2015-02-03 10:19:00,2201 Montopolis,Austin,TX,Stray,Normal,Unknown,2015-01-27 10:19:00,5,10,14,True,Chihuahua Shorthair,Mix,Brown,White,None
+584,A775126,2018-06-25 11:12:00,Bittercreek And Bluff Springs,Austin,TX,Stray,Normal,Female,2017-06-25 11:12:00,3,5,16,True,Pit Bull,Mix,Tan,White,Heidi
+585,A687298,2014-10-07 12:22:00,4715 S Congress,Austin,TX,Public Assist,Normal,Female,2012-10-07 12:22:00,8,2,4,True,Chihuahua Shorthair,Mix,White,Cream,Lila
+586,A707779,2015-07-17 15:57:00,13425 Coomes Dr,Del Valle,TX,Stray,Normal,Female,2014-12-17 15:57:00,5,11,24,True,Chihuahua Shorthair,Jack Russell Terrier,Tricolor,None,Roo
+587,A675067,2014-03-22 14:24:00,None,Austin,TX,Owner Surrender,Normal,Male,2005-03-22 14:24:00,15,8,19,True,Italian Greyhound,Mix,Gray,None,Ash
+588,A787448,2019-04-01 11:30:00,12900 Dessau,Travis,TX,Stray,Normal,Female,2016-04-01 11:30:00,4,8,10,True,Labrador Retriever,Mix,Brown Tiger,White,Watermelon
+589,A780860,2018-09-21 11:29:00,West Sixth Street And Guadalupe Street,Austin,TX,Stray,Normal,Female,2018-08-21 11:29:00,2,3,20,True,Chihuahua Shorthair,Mix,Black,None,Skye
+590,A818382,2020-06-08 08:35:00,4434 Frontier Trail,Austin,TX,Owner Surrender,Sick,Male,2020-05-08 08:35:00,0,7,3,False,Boxer,None,Brown,Black,Cookie
+591,A808587,2020-03-19 12:24:00,None,Austin,TX,Owner Surrender,Normal,Female,2018-03-19 12:24:00,2,8,22,True,Staffordshire,English Bulldog,Blue,White,Rocket
+592,A731789,2016-07-27 15:06:00,5630 Wagon Train Rd,Austin,TX,Stray,Normal,Female,2016-06-27 15:06:00,4,5,14,True,Labrador Retriever,Mix,Black,None,None
+593,A744010,2017-03-02 09:51:00,None,Austin,TX,Owner Surrender,Normal,Male,2013-03-02 09:51:00,7,9,9,True,Bull Terrier,Mix,Black,White,Axle
+594,A812020,2020-01-28 12:59:00,Outside Jurisdiction,None,None,Owner Surrender,Normal,Male,2018-01-28 12:59:00,2,10,13,True,Australian Shepherd,Chow Chow,Brown,Black,Delgado
+595,A806727,2019-10-14 18:16:00,183 And Payton Gin,Austin,TX,Stray,Normal,Male,2018-10-14 18:16:00,2,1,26,True,Chihuahua Longhair,Mix,Chocolate,White,None
+596,A807675,2019-10-28 12:11:00,Fort Branch Boulevard,Austin,TX,Stray,Normal,Female,2018-10-28 12:11:00,2,1,13,True,Black Mouth Cur,Pit Bull,Tan,Black,Fija
+597,A799428,2019-07-08 14:57:00,None,Austin,TX,Stray,Normal,Male,2019-05-08 14:57:00,1,7,3,True,Labrador Retriever,Mix,Tan,White,None
+598,A748160,2017-04-30 11:04:00,704 Cuernavaca Dr N,Austin,TX,Stray,Normal,Female,2003-04-30 11:04:00,17,7,11,True,Labrador Retriever,Mix,Black,White,Applez
+599,A663237,2014-01-05 12:20:00,Cesar Chavez And Martinez,Austin,TX,Stray,Normal,Female,2013-04-05 12:20:00,7,8,6,True,Boston Terrier,Pembroke Welsh Corgi,Black,White,China
+600,A733066,2016-08-27 11:44:00,7200 East Riverside,Austin,TX,Stray,Normal,Female,2012-08-27 11:44:00,8,3,14,True,Black Mouth Cur,Mix,Tan,White,Scooby Dee
+601,A740708,2016-12-21 14:57:00,3406 Catalina,Austin,TX,Stray,Normal,Male,2016-04-21 14:57:00,4,7,20,True,German Shepherd,Great Pyrenees,Tan,White,None
+602,A596218,2018-03-29 16:27:00,East Cesar Chavez Street And Mildred Drive,Austin,TX,Stray,Normal,Female,2006-03-29 16:27:00,14,8,12,False,Chihuahua Shorthair,None,Chocolate,Tan,Coco
+603,A740584,2016-12-19 17:10:00,20412 Keilman Ln,Travis,TX,Stray,Normal,Female,2016-06-19 17:10:00,4,5,21,True,Pit Bull,Mix,Brown,None,None
+604,A689869,2014-10-10 18:32:00,6700 Elroy Rd,Travis,TX,Stray,Normal,Male,2012-10-10 18:32:00,8,2,0,True,Cairn Terrier,Mix,Buff,White,None
+605,A787054,2019-01-24 15:17:00,None,Austin,TX,Owner Surrender,Normal,Male,2015-01-24 15:17:00,5,10,17,True,Labrador Retriever,Mix,Black,White,Rexx
+606,A675229,2014-03-25 12:30:00,None,Pflugerville,TX,Owner Surrender,Normal,Female,2013-03-25 12:30:00,7,8,16,True,Cairn Terrier,Mix,Cream,None,Snow
+607,A758183,2017-09-12 14:43:00,7901 Metrololis Dr,Austin,TX,Stray,Normal,Male,2016-09-12 14:43:00,4,2,29,True,Labrador Retriever,Mix,Brown,None,Fletcher
+608,A732427,2016-08-07 14:10:00,E Riverside Dr & Wickersham Ln,Austin,TX,Stray,Normal,Female,2014-08-07 14:10:00,6,4,4,True,Miniature Schnauzer,Miniature Poodle,Gray,None,Tina
+609,A798104,2019-06-21 14:45:00,Outside Jurisdiction,None,None,Stray,Injured,Female,2013-06-21 14:45:00,7,5,20,True,Pointer,Beagle,White,Brown,Lily
+610,A711096,2017-03-10 15:11:00,None,Austin,TX,Owner Surrender,Normal,Female,2013-03-10 15:11:00,7,9,1,True,American Staffordshire Terrier,Mix,Blue,White,Schatzi
+611,A667174,2013-11-13 18:56:00,Forest Wood/Dittmar,Austin,TX,Stray,Normal,Male,2005-11-13 18:56:00,15,0,27,True,Chihuahua Shorthair,Mix,Tan,White,Rusty
+612,A682807,2014-07-03 12:29:00,600 W Carrie Manor St,Travis,TX,Stray,Normal,Male,2014-03-03 12:29:00,6,9,8,True,German Shepherd,Mix,Black,Brown,Kent
+613,A810107,2019-12-31 11:12:00,Outside Jurisdiction,None,None,Owner Surrender,Normal,Female,2019-10-31 11:12:00,1,1,11,True,Collie Smooth,Mix,Tricolor,None,Daisy
+614,A738231,2016-11-11 13:54:00,10100 Wolftrap Dr,Austin,TX,Stray,Normal,Female,2011-11-11 13:54:00,9,1,0,True,Dachshund,Mix,Tricolor,None,Olive
+615,A788104,2019-01-26 14:04:00,14200 Ranch Road 620,Austin,TX,Stray,Normal,Male,2009-01-26 14:04:00,11,10,15,True,Beagle,Mix,Tricolor,Brown,Beaux
+616,A692109,2014-11-14 15:59:00,None,Austin,TX,Owner Surrender,Normal,Female,2012-11-14 15:59:00,8,0,27,True,German Shepherd,Mix,Tricolor,None,Ada
+617,A797883,2019-06-19 07:34:00,Parmer Lane,Austin,TX,Stray,Sick,Female,2018-09-19 07:34:00,2,2,22,False,Standard Schnauzer,None,Gray,White,None
+618,A712578,2015-09-25 13:50:00,None,Austin,TX,Owner Surrender,Normal,Female,2014-09-25 13:50:00,6,2,16,True,Papillon,Mix,White,None,Lily
+619,A742314,2017-01-22 11:29:00,None,Austin,TX,Owner Surrender,Normal,Male,2016-01-22 11:29:00,4,10,19,True,Labrador Retriever,Beagle,Black,None,Bearry
+620,A684798,2014-07-28 18:00:00,Autumn Bay Dr And Montezuma St,Austin,TX,Stray,Normal,Female,2010-07-28 18:00:00,10,4,12,True,Chihuahua Shorthair,Mix,Tricolor,None,Lexi
+621,A779715,2019-03-07 15:52:00,None,Austin,TX,Owner Surrender,Normal,Male,2017-03-07 15:52:00,3,9,4,False,Staffordshire,None,Fawn,White,Shorty
+622,A685223,2014-08-04 13:00:00,None,Austin,TX,Owner Surrender,Normal,Female,2008-08-04 13:00:00,12,4,7,True,German Shepherd,Mix,Black,Tan,Hana
+623,A687473,2014-09-05 10:00:00,16403 Summit,Travis,TX,Stray,Sick,Male,2014-08-05 10:00:00,6,4,6,True,Pit Bull,Mix,Black,None,None
+624,A690875,2014-10-27 15:24:00,183/Mlk,Austin,TX,Stray,Normal,Female,2014-04-27 15:24:00,6,7,14,True,Labrador Retriever,Border Collie,Black,White,Domino
+625,A758038,2017-09-10 14:05:00,7100 Colony Park Drive,Austin,TX,Stray,Normal,Female,2016-09-10 14:05:00,4,3,1,True,Siberian Husky,Mix,Black,White,None
+626,A816347,2020-04-15 09:13:00,2250 Ridgemont Drive,Austin,TX,Public Assist,Normal,Male,2020-02-15 09:13:00,0,9,26,False,Bloodhound,None,Brown,White,Beau
+627,A694101,2014-12-20 10:50:00,5118 Heflin Ln,Austin,TX,Stray,Normal,Female,2011-12-20 10:50:00,8,11,21,True,Jack Russell Terrier,Mix,Tricolor,None,Bella
+628,A691803,2014-11-09 17:53:00,1156 W Cesar Chavez St,Austin,TX,Stray,Normal,Female,2011-11-09 17:53:00,9,1,1,True,Toy Fox Terrier,Mix,White,Black,Polly
+629,A742326,2017-01-19 18:06:00,11906 Whitewing,Austin,TX,Public Assist,Normal,Female,2013-01-19 18:06:00,7,10,21,True,Labrador Retriever,Mix,Black,None,Kayla
+630,A711896,2015-09-13 12:59:00,None,Austin,TX,Owner Surrender,Normal,Female,2015-07-13 12:59:00,5,4,28,True,Labrador Retriever,Rhod Ridgeback,Tan,White,Canela
+631,A687800,2014-09-10 11:08:00,3300 Killingsworth Ln. #307,Pflugerville,TX,Owner Surrender,Normal,Male,2011-09-10 11:08:00,9,3,1,True,Dachshund,Chihuahua Shorthair,White,Tan,Kaden
+632,A664941,2015-04-12 12:49:00,Webberville Road & East 12Th Street,Austin,TX,Public Assist,Normal,Female,2010-04-12 12:49:00,10,7,29,True,Pit Bull,Mix,Red,White,Tequila
+633,A812834,2020-01-29 14:47:00,None,Austin,TX,Owner Surrender,Normal,Female,2013-01-29 14:47:00,7,10,12,False,Siberian Husky,None,Black,White,Echo
+634,A705377,2015-06-16 14:38:00,8000 Taza Ln,Travis,TX,Public Assist,Normal,Male,2014-06-16 14:38:00,6,5,25,True,Chihuahua Shorthair,Mix,Tan,White,Oso
+635,A730870,2018-01-21 14:20:00,East Slaughter And Bluff Springs,Austin,TX,Stray,Normal,Female,2016-01-21 14:20:00,4,10,20,False,Shih Tzu,None,Black,White,Oreo
+636,A764949,2018-01-09 16:29:00,West Dittmar And Dempsey Lane,Austin,TX,Stray,Normal,Male,2017-11-09 16:29:00,3,1,2,True,Labrador Retriever,Mix,White,Brown,None
+637,A816806,2020-04-28 13:24:00,9604 Bock Road,Mustang Ridge,TX,Stray,Normal,Female,2020-03-28 13:24:00,0,8,13,True,Labrador Retriever,Mix,Brown,White,None
+638,A674012,2014-03-05 21:22:00,2815 E 71,Austin,TX,Stray,Normal,Male,2012-03-05 21:22:00,8,9,5,False,Australian Cattle Dog,None,Blue Merle,None,Bill
+639,A746979,2017-04-12 10:06:00,7601 Daffan Ln,Austin,TX,Owner Surrender,Normal,Male,2016-04-12 10:06:00,4,7,29,True,Chihuahua Shorthair,Mix,Brown Brindle,None,Teddy
+640,A759430,2017-10-20 12:33:00,None,Austin,TX,Owner Surrender,Normal,Female,2015-10-20 12:33:00,5,1,21,True,Labrador Retriever,Mix,Black,White,Whitney
+641,A758651,2017-09-19 17:36:00,None,Austin,TX,Stray,Normal,Female,2015-09-19 17:36:00,5,2,21,True,Pit Bull,Mix,Brown,White,Harmony
+642,A748338,2017-05-03 14:10:00,15100 Stave Oak Lane,Austin,TX,Public Assist,Normal,Female,2014-05-03 14:10:00,6,7,8,True,Dachshund,Mix,Black,Tan,Mia
+643,A726117,2016-05-06 15:24:00,6710 Arroyo Seco,Austin,TX,Stray,Normal,Female,2011-05-06 15:24:00,9,7,5,True,Rottweiler,German Shepherd,Black,Tan,Margaret
+644,A786674,2019-02-05 15:45:00,Outside Jurisdiction,None,None,Owner Surrender,Normal,Male,2017-02-05 15:45:00,3,10,6,True,Australian Shepherd,Mix,Red,White,Max
+645,A752120,2017-06-18 12:59:00,Barton Point Drive,Austin,TX,Stray,Normal,Female,2017-05-21 12:59:00,3,6,20,True,Labrador Retriever,Mix,Black,None,Piggy
+646,A674023,2014-03-06 10:54:00,8010 N Ih 35,Austin,TX,Stray,Normal,Female,2013-03-06 10:54:00,7,9,5,True,Chihuahua Shorthair,Mix,Red,White,Emma
+647,A757624,2017-09-04 14:45:00,Outside Jurisdiction,None,None,Public Assist,Normal,Female,2015-09-04 14:45:00,5,3,7,False,Pit Bull,None,Black,White,Marigold
+648,A720321,2017-07-07 13:16:00,None,Austin,TX,Public Assist,Normal,Female,2014-07-07 13:16:00,6,5,4,True,Pit Bull,Mix,Blue,White,Haydee
+649,A822139,2020-11-23 14:29:00,7010 West Highway 71,Austin,TX,Stray,Normal,Female,2019-11-23 14:29:00,1,0,18,False,Catahoula,None,White,Brown,Hilo
+650,A822138,2020-11-23 14:29:00,7010 West Highway 71,Austin,TX,Stray,Normal,Male,2020-01-23 14:29:00,0,10,18,False,Pit Bull,None,White,None,Friday
+651,A826263,2020-11-23 12:58:00,6000 Shepherd Mountain Cove,Austin,TX,Public Assist,Normal,Male,2018-11-23 12:58:00,2,0,18,False,Rottweiler,None,Black,Brown,Diesel
+652,A637288,2020-09-17 20:16:00,8800 W Hwy 290,Austin,TX,Public Assist,Normal,Female,2008-09-17 20:16:00,12,2,23,False,Pit Bull,None,Blue,White,None
+653,A826291,2020-11-23 16:33:00,7300 Daffan Lane,Austin,TX,Stray,Nursing,Female,2020-11-02 16:33:00,0,1,9,False,Labrador Retriever,None,Brown Brindle,White,None
+654,A826288,2020-11-23 16:33:00,7300 Daffan Lane,Austin,TX,Stray,Nursing,Male,2020-11-02 16:33:00,0,1,9,False,Labrador Retriever,None,Black,None,None
+655,A826292,2020-11-23 16:33:00,7300 Daffan Lane,Austin,TX,Stray,Nursing,Male,2020-11-02 16:33:00,0,1,9,False,Labrador Retriever,None,Brown,Black,None
+656,A826289,2020-11-23 16:33:00,7300 Daffan Lane,Austin,TX,Stray,Nursing,Male,2020-11-02 16:33:00,0,1,9,False,Labrador Retriever,None,Brown,White,None
+657,A826286,2020-11-23 16:33:00,7300 Daffan Lane,Austin,TX,Stray,Nursing,Male,2020-11-02 16:33:00,0,1,9,False,Labrador Retriever,None,Tricolor,White,None
+658,A825977,2020-11-17 09:37:00,16500 Trevin Cove,Travis,TX,Stray,Normal,Male,2019-11-17 09:37:00,1,0,24,True,Labrador Retriever,Chihuahua Shorthair,Black,White,Cerberus
+659,A826293,2020-11-23 16:33:00,7300 Daffan Lane,Austin,TX,Stray,Nursing,Male,2020-11-02 16:33:00,0,1,9,False,Labrador Retriever,None,Brown,White,None
+660,A826287,2020-11-23 16:33:00,7300 Daffan Lane,Austin,TX,Stray,Nursing,Male,2020-11-02 16:33:00,0,1,9,False,Labrador Retriever,None,Black,None,None
+661,A784158,2018-11-12 15:26:00,4902 Scarsdale Drive,Austin,TX,Stray,Normal,Female,2018-08-12 15:26:00,2,3,29,True,Pit Bull,Mix,White,Brown Brindle,Julia
+662,A702482,2015-05-14 12:47:00,Mcneil Dr & San Felipe Blvd,Austin,TX,Stray,Normal,Male,2014-06-14 12:47:00,6,5,27,True,Basenji,Australian Cattle Dog,Red,White,Cosmo
+663,A702501,2015-05-14 15:36:00,6430 S Ih 35 Frontage Rd,Austin,TX,Stray,Normal,Female,2013-05-14 15:36:00,7,6,27,True,Pit Bull,Boxer,Tan,White,Phat Phat
+664,A726708,2019-09-08 11:54:00,Hammermill Run,Austin,TX,Stray,Normal,Male,2008-09-08 11:54:00,12,3,3,True,Lhasa Apso,Mix,Black,White,Peluche
+665,A789316,2019-02-19 12:04:00,None,Austin,TX,Owner Surrender,Normal,Female,2010-02-19 12:04:00,10,9,22,False,Pomeranian,None,Red,None,Honey
+666,A724243,2016-04-14 15:10:00,7807 Linden Road,Travis,TX,Stray,Normal,Male,2015-08-14 15:10:00,5,3,27,True,Shih Tzu,Chihuahua Shorthair,White,Black,Walker
+667,A784375,2018-11-15 11:07:00,Airline Terrace And Viewing Place,Austin,TX,Stray,Normal,Female,2017-11-15 11:07:00,3,0,26,True,Miniature Schnauzer,Yorkshire Terrier,Black,Brown,None
+668,A788881,2019-02-10 16:32:00,Mckenzie Road And Fm 973,Austin,TX,Stray,Normal,Male,2016-02-10 16:32:00,4,10,1,True,American Pit Bull Terrier,Mix,Blue Tiger,White,Friend
+669,A705601,2015-06-19 13:49:00,Merrilltown Dr And Noya Dr,Austin,TX,Stray,Normal,Male,2013-06-19 13:49:00,7,5,22,True,American Bulldog,Mix,White,Tan,Hank
+670,A757879,2017-09-07 17:20:00,8507 Bluff Springs Rd,Austin,TX,Stray,Normal,Female,2017-07-07 17:20:00,3,5,3,True,Plott Hound,Mix,Black Brindle,None,Dallas
+671,A750594,2017-05-29 13:04:00,Briarton Dr And Thaxton Rd,Austin,TX,Stray,Normal,Female,2010-05-29 13:04:00,10,6,12,True,Shih Tzu,Mix,Cream,Black,Gigi
+672,A796595,2019-06-03 12:43:00,8700 Lucinda,Travis,TX,Stray,Normal,Female,2019-03-03 12:43:00,1,9,8,True,Labrador Retriever,Great Pyrenees,White,Black,None
+673,A757675,2017-09-06 12:31:00,None,Austin,TX,Public Assist,Normal,Male,2010-09-06 12:31:00,10,3,5,False,Miniature Schnauzer,None,Gray,None,Bauer
+674,A653297,2019-12-31 11:10:00,East Riverside Drive And Wickersham,Austin,TX,Stray,Normal,Female,2009-12-31 11:10:00,10,11,11,False,Rat Terrier,None,Tricolor,None,Flor
+675,A758780,2017-09-21 17:13:00,400 West Anderson,Austin,TX,Stray,Normal,Female,2015-09-21 17:13:00,5,2,19,True,Rat Terrier,Mix,Black,White,Tilly
+676,A772015,2018-05-13 15:50:00,6803 A Blue Dawn Trail,Austin,TX,Stray,Normal,Female,2012-05-13 15:50:00,8,6,28,True,Norfolk Terrier,Chihuahua Shorthair,Tan,White,Daisy Mae
+677,A738040,2016-11-08 17:38:00,None,Austin,TX,Public Assist,Normal,Female,2013-11-08 17:38:00,7,1,2,True,German Shepherd,Mix,Tan,White,Coda
+678,A732105,2016-08-07 13:18:00,Outside Jurisdiction,None,None,Owner Surrender,Normal,Female,2010-08-07 13:18:00,10,4,4,True,German Shepherd,Mix,Black,Tan,Willa
+679,A762803,2017-11-27 16:24:00,6118 Fairway Street,Austin,TX,Stray,Normal,Male,2017-03-27 16:24:00,3,8,14,True,Labrador Retriever,Pointer,White,Black,None
+680,A713234,2016-05-05 17:21:00,4106 N Lamar Blvd,Austin,TX,Stray,Normal,Female,2015-05-05 17:21:00,5,7,5,True,Pit Bull,Mix,Blue Cream,White,Cobes
+681,A739237,2016-11-29 15:22:00,11609 Raymond C. Ewry,Austin,TX,Public Assist,Aged,Female,2008-11-29 15:22:00,12,0,12,True,Beagle,Mix,Tricolor,None,Little Bit
+682,A771401,2018-05-04 14:13:00,None,Austin,TX,Owner Surrender,Normal,Female,2017-12-04 14:13:00,3,0,7,True,Chihuahua Shorthair,Mix,Black,White,Molly
+683,A804245,2019-09-12 11:38:00,1807 West Slaughter Lane,Austin,TX,Stray,Normal,Male,2018-09-12 11:38:00,2,2,29,False,Smooth Fox Terrier,None,Black Brindle,White,None
+684,A759449,2017-10-02 10:08:00,Merrilltown Drive And Mopac Expressway,Austin,TX,Stray,Normal,Male,2017-03-02 10:08:00,3,9,9,True,Pit Bull,Mix,Red,White,Shelby
+685,A764450,2017-12-30 13:04:00,Garcreek Circle And Riverstone Drive,Austin,TX,Stray,Normal,Female,2015-12-30 13:04:00,4,11,11,True,Labrador Retriever,Mix,Black,Black,Cake
+686,A767244,2018-02-25 16:17:00,East 7Th Street,Austin,TX,Stray,Normal,Male,2017-12-25 16:17:00,2,11,16,True,Border Collie,Mix,Black,White,Cooper
+687,A799024,2019-07-03 12:40:00,4508 Norwood Ln,Austin,TX,Stray,Normal,Female,2019-02-03 12:40:00,1,10,8,False,German Shepherd,None,Black,Brown,Coco
+688,A754171,2017-07-16 18:22:00,7112 Ed Bluestein Blvd,Austin,TX,Public Assist,Normal,Male,2015-07-16 18:22:00,5,4,24,True,Miniature Pinscher,Yorkshire Terrier,Black,Brown,Tramp
+689,A745757,2017-03-23 13:09:00,6707 Point North,Austin,TX,Stray,Normal,Male,2016-10-23 13:09:00,4,1,18,True,Rhod Ridgeback,Labrador Retriever,Red,Black,Dexter
+690,A799287,2019-07-06 17:09:00,None,Travis,TX,Owner Surrender,Nursing,Female,2019-06-15 17:09:00,1,5,25,True,Labrador Retriever,Mix,Brown,White,Lady
+691,A785591,2019-03-15 12:56:00,None,Austin,TX,Owner Surrender,Normal,Male,2018-03-15 12:56:00,2,8,26,True,Labrador Retriever,Mix,Brown,White,Luke
+692,A719808,2016-01-28 11:56:00,11819 Edward St,Travis,TX,Stray,Normal,Male,2016-01-28 11:56:00,4,10,13,True,Queensland Heeler,Mix,Buff,None,Riggs
+693,A750777,2017-06-04 16:07:00,4125 Saldelia Trl,Austin,TX,Public Assist,Normal,Male,2015-06-04 16:07:00,5,6,7,True,Rat Terrier,Mix,White,Black,Jj
+694,A749812,2017-05-19 19:00:00,7400 Us-290,Austin,TX,Public Assist,Normal,Female,2017-03-19 19:00:00,3,8,21,True,Labrador Retriever,Mix,Black,None,None
+695,A705868,2015-06-22 12:11:00,22009 Hogeye Rd,Austin,TX,Stray,Normal,Male,2015-01-22 12:11:00,5,10,19,True,Golden Retriever,Mix,Red,None,Izzy
+696,A759775,2017-10-07 12:38:00,1620 Old Lockhart Road,Travis,TX,Stray,Normal,Male,2017-09-07 12:38:00,3,3,4,True,Border Collie,Mix,White,Black,Scout
+697,A675319,2014-03-26 11:20:00,Wolf Ln And 71,Travis,TX,Stray,Normal,Male,2013-11-26 11:20:00,7,0,15,True,Mastiff,Rottweiler,Red,White,None
+698,A702056,2015-05-08 15:20:00,Turnstone And Pleasant Valley,Austin,TX,Stray,Normal,Male,2014-10-08 15:20:00,6,2,3,True,Border Collie,Mix,Black,White,Monty
+699,A675509,2014-03-28 14:22:00,14400 Harris Ridge Blvd,Travis,TX,Stray,Normal,Male,2012-03-28 14:22:00,8,8,13,True,Pit Bull,Mix,Chocolate,None,Dwight
+700,A689474,2014-10-04 14:00:00,Hwy 183 And Duval Rd,Austin,TX,Stray,Normal,Male,2014-08-04 14:00:00,6,4,7,True,Dachshund Wirehair,Border Terrier,Brown,None,None
+701,A671864,2014-01-31 14:09:00,Park At The Woodlands Dr & Quick Stream,Austin,TX,Stray,Normal,Male,2004-01-31 14:09:00,16,10,11,True,Golden Retriever,Mix,Gold,White,Krash
+702,A675255,2014-03-25 15:48:00,5201 Ross Rd,Del Valle,TX,Stray,Normal,Female,2013-03-25 15:48:00,7,8,16,False,German Shepherd,None,Black,Buff,Sandy
+703,A718538,2016-01-01 16:50:00,1601 Miriam Ave,Austin,TX,Stray,Normal,Male,2013-01-01 16:50:00,7,11,10,True,Irish Wolfhound,Mix,Tan,Brown,Dollar
+704,A738277,2016-11-12 10:55:00,4411 Whispering Valley,Austin,TX,Public Assist,Normal,Male,2007-11-12 10:55:00,13,0,29,True,Chihuahua Shorthair,Mix,Tan,None,Paco
+705,A764599,2018-01-01 12:04:00,10506 Barr Ln,Travis,TX,Public Assist,Normal,Female,2013-01-01 12:04:00,7,11,10,True,Labrador Retriever,Mix,White,Tan,Andy
+706,A792072,2019-04-05 12:57:00,Riverside And Highway 71,Austin,TX,Stray,Normal,Male,2018-09-05 12:57:00,2,3,6,True,Jack Russell Terrier,Mix,Brown,None,Langdon
+707,A721336,2016-02-24 18:30:00,6500 E William Cannon Dr,Austin,TX,Stray,Normal,Male,2013-02-24 18:30:00,7,9,16,True,Chihuahua Shorthair,Mix,Brown,None,Jb
+708,A767536,2018-04-29 13:10:00,14000 Westall Street,Austin,TX,Stray,Normal,Female,2017-04-29 13:10:00,3,7,12,True,German Shepherd,Mix,Brown,Tan,Storm
+709,A741782,2017-01-08 17:24:00,N Interstate 35 Frontage Rd And E Braker Ln,Austin,TX,Stray,Normal,Female,2016-12-08 17:24:00,4,0,2,True,Labrador Retriever,Mix,Black,White,Onyx
+710,A669310,2016-04-15 10:33:00,6808 Montana St,Austin,TX,Public Assist,Normal,Female,2011-04-15 10:33:00,9,7,26,True,German Shepherd,Mix,Brown,Black,Dina
+711,A813744,2020-02-17 23:42:00,9500 Dessau,Austin,TX,Stray,Normal,Female,2017-02-17 23:42:00,3,9,23,True,German Shepherd,Cardigan Welsh Corgi,Tan,Black,Lulu
+712,A695626,2016-12-10 15:44:00,E Riverside Dr & S Pleasant Valley Rd,Austin,TX,Stray,Normal,Female,2007-12-10 15:44:00,13,0,1,True,Labrador Retriever,Mix,Black,None,Jenny
+713,A714941,2018-05-21 14:46:00,5109 Ponciana Drive,Austin,TX,Stray,Normal,Female,2014-05-21 14:46:00,6,6,20,True,Chihuahua Shorthair,Mix,Tan,None,Renee
+714,A704396,2015-06-04 12:36:00,Netleaf Rd And Mossycup Ln,Austin,TX,Stray,Normal,Male,2014-06-04 12:36:00,6,6,7,True,Chihuahua Shorthair,Mix,Tan,None,Chico
+715,A590330,2014-03-14 02:56:00,14707 Noya Dr,Travis,TX,Public Assist,Injured,Female,2005-03-14 02:56:00,15,8,27,True,Australian Cattle Dog,Mix,Black,Blue,Donut
+716,A803009,2019-09-29 16:59:00,Outside Jurisdiction,None,None,Owner Surrender,Normal,Female,2018-11-29 16:59:00,2,0,12,True,Labrador Retriever,Beagle,Tan,White,Kayla
+717,A733333,2016-08-20 13:14:00,116 E Parsons St,Austin,TX,Stray,Normal,Male,2015-08-20 13:14:00,5,3,21,True,Labrador Retriever,Mix,White,None,Dallas
+718,A672187,2014-04-11 13:08:00,None,Austin,TX,Owner Surrender,Normal,Female,2004-04-11 13:08:00,16,8,0,True,Miniature Schnauzer,Mix,Silver,None,Gracie
+719,A559953,2015-07-20 11:11:00,1414 Gorham Street,Austin,TX,Stray,Normal,Female,2005-07-20 11:11:00,15,4,21,True,Labrador Retriever,Mix,Black,None,Midnight
+720,A734095,2016-09-01 12:53:00,19304 Black Manor Rd,Travis,TX,Stray,Normal,Female,2015-09-01 12:53:00,5,3,10,True,Labrador Retriever,German Shepherd,Brown,White,Cinnamon
+721,A805846,2019-10-02 16:21:00,900 Rocking Spur Cove,Travis,TX,Stray,Normal,Male,2009-10-02 16:21:00,11,2,9,True,Bruss Griffon,Mix,Tan,None,Gordon
+722,A728737,2016-06-07 17:51:00,5906 Melody Ln,Austin,TX,Stray,Injured,Male,2016-05-07 17:51:00,4,7,3,True,Wire Hair Fox Terrier,Mix,White,Brown,None
+723,A764057,2017-12-20 17:31:00,11215 Research Boulevard,Austin,TX,Stray,Normal,Female,2016-12-20 17:31:00,3,11,20,True,Australian Cattle Dog,Rhod Ridgeback,Tan,Black,Darla
+724,A761366,2017-11-03 13:14:00,7610 Cameron Road #2110,Austin,TX,Public Assist,Normal,Female,2015-11-03 13:14:00,5,1,8,True,German Shepherd,Mix,Brown,Black,Kadee
+725,A730668,2016-07-08 11:48:00,7201 Levander Loop,Austin,TX,Stray,Normal,Female,2011-07-08 11:48:00,9,5,3,True,Chihuahua Shorthair,Mix,Tan,None,Penelope
+726,A763394,2017-12-09 12:30:00,Chaparral Trail And Palo Blanco Lane,Austin,TX,Stray,Normal,Male,2014-12-09 12:30:00,6,0,2,True,Pit Bull,Mix,Black,White,Stitch
+727,A753390,2017-07-05 16:54:00,21707 Hog Eye Dr,Manor,TX,Public Assist,Normal,Male,2015-07-05 16:54:00,5,5,6,True,Chihuahua Longhair,Dachshund Wirehair,Black,None,L.D.
+728,A704514,2015-06-05 17:11:00,5525 Foxfield Ln,Travis,TX,Stray,Normal,Female,2010-06-05 17:11:00,10,6,5,True,Labrador Retriever,Mix,Black,White,Java
+729,A789472,2019-02-22 11:08:00,Parmer Lane,Austin,TX,Stray,Normal,Female,2018-02-22 11:08:00,2,9,19,True,Chihuahua Shorthair,Dachshund,Black,Brown,Lucy
+730,A568668,2019-12-14 16:21:00,Stuart Circle And Jain Lane,Austin,TX,Stray,Aged,Female,2005-12-14 16:21:00,14,11,27,False,Chihuahua Shorthair,None,Brown,None,Rosie
+731,A808040,2019-11-03 13:11:00,None,Manor,TX,Owner Surrender,Normal,Male,2019-09-03 13:11:00,1,3,8,True,Miniature Pinscher,Mix,Black,Brown,Jax
+732,A671114,2014-01-18 14:33:00,Loyola Ln And Decker Ln,Austin,TX,Stray,Normal,Male,2013-01-18 14:33:00,7,10,23,True,Border Collie,Mix,Gold,White,Buster G
+733,A795742,2019-05-24 10:22:00,7404 B Geneva Drive,Austin,TX,Stray,Normal,Male,2017-05-24 10:22:00,3,6,17,False,Cairn Terrier,None,Cream,Brown,None
+734,A758896,2018-05-27 16:49:00,20708 Song Bird Drive,Pflugerville,TX,Stray,Normal,Male,2017-07-27 16:49:00,3,4,14,True,Labrador Retriever,Mix,Brown,White,Pumpkin
+735,A635903,2020-02-08 16:40:00,1009 Coronation Way,Travis,TX,Stray,Normal,Female,2012-02-08 16:40:00,8,10,3,True,Chihuahua Shorthair,Mix,Black,White,Candy
+736,A787302,2019-01-10 18:35:00,7516 Peccary Drive,Austin,TX,Stray,Normal,Male,2017-01-10 18:35:00,3,11,0,True,Siberian Husky,Mix,Gray,White,Sam
+737,A714106,2015-10-18 11:03:00,183/Mlk,Travis,TX,Stray,Normal,Male,2014-10-18 11:03:00,6,1,23,True,Pit Bull,Mix,White,Brown,Nexus
+738,A694904,2015-03-07 11:41:00,None,Austin,TX,Owner Surrender,Normal,Male,2014-05-07 11:41:00,6,7,4,True,Norfolk Terrier,Mix,Tan,White,Tanner
+739,A719632,2016-01-24 11:36:00,Anderson Ln And Burnet Rd,Austin,TX,Stray,Normal,Male,2015-01-24 11:36:00,5,10,17,True,Dachshund,Mix,White,Brown,Freckles
+740,A721262,2016-02-24 11:10:00,None,Del Valle,TX,Owner Surrender,Normal,Female,2014-02-24 11:10:00,6,9,17,True,Italian Greyhound,Mix,Brown,White,Reyna
+741,A728229,2016-06-01 12:42:00,13908 Tophill Cir,Travis,TX,Stray,Normal,Male,2015-06-01 12:42:00,5,6,10,True,Boxer,Mix,Brown Brindle,None,Landan
+742,A798421,2019-06-26 11:07:00,10513 Cooper Hill Drive,Austin,TX,Stray,Normal,Male,2019-03-26 11:07:00,1,8,15,False,Australian Cattle Dog,None,Red Tick,None,None
+743,A736828,2016-10-17 21:21:00,105 W Elliott,Austin,TX,Stray,Normal,Female,2010-10-17 21:21:00,10,1,23,True,Labrador Retriever,Mix,Black,White,Matie
+744,A731502,2016-08-14 16:10:00,None,Manor,TX,Owner Surrender,Normal,Male,2015-08-14 16:10:00,5,3,27,True,Catahoula,Mix,Tan,White,Murphy
+745,A703414,2016-02-27 11:05:00,Highway 183 And Ih-35,Austin,TX,Stray,Normal,Female,2013-02-27 11:05:00,7,9,14,False,Boston Terrier,None,Black,White,Sundae
+746,A736450,2016-10-10 18:38:00,1715 W Cesar Chavez St,Austin,TX,Stray,Normal,Female,2016-09-10 18:38:00,4,3,0,True,Labrador Retriever,Mix,Black,White,None
+747,A721862,2016-03-06 11:00:00,5601 Manchaca Rd,Austin,TX,Stray,Normal,Male,2014-03-06 11:00:00,6,9,5,True,Labrador Retriever,Mix,Black,None,Moose
+748,A753601,2017-07-08 14:51:00,Conestoga And Ponciana,Austin,TX,Stray,Normal,Male,2017-06-08 14:51:00,3,6,3,True,Dachshund,Cardigan Welsh Corgi,White,Tan,Sammi
+749,A759957,2017-10-10 13:47:00,None,Austin,TX,Owner Surrender,Normal,Female,2011-10-10 13:47:00,9,2,1,True,Catahoula,Mix,Tricolor,White,Clara
+750,A717067,2015-12-01 13:09:00,Willow St And Chicon St,Austin,TX,Stray,Normal,Female,2014-12-01 13:09:00,6,0,10,True,Cardigan Welsh Corgi,Mix,Yellow,None,Pretzel
+751,A695799,2015-01-23 12:13:00,None,Austin,TX,Owner Surrender,Normal,Male,2012-01-23 12:13:00,8,10,18,True,Pit Bull,Mix,White,Brown Brindle,Minion
+752,A517675,2015-08-05 15:57:00,6902 Deep Cir #A,Austin,TX,Owner Surrender,Normal,Female,2004-08-05 15:57:00,16,4,6,False,Australian Cattle Dog,None,White,Black,Blanca
+753,A811435,2020-01-03 13:30:00,Highway 71 And Wolf Lane,Austin,TX,Stray,Normal,Female,2019-11-03 13:30:00,1,1,8,False,Pit Bull,None,Brown Brindle,None,Oribelle
+754,A692518,2014-11-21 16:24:00,4106 N Lamar Blvd,Austin,TX,Stray,Normal,Female,2012-11-21 16:24:00,8,0,20,True,Pit Bull,Mix,Blue,White,None
+755,A820972,2020-08-02 12:27:00,Pearce And Wolf,Travis,TX,Stray,Sick,Female,2020-07-02 12:27:00,0,5,9,True,Siberian Husky,Mix,White,Tan,Molly
+756,A554047,2016-05-26 16:33:00,3100 Rogge,Austin,TX,Stray,Normal,Male,2010-05-26 16:33:00,10,6,15,True,Pit Bull,Mix,Brown,White,Mega
+757,A688710,2014-09-22 16:30:00,1211 Bonnie Brae,Austin,TX,Stray,Normal,Male,2009-09-22 16:30:00,11,2,19,True,Chihuahua Longhair,Mix,Tan,White,Guerro
+758,A745842,2017-03-25 11:04:00,5701 Johnny Morris Rd,Austin,TX,Stray,Normal,Female,2016-03-25 11:04:00,4,8,16,True,Labrador Retriever,Mix,Black,White,Cali
+759,A725081,2016-04-25 17:14:00,Brodie Ln & Green Emerald Terrace,Austin,TX,Stray,Normal,Female,2007-04-25 17:14:00,13,7,15,True,German Shepherd,Mix,Black,Brown,Sophie
+760,A717086,2015-12-01 18:35:00,10000 N Lamar Blvd,Austin,TX,Stray,Normal,Female,2000-12-01 18:35:00,20,0,9,True,Smooth Fox Terrier,Mix,Blue Merle,White,Kip
+761,A768957,2018-03-28 07:10:00,W St Elmo,Austin,TX,Public Assist,Sick,Female,2017-03-28 07:10:00,3,8,13,True,Pit Bull,Mix,Tan,White,Sandy
+762,A665763,2013-10-22 15:10:00,E Riverside Dr/Royal Crest Dr,Austin,TX,Stray,Normal,Male,2013-06-22 15:10:00,7,5,19,True,Cairn Terrier,Mix,Tan,White,None
+763,A763536,2017-12-10 11:54:00,None,Austin,TX,Owner Surrender,Normal,Male,2015-12-10 11:54:00,5,0,1,True,Labrador Retriever,Mix,Black,None,Black
+764,A736729,2016-10-16 11:55:00,Loyola Ln And Sandshof Dr,Austin,TX,Stray,Normal,Female,2015-12-16 11:55:00,4,11,25,True,Labrador Retriever,Mix,Cream,White,Snow
+765,A779997,2018-09-08 11:31:00,Parmer And Mcneil,Austin,TX,Stray,Normal,Male,2017-12-08 11:31:00,3,0,3,True,Dachshund,Chihuahua Shorthair,Black,Brown,Goose
+766,A689627,2014-10-07 12:20:00,3755 B S Cap Texas Hwy,Austin,TX,Stray,Normal,Male,2004-10-07 12:20:00,16,2,4,True,Labrador Retriever,Mix,Tan,None,Jeb
+767,A754545,2018-03-14 18:54:00,Thaxton Road,Austin,TX,Stray,Normal,Male,2017-03-14 18:54:00,3,8,26,True,Labrador Retriever,Pit Bull,Black,White,Lucky
+768,A707794,2015-07-18 09:48:00,Tammye,Travis,TX,Stray,Injured,Female,2015-03-18 09:48:00,5,8,23,True,Labrador Retriever,Mix,Brown,None,None
+769,A813413,2020-02-09 16:51:00,Quicksilver Blvd And Pleasant Valley Rd,Austin,TX,Stray,Normal,Female,2018-02-09 16:51:00,2,10,2,True,Chihuahua Shorthair,Mix,Brown,White,None
+770,A734013,2016-08-31 11:23:00,21312 Greenridge Terrace,Austin,TX,Stray,Normal,Male,2015-10-31 11:23:00,5,1,11,True,Shetland Sheepdog,Mix,Sable,None,Simba
+771,A674489,2014-05-06 11:32:00,None,Austin,TX,Owner Surrender,Normal,Female,2012-05-06 11:32:00,8,7,5,True,Pit Bull,Mix,Black,White,Boo
+772,A774425,2018-06-15 11:18:00,None,Austin,TX,Owner Surrender,Normal,Female,2004-06-15 11:18:00,16,5,26,True,Maltese,Mix,White,None,Peaches
+773,A780998,2018-09-23 12:13:00,10120 Gertrudis Loop,Austin,TX,Stray,Normal,Unknown,2018-09-16 12:13:00,2,2,25,True,Pit Bull,Mix,Brown,White,None
+774,A811098,2019-12-27 18:12:00,2400 Dove Drive,Austin,TX,Stray,Normal,Female,2019-11-27 18:12:00,1,0,13,True,Labrador Retriever,Anatol Shepherd,Brown,None,None
+775,A680679,2014-06-05 18:15:00,Rundberg And N Lamar,Austin,TX,Stray,Normal,Female,2008-06-05 18:15:00,12,6,5,True,Chihuahua Shorthair,Mix,White,Brown,Penny
+776,A778179,2018-08-08 08:38:00,11707 Schriber Road,Travis,TX,Stray,Normal,Female,2018-07-08 08:38:00,2,5,3,True,Australian Cattle Dog,Mix,Brown,None,None
+777,A791198,2019-03-22 15:01:00,8100 Bluff Springs Road,Austin,TX,Stray,Normal,Female,2016-03-22 15:01:00,4,8,19,True,Australian Cattle Dog,Mix,Black,Blue Tick,Daisy Mae
+778,A735212,2016-09-20 18:42:00,8403 Los Ranchos Dr,Austin,TX,Stray,Normal,Female,2009-09-20 18:42:00,11,2,20,True,Siberian Husky,Mix,Black,Tan,Lycha
+779,A690923,2014-10-28 10:42:00,5710 Reicher Dr,Austin,TX,Stray,Normal,Female,2012-10-28 10:42:00,8,1,13,True,Labrador Retriever,Mix,Black,None,Riley
+780,A767731,2018-05-20 12:48:00,None,Austin,TX,Owner Surrender,Normal,Male,2018-03-20 12:48:00,2,8,21,True,Jack Russell Terrier,Mix,White,Tan,Jax
+781,A814041,2020-02-23 14:28:00,9212 S Hwy 183,Austin,TX,Stray,Normal,Female,2020-02-02 14:28:00,0,10,9,True,Australian Cattle Dog,Mix,Black,White,Moonpie
+782,A680733,2014-06-06 18:57:00,Hwy 290 And Fm 973,Manor,TX,Stray,Normal,Female,2011-06-06 18:57:00,9,6,4,True,German Shepherd,Australian Cattle Dog,Black,Brown,Aster
+783,A735718,2016-09-27 19:09:00,6207 Dorchester Dr,Austin,TX,Stray,Normal,Male,2013-09-27 19:09:00,7,2,13,True,Pit Bull,Labrador Retriever,Brown Brindle,White,Benny
+784,A683086,2014-07-07 08:03:00,11313 Blairwood,Austin,TX,Stray,Normal,Female,2012-07-07 08:03:00,8,5,4,True,Australian Kelpie,Mix,Black,Brown,Mini Cooper
+785,A583574,2018-06-24 23:17:00,305 E Yager,Austin,TX,Stray,Normal,Female,2007-06-24 23:17:00,13,5,16,True,Catahoula,Australian Cattle Dog,Tan,Blue Merle,Bailey
+786,A782849,2018-10-22 11:17:00,1201 Payton Gin,Austin,TX,Stray,Normal,Female,2016-10-22 11:17:00,4,1,19,True,Pit Bull,Mix,Blue,White,Earleena
+787,A754988,2017-07-27 14:54:00,5801 Signal Point Blvd,Austin,TX,Owner Surrender,Normal,Male,2017-06-27 14:54:00,3,5,14,True,German Shepherd,Labrador Retriever,Tan,Black,Scout
+788,A712711,2015-09-27 10:45:00,Point N Dr & Arctic Ct,Austin,TX,Stray,Normal,Male,2000-09-27 10:45:00,20,2,14,True,Chihuahua Shorthair,Mix,Black,White,Mikal
+789,A623101,2014-09-23 13:28:00,7404 Inspiration,Austin,TX,Stray,Normal,Male,2009-09-23 13:28:00,11,2,18,True,Presa Canario,Mix,Blue Tiger,White,Cowboy
+790,A774364,2018-06-14 11:54:00,None,Austin,TX,Owner Surrender,Normal,Female,2015-06-14 11:54:00,5,5,27,True,Catahoula,Mix,Black,Tan,Eva
+791,A645345,2013-10-01 17:54:00,None,Austin,TX,Owner Surrender,Normal,Female,2012-10-01 17:54:00,8,2,9,True,Pit Bull,Mix,Brown,White,Honey
+792,A717905,2015-12-17 14:20:00,11717 Schriber Rd,Travis,TX,Stray,Normal,Male,2015-11-17 14:20:00,5,0,24,True,Chesa Bay Retr,Mix,Black,None,None
+793,A778100,2018-08-08 15:35:00,8407 Coulver Road,Austin,TX,Stray,Normal,Female,2017-08-08 15:35:00,3,4,3,True,Labrador Retriever,Mix,Black,White,Ava
+794,A669245,2013-12-30 19:28:00,None,Austin,TX,Owner Surrender,Sick,Female,2012-12-30 19:28:00,7,11,10,True,Boxer,Mix,Black,White,Bo
+795,A693348,2014-12-06 11:39:00,183/Mlk,Austin,TX,Stray,Normal,Male,2014-06-06 11:39:00,6,6,5,True,German Shorthair Pointer,Mix,White,Tan,Griffin
+796,A823204,2020-09-18 11:13:00,None,Austin,TX,Owner Surrender,Normal,Female,2019-09-18 11:13:00,1,2,23,True,Australian Kelpie,Mix,Tan,None,Finn
+797,A814825,2020-03-06 16:57:00,8115 Coulver Road,Travis,TX,Stray,Normal,Female,2020-01-06 16:57:00,0,11,5,True,Catahoula,Mix,Black,White,Danny Girl
+798,A683044,2014-07-06 13:25:00,Scofield And Meehan,Austin,TX,Stray,Normal,Male,2005-07-06 13:25:00,15,5,5,True,Chihuahua Longhair,Mix,Brown Brindle,White,Saki
+799,A813625,2020-02-14 16:00:00,5302 East State Highway 71,Travis,TX,Stray,Sick,Female,2019-12-14 16:00:00,0,11,27,True,Cairn Terrier,Mix,Black,None,Angel
+800,A712942,2015-11-06 11:05:00,Outside Jurisdiction,None,None,Owner Surrender,Normal,Male,2013-11-06 11:05:00,7,1,5,True,American Bulldog,Mix,Black,White,Pete
+801,A693537,2014-12-10 10:25:00,3600 Abbate,Austin,TX,Stray,Normal,Male,2012-12-10 10:25:00,8,0,1,True,Papillon,Mix,Black,White,Tux
+802,A764257,2017-12-26 14:56:00,None,Del Valle,TX,Owner Surrender,Normal,Female,2017-11-26 14:56:00,3,0,15,True,Chihuahua Shorthair,Mix,White,Buff,None
+803,A751382,2017-06-07 15:04:00,1156 W Cesar Chavez St,Austin,TX,Stray,Normal,Male,2017-05-07 15:04:00,3,7,4,True,Labrador Retriever,Mix,Tan,Brown,Thor
+804,A743396,2017-02-09 16:15:00,E 12Th St And Springdale Rd,Austin,TX,Stray,Normal,Male,2015-02-09 16:15:00,5,10,2,True,Labrador Retriever,Mix,Red,White,Turk
+805,A723561,2016-04-03 16:27:00,1006 Banister Ln,Austin,TX,Stray,Normal,Female,2015-04-03 16:27:00,5,8,8,True,Australian Cattle Dog,Mix,Brown,White,Harley
+806,A722495,2018-11-17 18:49:00,12408 Willow Wild Drive,Austin,TX,Stray,Normal,Male,2011-11-17 18:49:00,9,0,23,True,Chihuahua Shorthair,Mix,Tan,White,Lamont
+807,A810178,2019-12-08 14:40:00,East 51St And Harman Avenue,Austin,TX,Stray,Normal,Male,2018-12-08 14:40:00,2,0,3,True,Pointer,Mix,Blue,White,Oreo
+808,A806197,2019-10-07 11:20:00,1209 Eleanor St,Austin,TX,Stray,Normal,Male,2017-10-07 11:20:00,3,2,4,False,American Pit Bull Terrier,None,Brown,White,Ink
+809,A760532,2017-11-30 13:31:00,None,Leander,TX,Owner Surrender,Normal,Female,2015-11-30 13:31:00,5,0,11,True,Catahoula,Mix,Blue Merle,None,Luna
+810,A663798,2013-12-09 14:12:00,None,Austin,TX,Owner Surrender,Normal,Female,2007-12-09 14:12:00,13,0,2,True,Labrador Retriever,Mix,Yellow,None,Laika
+811,A818417,2020-06-08 15:08:00,None,Austin,TX,Owner Surrender,Normal,Male,2018-06-08 15:08:00,2,6,3,True,American Pit Bull Terrier,Mix,Brown Brindle,White,Max
+812,A789594,2019-02-24 12:14:00,None,Austin,TX,Owner Surrender,Normal,Female,2015-02-24 12:14:00,5,9,17,True,Chihuahua Longhair,Mix,Brown,Black,Morena
+813,A667732,2013-11-21 18:54:00,Fleetridge,Austin,TX,Stray,Normal,Female,2011-11-21 18:54:00,9,0,19,True,Silky Terrier,Mix,Brown,Silver,Coco
+814,A699932,2015-04-04 14:41:00,183/Mlk,Austin,TX,Stray,Normal,Female,2014-11-04 14:41:00,6,1,7,True,Labrador Retriever,Australian Cattle Dog,Brown,White,Roxy
+815,A782922,2018-10-23 10:57:00,Bluff Springs Road,Austin,TX,Stray,Normal,Male,2017-10-23 10:57:00,3,1,18,True,Labrador Retriever,Mix,Red,None,Bugsy
+816,A722351,2016-03-15 11:33:00,14300 Fm 969,Webberville,TX,Stray,Normal,Male,2013-03-15 11:33:00,7,8,26,True,Chihuahua Shorthair,Mix,Black,White,Bentley
+817,A726125,2017-04-07 08:41:00,None,Austin,TX,Owner Surrender,Normal,Female,2016-04-07 08:41:00,4,8,4,True,Pit Bull,Mix,Brown,None,Carley
+818,A742589,2017-01-24 13:22:00,13104 Johnson Rd,Manor,TX,Stray,Normal,Male,2016-01-24 13:22:00,4,10,17,True,German Shepherd,Mix,Tan,Black,Apollo
+819,A670612,2016-11-17 11:09:00,4100 Westbank Dr,Austin,TX,Stray,Normal,Female,2011-11-17 11:09:00,9,0,24,False,Beagle,None,Brown,White,Sheila
+820,A810444,2019-12-13 16:32:00,East William Cannon Drive And South Pleasant Valley Road,Austin,TX,Stray,Normal,Male,2016-12-13 16:32:00,3,11,28,False,Yorkshire Terrier,None,Gray,Tan,Bobby
+821,A754361,2017-07-19 14:12:00,812 And Doyle,Travis,TX,Stray,Normal,Female,2015-07-19 14:12:00,5,4,22,True,Rottweiler,Mix,Black,Tan,Ripley
+822,A620780,2014-02-12 14:54:00,None,Austin,TX,Owner Surrender,Normal,Female,2012-02-12 14:54:00,8,9,29,True,American Staffordshire Terrier,Mix,Brown Brindle,White,Moonbeam
+823,A739497,2016-12-03 15:34:00,1515 Wickersham Ln,Austin,TX,Stray,Normal,Female,2014-12-03 15:34:00,6,0,8,True,Australian Cattle Dog,Beagle,Brown,None,Millie
+824,A779016,2018-09-05 18:20:00,None,Austin,TX,Owner Surrender,Normal,Male,2018-04-05 18:20:00,2,8,5,True,Siberian Husky,Mix,White,None,Yuri
+825,A673091,2014-02-19 13:51:00,None,Travis,TX,Public Assist,Normal,Female,2011-02-19 13:51:00,9,9,22,True,Yorkshire Terrier,Mix,Black,Tan,Hazel
+826,A747907,2017-06-22 12:30:00,1881 Grove Blvd,Austin,TX,Stray,Normal,Female,2015-06-22 12:30:00,5,5,19,True,Chihuahua Shorthair,Mix,White,Brown,Dulce
+827,A531549,2017-10-23 13:11:00,Manchaca Road And Berkley Avenue,Austin,TX,Stray,Normal,Male,2007-10-23 13:11:00,13,1,18,True,Chihuahua Longhair,Mix,Brown,White,Gizmo
+828,A627554,2017-03-23 12:56:00,9909 North Lamar,Austin,TX,Stray,Normal,Male,2010-03-23 12:56:00,10,8,18,True,German Shepherd,Mix,Black,Tan,Dylan
+829,A686117,2016-10-03 16:08:00,908 N Bend Dr,Austin,TX,Stray,Normal,Male,2010-10-03 16:08:00,10,2,8,True,Toy Poodle,Mix,White,Tan,Bonbon
+830,A766359,2018-02-07 13:35:00,None,Austin,TX,Owner Surrender,Normal,Male,2014-02-07 13:35:00,6,10,4,True,Tibetan Spaniel,Chihuahua Longhair,Tan,None,Mearu
+831,A728757,2016-06-08 11:21:00,5812 Malarkey Rd,Del Valle,TX,Stray,Normal,Female,2013-06-08 11:21:00,7,6,3,True,Pit Bull,Mix,White,Black,Gilley
+832,A808433,2019-11-08 16:54:00,None,Austin,TX,Owner Surrender,Normal,Male,2010-11-08 16:54:00,10,1,3,False,Dachshund,None,Black,Gray,Coal
+833,A722762,2016-03-22 00:49:00,1St St N And Main St,Pflugerville,TX,Public Assist,Normal,Male,2013-03-22 00:49:00,7,8,19,True,Rottweiler,Mix,Black,Brown,Buck
+834,A743612,2017-02-13 13:20:00,None,Austin,TX,Owner Surrender,Normal,Male,2017-01-13 13:20:00,3,10,28,True,Miniature Schnauzer,Mix,Black,None,None
+835,A612925,2013-12-20 13:29:00,1608 Garden St,Austin,TX,Stray,Normal,Male,2011-12-20 13:29:00,8,11,21,True,Australian Shepherd,Mix,White,Brown,Blake
+836,A743117,2018-03-18 18:06:00,South Congress Avenue And Sheraton Avenue,Austin,TX,Stray,Normal,Male,2017-03-18 18:06:00,3,8,22,True,Irish Terrier,Mix,Tan,Black,Hunter
+837,A720975,2016-02-18 17:27:00,1941 Gaston Place Dr,Austin,TX,Stray,Sick,Male,2014-02-18 17:27:00,6,9,22,True,Shih Tzu,Mix,Cream,None,Moose
+838,A764465,2017-12-30 14:44:00,11425 Ptarmigan Dr,Austin,TX,Stray,Normal,Female,2013-12-30 14:44:00,6,11,11,True,Miniature Poodle,Mix,White,None,None
+839,A763702,2017-12-14 13:05:00,Ferguson Lane And Brown Street,Austin,TX,Stray,Normal,Female,2015-12-14 13:05:00,4,11,27,True,Chihuahua Shorthair,Mix,Brown,None,Evita
+840,A678093,2014-05-03 16:43:00,None,Jonestown,TX,Owner Surrender,Normal,Female,2013-05-03 16:43:00,7,7,8,True,Pit Bull,Mix,White,Brown,Gigi
+841,A691541,2014-11-06 11:04:00,1002 Lott,Austin,TX,Public Assist,Normal,Female,2013-11-06 11:04:00,7,1,5,True,Pit Bull,Mix,Fawn,None,Chickla
+842,A669543,2013-12-22 14:19:00,None,Austin,TX,Owner Surrender,Normal,Male,2013-11-22 14:19:00,7,0,19,True,Labrador Retriever,German Shepherd,Chocolate,None,Harley
+843,A790673,2019-03-14 11:45:00,2900 Sunridge Drive,Austin,TX,Stray,Normal,Female,2006-03-14 11:45:00,14,8,27,True,Miniature Poodle,Mix,White,None,Roxy
+844,A644228,2015-12-17 11:52:00,None,Austin,TX,Owner Surrender,Normal,Female,2011-12-17 11:52:00,8,11,24,True,German Shepherd,Mix,Sable,None,Arya
+845,A700948,2015-04-21 15:52:00,8105 Linden,Travis,TX,Stray,Normal,Unknown,2006-04-21 15:52:00,14,7,20,True,Australian Cattle Dog,Chinese Sharpei,Tan,Brown,None
+846,A805595,2019-09-29 10:50:00,10020 Shively Lane,Austin,TX,Stray,Normal,Male,2017-09-29 10:50:00,3,2,12,True,Rottweiler,Siberian Husky,Black,Tricolor,Ice-T
+847,A751106,2017-06-23 18:42:00,None,Travis,TX,Owner Surrender,Normal,Male,2014-06-23 18:42:00,6,5,17,True,German Shepherd,Mix,Brown,Black,Luke
+848,A689298,2014-10-01 18:29:00,Convict Hill Rd & Poncha Pass,Austin,TX,Stray,Normal,Female,2013-10-01 18:29:00,7,2,9,True,German Shepherd,Mix,Black,Tan,Kasey
+849,A617900,2015-02-10 12:02:00,Cumberland Rd And Congress Ave,Austin,TX,Stray,Normal,Male,2003-02-10 12:02:00,17,10,1,True,Miniature Poodle,Mix,Black,White,Teddy
+850,A742459,2017-01-22 09:11:00,9100 Fm 812 Road,Travis,TX,Stray,Normal,Male,2016-12-25 09:11:00,3,11,16,True,Pit Bull,Mix,Black,White,Khan
+851,A798298,2019-06-24 11:55:00,None,Austin,TX,Owner Surrender,Normal,Male,2012-06-24 11:55:00,8,5,17,False,Chihuahua Shorthair,None,Tan,None,Dude
+852,A696283,2015-02-27 10:57:00,None,Austin,TX,Owner Surrender,Normal,Female,2013-02-27 10:57:00,7,9,14,True,Pit Bull,Mix,White,Tan,Princess
+853,A716675,2015-11-23 10:33:00,5106 Village Square,Austin,TX,Stray,Normal,Female,2012-11-23 10:33:00,8,0,18,True,Chihuahua Shorthair,Mix,Brown,None,Sirius
+854,A753695,2019-09-14 17:45:00,None,Austin,TX,Public Assist,Normal,Male,2014-09-14 17:45:00,6,2,26,True,Pit Bull,Mix,Blue,None,Zeus
+855,A721376,2016-02-25 15:59:00,None,Travis,TX,Owner Surrender,Normal,Male,2016-01-28 15:59:00,4,10,13,True,German Shepherd,Chow Chow,Sable,None,Jarvis
+856,A807411,2019-10-24 14:19:00,14620 Plover Place,Travis,TX,Stray,Nursing,Unknown,2019-10-17 14:19:00,1,1,24,False,Great Pyrenees,None,Brown,None,None
+857,A615086,2018-02-11 12:14:00,None,Austin,TX,Owner Surrender,Normal,Male,2009-02-11 12:14:00,11,10,0,False,Toy Poodle,None,Apricot,None,Alexander
+858,A724311,2017-10-21 13:18:00,None,Austin,TX,Owner Surrender,Normal,Male,2004-10-21 13:18:00,16,1,20,True,Chihuahua Shorthair,Mix,Black,White,Jack
+859,A810471,2019-12-14 10:42:00,1601 Faro Drive,Austin,TX,Stray,Normal,Female,2009-12-14 10:42:00,10,11,27,False,Yorkshire Terrier,None,Red,Black,Sissy
+860,A783979,2018-11-09 16:57:00,12800 Pearce Ln,Austin,TX,Stray,Normal,Female,2016-11-09 16:57:00,4,1,2,True,Rottweiler,Mix,Black,Tan,Harlem
+861,A782235,2018-10-12 11:55:00,1505 Cinammon Path,Austin,TX,Stray,Normal,Male,2016-10-12 11:55:00,4,1,29,True,Collie Smooth,Mix,Tricolor,White,Banjo
+862,A666321,2013-10-30 12:31:00,12225 U.S. 290,Travis,TX,Stray,Normal,Male,2011-10-30 12:31:00,9,1,11,True,Miniature Schnauzer,Mix,Silver,None,Rafa
+863,A674778,2014-03-23 12:12:00,None,Austin,TX,Public Assist,Normal,Male,2010-03-23 12:12:00,10,8,18,True,Chihuahua Shorthair,Dachshund,Red,White,Joey
+864,A805934,2019-10-03 18:04:00,Webberville Road,Austin,TX,Stray,Nursing,Female,2019-09-12 18:04:00,1,2,28,True,Border Collie,Mix,White,Black,Monica
+865,A825788,2020-11-12 15:12:00,None,Austin,TX,Owner Surrender,Nursing,Female,2018-11-12 15:12:00,2,0,29,False,Chihuahua Shorthair,None,Brown,White,Tiny
+866,A749986,2017-08-29 14:33:00,None,Travis,TX,Owner Surrender,Normal,Female,2015-08-29 14:33:00,5,3,12,True,Pit Bull,Mix,Red,None,Mamas
+867,A682180,2014-06-25 12:02:00,17305 Pearce Ln,Del Valle,TX,Stray,Normal,Male,2014-05-25 12:02:00,6,6,16,True,Border Terrier,Chihuahua Shorthair,Brown,None,None
+868,A620803,2018-03-01 13:44:00,5407 Viewpoint Drive,Austin,TX,Stray,Normal,Female,2012-03-01 13:44:00,8,9,10,True,Miniature Poodle,Mix,White,Tricolor,Sassy
+869,A747767,2017-05-07 13:06:00,None,Austin,TX,Owner Surrender,Normal,Male,2016-05-07 13:06:00,4,7,4,True,Labrador Retriever,Mix,Brown,White,Frank
+870,A758131,2017-09-11 16:54:00,Outside Jurisdiction,None,None,Public Assist,Normal,Male,2016-09-11 16:54:00,4,3,0,True,Pit Bull,Mix,Black Brindle,White,096
+871,A677133,2014-04-19 18:06:00,Fairway St & Club Way Dr,Austin,TX,Stray,Normal,Male,2012-04-19 18:06:00,8,7,21,True,Pit Bull,Mix,Blue,White,Blue
+872,A744478,2017-03-01 17:34:00,Colton & 183,Travis,TX,Stray,Normal,Male,2015-03-01 17:34:00,5,9,9,True,German Shepherd,Mix,Black,None,Campeon
+873,A760970,2017-12-26 12:26:00,Outside Jurisdiction,None,None,Owner Surrender,Normal,Male,2015-12-26 12:26:00,4,11,15,True,American Bulldog,Mix,White,Black,Oscar
+874,A711537,2015-09-08 13:53:00,Silent Harbor Loop And Hidden Harbor Dr,Pflugerville,TX,Stray,Normal,Female,2015-04-08 13:53:00,5,8,3,True,German Shepherd,Mix,Tricolor,None,None
+875,A737662,2016-11-02 11:49:00,700 Middle Ln,Austin,TX,Stray,Normal,Male,2012-11-02 11:49:00,8,1,9,True,Rat Terrier,Chihuahua Shorthair,White,Tricolor,None
+876,A746002,2017-03-28 09:41:00,None,Travis,TX,Stray,Normal,Female,2017-03-25 09:41:00,3,8,16,True,Jack Russell Terrier,Mix,Black,White,Puppy 3
+877,A825563,2020-11-06 10:52:00,West Brenham Street,Travis,TX,Stray,Normal,Male,2019-11-06 10:52:00,1,1,5,True,Pit Bull,Mix,White,Brown,Bumper
+878,A782770,2018-10-20 17:25:00,6919 Carwill Dr,Austin,TX,Stray,Injured,Male,2017-10-20 17:25:00,3,1,20,True,Pit Bull,Mix,White,Gray,Dewey
+879,A825653,2020-11-08 14:28:00,7201 Levander Loop,Austin,TX,Abandoned,Normal,Female,2017-11-08 14:28:00,3,1,3,True,Beagle,Chihuahua Shorthair,Tan,White,Mia
+880,A825937,2020-11-16 12:01:00,None,Austin,TX,Owner Surrender,Normal,Male,2017-11-16 12:01:00,3,0,25,False,Great Pyrenees,None,White,None,Lucas
+881,A825653,2020-11-16 13:38:00,None,Austin,TX,Owner Surrender,Normal,Female,2017-11-16 13:38:00,3,0,25,True,Beagle,Chihuahua Shorthair,Tan,White,Mia
+882,A825940,2020-11-16 12:40:00,1030 Norwood Park,Austin,TX,Stray,Sick,Male,2020-08-16 12:40:00,0,3,25,False,Redbone Hound,None,Tricolor,None,None
+883,A825941,2020-11-16 12:56:00,None,Austin,TX,Owner Surrender,Sick,Male,2020-10-16 12:56:00,0,1,25,False,Labrador Retriever,None,Black,White,Ace
+884,A825811,2020-11-13 07:57:00,11408 Cherry Hollow Xing,Travis,TX,Owner Surrender,Normal,Female,2010-11-13 07:57:00,10,0,28,True,Catahoula,Mix,Brown,Black,Cassie
+885,A740353,2020-11-15 17:06:00,4527 Creek Bend Drive,Austin,TX,Public Assist,Normal,Male,2014-11-15 17:06:00,6,0,25,True,Chow Chow,Mix,Red,None,Teddy
+886,A825802,2020-11-12 16:32:00,11417 Barns Trail,Austin,TX,Stray,Normal,Male,2019-11-12 16:32:00,1,0,29,False,Pit Bull,None,Black,White,Remy
+887,A825799,2020-11-12 15:57:00,124 Juarez Cove,Travis,TX,Stray,Normal,Female,2018-11-12 15:57:00,2,0,29,True,Pit Bull,Mix,Black,White,Shilo
+888,A677996,2014-05-02 12:58:00,Webberville Rd And Hwy 130,Austin,TX,Stray,Normal,Male,2012-05-02 12:58:00,8,7,9,True,Chihuahua Shorthair,Mix,Brown,White,Radar
+889,A806477,2019-10-11 14:36:00,9201 Circuit Of The Americas Boulevard,Austin,TX,Stray,Normal,Male,2016-10-11 14:36:00,4,2,0,True,Beagle,Mix,White,Brown,Buddy
+890,A688996,2014-10-17 16:20:00,124 W Anderson Ln,Austin,TX,Stray,Normal,Male,2012-10-17 16:20:00,8,1,24,True,Golden Retriever,Mix,Red,None,Gibson
+891,A666270,2013-11-03 16:11:00,None,Austin,TX,Public Assist,Normal,Male,2012-12-03 16:11:00,8,0,8,True,Pit Bull,Mix,Tan,Black,Viper
+892,A726296,2016-05-09 13:09:00,None,Austin,TX,Owner Surrender,Normal,Male,2015-10-09 13:09:00,5,2,2,True,Labrador Retriever,Australian Shepherd,Black,White,Leo
+893,A685169,2016-06-18 16:01:00,8515 S Ih 35 Apt 6225,Austin,TX,Stray,Normal,Female,2012-06-18 16:01:00,8,5,23,True,Pit Bull,Mix,Black,White,Baby
+894,A752626,2017-06-25 12:03:00,Sandshof And Loyola,Austin,TX,Stray,Normal,Male,2015-06-25 12:03:00,5,5,16,True,Pug,Mix,Brown,None,Lucky
+895,A773957,2018-08-29 18:50:00,5508 Manowar Drive,Travis,TX,Stray,Normal,Male,2017-12-29 18:50:00,2,11,11,True,Black Mouth Cur,Mix,Brown,Black,Bear
+896,A810071,2019-12-06 16:14:00,501 South Highway 183,Austin,TX,Stray,Normal,Female,2018-12-06 16:14:00,2,0,5,False,Pit Bull,None,Fawn,White,Jovi
+897,A797875,2019-07-03 17:20:00,Hunters Bend Road And Dunlap Road,Austin,TX,Stray,Normal,Female,2017-07-03 17:20:00,3,5,7,True,Harrier,Mix,White,Tricolor,Roxy
+898,A684113,2014-07-19 15:01:00,1107 Lambie,Austin,TX,Stray,Normal,Female,2013-07-19 15:01:00,7,4,22,True,German Shepherd,Mix,White,None,Sam
+899,A672005,2014-02-02 12:36:00,None,Austin,TX,Owner Surrender,Normal,Female,2013-02-02 12:36:00,7,10,9,True,Labrador Retriever,Pointer,Chocolate,White,Hazel
+900,A740573,2016-12-19 16:27:00,8431 Bangor Bend,Austin,TX,Stray,Normal,Male,2014-12-19 16:27:00,5,11,22,False,Pit Bull,None,White,Tan,Handsome
+901,A781828,2018-10-06 12:26:00,400 Grove Boulevard,Austin,TX,Stray,Normal,Male,2015-10-06 12:26:00,5,2,5,True,Jack Russell Terrier,Mix,Tricolor,White,Gizmo
+902,A817062,2020-05-07 08:37:00,129 Andesite Trail,Travis,TX,Owner Surrender,Sick,Female,2020-04-07 08:37:00,0,8,4,False,Shih Tzu,None,White,Brown,Gigi
+903,A665002,2013-10-12 11:45:00,509 E Todd Lane,Austin,TX,Stray,Normal,Female,2013-10-05 11:45:00,7,2,6,True,Australian Cattle Dog,Mix,Sable,White,None
+904,A750872,2017-06-01 15:10:00,107 E Rector St,Manor,TX,Public Assist,Normal,Female,2016-06-01 15:10:00,4,6,10,True,Great Pyrenees,Mix,White,None,Daisy
+905,A760315,2017-10-16 12:59:00,6505 Burleson Road,Austin,TX,Stray,Normal,Male,2014-10-16 12:59:00,6,1,25,True,Pit Bull,Mix,Black Brindle,White,Camo
+906,A681720,2014-06-19 15:41:00,Linden Ln,Travis,TX,Stray,Normal,Female,2013-06-19 15:41:00,7,5,22,True,Pit Bull,Boxer,Brown Brindle,White,Noelle
+907,A780089,2018-09-09 17:16:00,1715 Whittaker Drive,Austin,TX,Stray,Normal,Female,2017-11-09 17:16:00,3,1,1,True,Pit Bull,Mix,White,Tan,Maggie
+908,A439728,2016-12-18 16:08:00,8208 Georgie Trace,Austin,TX,Stray,Normal,Female,2003-12-18 16:08:00,16,11,23,False,Pit Bull,None,Red,White,Diamond
+909,A684875,2014-07-29 17:48:00,414 Thompson Lane,Austin,TX,Stray,Normal,Female,2014-03-29 17:48:00,6,8,11,True,German Shepherd,Mix,Black,Tan,None
+910,A777067,2018-07-23 08:34:00,Turnersville And Parmer,Travis,TX,Stray,Normal,Male,2017-07-23 08:34:00,3,4,18,True,Standard Poodle,Mix,Chocolate,None,None
+911,A818383,2020-06-08 08:45:00,4434 Frontier Trail,Austin,TX,Stray,Sick,Male,2017-06-08 08:45:00,3,6,3,False,Pit Bull,None,White,Brown,Forest
+912,A734337,2017-01-14 12:37:00,None,Austin,TX,Owner Surrender,Normal,Female,2016-01-14 12:37:00,4,10,27,True,Pit Bull,Mix,Tan,White,Athena
+913,A666171,2013-10-28 12:54:00,N Ih35 And Blackson St,Austin,TX,Stray,Normal,Female,2013-09-28 12:54:00,7,2,13,True,Labrador Retriever,Mix,Black,None,None
+914,A734375,2016-09-05 17:45:00,W William Cannon Dr & West Gate Blvd,Austin,TX,Stray,Normal,Male,2016-07-05 17:45:00,4,5,5,True,Airedale Terrier,Mix,Brown,Black,None
+915,A791318,2019-03-24 13:26:00,73213 Fm 969,Austin,TX,Owner Surrender,Normal,Female,2019-02-17 13:26:00,1,9,24,True,Rat Terrier,Mix,Tan,Black,None
+916,A682138,2014-06-24 17:07:00,905 Bedford,Austin,TX,Stray,Normal,Female,2011-06-24 17:07:00,9,5,16,True,Chihuahua Shorthair,Mix,Black,White,Frannie
+917,A710099,2015-08-17 16:25:00,2903 Locke #B,Austin,TX,Stray,Normal,Female,2014-08-17 16:25:00,6,3,24,True,Chihuahua Shorthair,Mix,Black,Buff,Sandy
+918,A521273,2015-12-30 11:30:00,4800 Shaw Ln,Austin,TX,Stray,Normal,Female,2008-12-30 11:30:00,11,11,11,True,Chow Chow,Australian Kelpie,Tan,None,Isis
+919,A802856,2019-08-23 19:12:00,403 West Crestland Drive,Austin,TX,Stray,Normal,Male,2018-08-23 19:12:00,2,3,17,True,Chihuahua Shorthair,Mix,Brown Brindle,White,Rico
+920,A768459,2018-11-21 06:00:00,10403 Golden Meadow,Austin,TX,Stray,Normal,Male,2017-11-21 06:00:00,3,0,20,True,Dachshund,Beagle,Black,Tan,Charlie
+921,A674781,2014-03-19 11:16:00,None,Travis,TX,Public Assist,Normal,Male,2010-03-19 11:16:00,10,8,22,True,Akita,Mix,Brown Brindle,White,Duke
+922,A692091,2014-11-14 14:25:00,3401 Red River,Austin,TX,Stray,Normal,Male,2013-11-14 14:25:00,7,0,27,True,Black,Tan Hound,Tricolor,None,Dobby
+923,A697282,2015-03-13 12:52:00,None,Austin,TX,Owner Surrender,Normal,Male,2010-03-13 12:52:00,10,8,28,True,Labrador Retriever,Mix,Black,White,Dez
+924,A671743,2014-01-30 13:23:00,Lucerne And Swiss Dr,Travis,TX,Stray,Normal,Male,2013-11-30 13:23:00,7,0,11,True,Pit Bull,Mix,Brown,White,Day
+925,A695691,2015-01-20 14:35:00,4612 Sherwyn Dr,Austin,TX,Stray,Normal,Female,2014-01-20 14:35:00,6,10,21,True,Chihuahua Shorthair,Rat Terrier,White,Brown,Princess
+926,A800185,2019-07-17 13:36:00,14312 Hunters Bend,Austin,TX,Stray,Normal,Female,2019-02-17 13:36:00,1,9,24,False,Labrador Retriever,None,White,None,Celest
+927,A764596,2018-01-02 14:11:00,3200 Crownover Street,Austin,TX,Stray,Normal,Male,2013-01-02 14:11:00,7,11,9,True,Rat Terrier,Mix,Brown,White,Sparky
+928,A682384,2014-06-27 11:24:00,None,Austin,TX,Owner Surrender,Normal,Female,2014-03-27 11:24:00,6,8,14,True,Border Collie,Labrador Retriever,Black,White,Dolly
+929,A671706,2014-01-29 18:54:00,7312 Laldybug St,Austin,TX,Stray,Normal,Female,2012-01-29 18:54:00,8,10,11,True,Staffordshire,Mix,Black,White,None
+930,A758177,2017-09-12 13:26:00,Blanco Street And 9Th Street,Austin,TX,Stray,Normal,Female,2000-09-12 13:26:00,20,2,29,True,Labrador Retriever,Mix,Tan,White,Lola
+931,A697003,2017-07-28 02:06:00,4000 Airport,Austin,TX,Public Assist,Normal,Male,2014-07-28 02:06:00,6,4,13,True,Pit Bull,Mix,Brown,White,Bevo
+932,A679346,2014-08-23 12:57:00,None,Austin,TX,Owner Surrender,Normal,Male,2011-08-23 12:57:00,9,3,18,True,Pit Bull,Mix,Blue,Tan,Houston
+933,A766191,2018-02-04 11:30:00,Delta Post Drive And Fm 969,Austin,TX,Stray,Normal,Male,2017-02-04 11:30:00,3,10,7,True,Cairn Terrier,Mix,White,Black,None
+934,A804556,2019-09-16 12:01:00,24508 Fawn Drive,Travis,TX,Public Assist,Normal,Male,2015-09-16 12:01:00,5,2,25,False,Carolina Dog,None,Brown,None,Max
+935,A721380,2016-02-25 17:17:00,Virgo Ln And,Austin,TX,Stray,Normal,Male,2011-02-25 17:17:00,9,9,15,True,Pit Bull,Mix,Blue,White,Leo
+936,A726297,2016-06-06 16:25:00,None,Austin,TX,Owner Surrender,Normal,Female,2012-06-06 16:25:00,8,6,5,True,Beagle,Mix,Black,Tan,Bella
+937,A703497,2015-05-29 13:34:00,5902 North Hampton Drive,Austin,TX,Public Assist,Normal,Male,2014-09-29 13:34:00,6,2,12,True,Labrador Retriever,Mix,Black,None,Coal
+938,A744630,2017-03-04 13:21:00,13901 Fm 969,Travis,TX,Stray,Normal,Male,2014-03-04 13:21:00,6,9,7,True,Pit Bull,Mix,Blue,White,Booba
+939,A746218,2017-03-29 18:54:00,S 1St St And E Stassney Ln,Austin,TX,Stray,Normal,Male,2017-01-29 18:54:00,3,10,11,True,Redbone Hound,Mix,Red,Black,Rocky
+940,A692896,2014-12-02 12:46:00,5707 Magee Bend,Austin,TX,Stray,Normal,Male,2014-06-02 12:46:00,6,6,9,True,Chihuahua Shorthair,Mix,Brown,None,None
+941,A703625,2015-05-27 13:56:00,None,Austin,TX,Stray,Normal,Female,2013-05-27 13:56:00,7,6,14,True,Chihuahua Longhair,Mix,Black,Gray,Jojo
+942,A712737,2015-09-27 13:33:00,Harris Redge Blvd And Sebastian Bend,Pflugerville,TX,Stray,Normal,Male,2014-09-27 13:33:00,6,2,14,True,Chihuahua Shorthair,Mix,Sable,None,Pepito
+943,A698931,2015-03-19 19:09:00,Windsor Rd And Exposition Blvd,Austin,TX,Stray,Normal,Male,2012-03-19 19:09:00,8,8,21,True,Bloodhound,Mix,Red,Black,None
+944,A733930,2016-08-29 15:09:00,None,Travis,TX,Owner Surrender,Normal,Male,2009-08-29 15:09:00,11,3,12,True,Chihuahua Shorthair,French Bulldog,Tan,None,Tanner
+945,A732478,2017-02-27 11:01:00,None,Travis,TX,Public Assist,Normal,Male,2013-02-27 11:01:00,7,9,14,False,Anatol Shepherd,None,Brown,White,Cowboy
+946,A740349,2016-12-15 16:56:00,1501 Fm973,Austin,TX,Owner Surrender,Normal,Male,2016-10-15 16:56:00,4,1,26,True,Chihuahua Shorthair,Mix,Tan,White,Harper
+947,A788080,2019-01-25 19:38:00,10609 Mcmillian Dr,Austin,TX,Stray,Normal,Male,2015-01-25 19:38:00,5,10,15,True,Bullmastiff,Mix,Tan,White,Pepe
+948,A745987,2017-03-27 15:54:00,14507 Gold Fish Pond Ave.,Austin,TX,Stray,Normal,Male,2009-03-27 15:54:00,11,8,14,True,Chihuahua Shorthair,Mix,Tan,None,Nate
+949,A705974,2015-06-23 11:14:00,14907 Lucerne Dr,Travis,TX,Stray,Injured,Female,2014-11-23 11:14:00,6,0,18,True,Pit Bull,Plott Hound,Black Brindle,White,Sadie
+950,A686201,2015-06-16 11:59:00,5708 Elk Crossing,Austin,TX,Stray,Normal,Male,2005-06-16 11:59:00,15,5,25,True,Rat Terrier,Mix,Black,White,Chicharro
+951,A688038,2014-09-13 13:31:00,Metric And Bittern,Austin,TX,Stray,Normal,Female,2013-09-13 13:31:00,7,2,28,True,Norwich Terrier,Yorkshire Terrier,Black,Brown,Daisy
+952,A663692,2013-11-26 11:40:00,None,Austin,TX,Owner Surrender,Normal,Male,2007-11-26 11:40:00,13,0,15,True,Plott Hound,Mix,Brown Brindle,White,Austin
+953,A740971,2016-12-26 11:29:00,800 E Rundberg Ln,Austin,TX,Stray,Normal,Female,2014-12-26 11:29:00,5,11,15,False,Australian Shepherd,None,Black,Tan,Jinx
+954,A757183,2017-08-31 11:22:00,14320 Tandem Blvd,Austin,TX,Stray,Normal,Female,2016-08-31 11:22:00,4,3,11,True,Bichon Frise,Pekingese,Cream,Black,None
+955,A698559,2015-03-13 17:31:00,Braker Ln And Hwy 183,Austin,TX,Stray,Nursing,Male,2015-03-11 17:31:00,5,8,29,True,Labrador Retriever,Boxer,Tan,White,None
+956,A804349,2019-09-13 14:37:00,9442 Capital Of Texas Highway,Austin,TX,Stray,Normal,Female,2019-07-13 14:37:00,1,4,28,True,Australian Kelpie,Mix,Brown,Black,None
+957,A696483,2016-03-03 17:37:00,None,Austin,TX,Public Assist,Normal,Male,2013-03-03 17:37:00,7,9,7,True,Bull Terrier,Mix,Black,White,Spud
+958,A682433,2014-06-27 15:59:00,5315 Ed Bluestein Blvd,Austin,TX,Stray,Normal,Male,2013-06-27 15:59:00,7,5,14,True,Labrador Retriever,Pit Bull,Black,None,Thor
+959,A728886,2016-06-09 21:36:00,1120 Brookswood Ave,Austin,TX,Stray,Normal,Male,2015-10-09 21:36:00,5,2,1,True,Pit Bull,Mix,Blue,White,Pretty Boy
+960,A650538,2015-02-10 14:48:00,615 Thrasher,Austin,TX,Stray,Normal,Male,2013-02-10 14:48:00,7,10,1,True,Chihuahua Shorthair,Mix,Black,Tan,Negrito
+961,A670785,2014-01-14 11:54:00,11300 Samsung Blvd,Austin,TX,Stray,Normal,Female,2013-05-14 11:54:00,7,6,27,True,Siberian Husky,Mix,Gray,White,Muñeca
+962,A693314,2014-12-05 14:48:00,7117 Heine Farm Rd,Del Valle,TX,Stray,Normal,Male,2014-06-05 14:48:00,6,6,6,True,Vizsla,Mix,Red,None,None
+963,A770263,2018-04-17 11:21:00,Highway 71,Del Valle,TX,Stray,Normal,Female,2018-02-17 11:21:00,2,9,24,True,German Shepherd,Mix,Brown,Black,None
+964,A759293,2017-09-30 11:44:00,West Anderson Lane And Shoal Creek Blvd,Austin,TX,Stray,Normal,Female,2016-09-30 11:44:00,4,2,11,True,Labrador Retriever,Mix,Black,None,None
+965,A739018,2016-11-26 13:35:00,3100 Collins Creek Dr,Austin,TX,Stray,Normal,Female,2016-07-26 13:35:00,4,4,15,True,Labrador Retriever,Mix,Black,White,None
+966,A809171,2019-11-20 11:54:00,Vinca Circle,Austin,TX,Stray,Sick,Male,2019-08-20 11:54:00,1,3,21,True,Pug,Mix,Black,White,None
+967,A691384,2014-11-03 16:37:00,4612 Convict Hill Rd,Austin,TX,Stray,Normal,Male,2010-11-03 16:37:00,10,1,8,False,Greater Swiss Mountain Dog,None,Black,Tricolor,Hoss
+968,A632902,2015-05-27 12:00:00,None,Austin,TX,Owner Surrender,Normal,Male,2010-05-27 12:00:00,10,6,14,False,Australian Cattle Dog,None,Red Merle,None,Sammy
+969,A670714,2014-01-12 19:15:00,4902 Teri Rd,Austin,TX,Stray,Normal,Male,2012-01-12 19:15:00,8,10,28,True,Labrador Retriever,Mix,Black,None,Nathan
+970,A666457,2013-11-01 15:13:00,3006 Royster,Austin,TX,Stray,Normal,Female,2013-07-01 15:13:00,7,5,10,True,Dachshund,Bloodhound,Brown,White,None
+971,A801436,2019-09-23 13:20:00,None,Austin,TX,Owner Surrender,Normal,Female,2019-05-23 13:20:00,1,6,18,False,Labrador Retriever,None,Tan,None,Boba
+972,A778853,2018-08-21 13:25:00,Tamayo Drive And West Parmer Lane,Austin,TX,Stray,Normal,Female,2017-08-21 13:25:00,3,3,20,True,Pit Bull,Mix,Brown Brindle,None,Pearl
+973,A727325,2016-05-21 09:14:00,8028 Elroy Rd,Travis,TX,Stray,Nursing,Male,2016-05-07 09:14:00,4,7,4,True,Pit Bull,Mix,Brown Brindle,White,Junior
+974,A763677,2017-12-13 14:44:00,13005 Heinemann Dr,Austin,TX,Stray,Injured,Male,2015-12-13 14:44:00,4,11,28,True,Labrador Retriever,Mix,Brown,Black,Roscoe
+975,A721885,2016-03-06 14:53:00,Outside Jurisdiction,None,None,Stray,Normal,Male,2011-03-06 14:53:00,9,9,5,True,Pit Bull,Boxer,Black,White,Davis
+976,A766868,2018-02-18 12:58:00,None,Travis,TX,Owner Surrender,Normal,Female,2017-12-18 12:58:00,2,11,23,False,Labrador Retriever,None,White,Black,Pepper
+977,A683361,2014-07-09 15:41:00,8714 Fm812,Austin,TX,Stray,Normal,Male,2014-06-09 15:41:00,6,6,2,True,Cairn Terrier,Chihuahua Shorthair,Brown Brindle,None,Chewy
+978,A718068,2015-12-20 16:48:00,None,Austin,TX,Stray,Normal,Female,2015-08-20 16:48:00,5,3,21,True,Pit Bull,Mix,Sable,White,Sadie
+979,A671503,2014-01-25 14:34:00,1105 E Cesar Chavez St,Austin,TX,Stray,Normal,Male,2012-01-25 14:34:00,8,10,16,True,Beagle,Dachshund,White,Brown,Max
+980,A730735,2016-07-09 13:25:00,10203 Doc Holiday Trl,Austin,TX,Stray,Normal,Female,2013-07-09 13:25:00,7,5,2,True,Jack Russell Terrier,Chihuahua Shorthair,White,Tan,Angel
+981,A733014,2016-08-16 10:53:00,None,Austin,TX,Stray,Normal,Male,2012-08-16 10:53:00,8,3,25,True,Labrador Retriever,Mix,Red,None,Roky
+982,A730944,2016-07-13 15:02:00,2300 Devonshire Dr,Austin,TX,Stray,Normal,Male,2016-01-13 15:02:00,4,10,28,True,Pit Bull,Mix,Fawn,None,King
+983,A775540,2018-07-01 16:08:00,401 Tawny Dr,Austin,TX,Owner Surrender,Normal,Female,2016-07-01 16:08:00,4,5,10,True,Yorkshire Terrier,Mix,Tan,None,Chuchu
+984,A713720,2015-10-11 15:03:00,12138 N. Lamar Blvd,Austin,TX,Stray,Normal,Male,2014-10-11 15:03:00,6,2,0,True,Schnauzer Giant,Mix,Black,None,Griffin
+985,A747756,2017-04-24 13:05:00,101 Jones Road,Manor,TX,Stray,Normal,Female,2017-03-24 13:05:00,3,8,17,True,Labrador Retriever,Mix,Black,None,None
+986,A797801,2019-06-17 19:11:00,5901 E Stassney Ln,Austin,TX,Stray,Normal,Male,2018-11-17 19:11:00,2,0,23,False,Siberian Husky,None,Brown,White,Alpha
+987,A746676,2017-04-07 08:09:00,7300 Cameron Rd,Austin,TX,Stray,Injured,Male,2017-01-07 08:09:00,3,11,4,True,Cairn Terrier,Mix,Tan,None,Sparky
+988,A667550,2013-11-19 17:49:00,7007 Mount Carrell Dr,Austin,TX,Stray,Normal,Female,2008-11-19 17:49:00,12,0,21,True,Pit Bull,Mix,Brown,White,Dixie
+989,A764308,2017-12-27 15:54:00,West Rundberg Lane And North Lamar Boulevard,Austin,TX,Stray,Normal,Female,2015-12-27 15:54:00,4,11,14,True,Boxer,Mix,Brown Brindle,White,Lexi
+990,A818805,2020-06-15 17:15:00,Flournoy Drive And Breezewood Drive,Austin,TX,Stray,Normal,Male,2014-06-15 17:15:00,6,5,25,True,German Shepherd,Mix,Brown,Black,Jimbo
+991,A766731,2018-03-20 15:03:00,None,Austin,TX,Owner Surrender,Normal,Male,2017-03-20 15:03:00,3,8,21,True,Labrador Retriever,Pit Bull,Black,White,Nieko
+992,A821205,2020-08-06 11:37:00,None,Travis,TX,Owner Surrender,Normal,Female,2012-08-06 11:37:00,8,4,5,True,Miniature Poodle,Australian Shepherd,Blue Merle,None,Millie
+993,A799657,2019-07-10 17:33:00,11500 Sunset Drive,Austin,TX,Stray,Nursing,Male,2019-07-07 17:33:00,1,5,3,True,Labrador Retriever,Mix,Brown,None,334 Grams
+994,A779195,2018-08-27 12:31:00,9133 Northgate,Austin,TX,Stray,Normal,Male,2018-04-27 12:31:00,2,7,14,True,Anatol Shepherd,Mix,Tan,White,Bond
+995,A756123,2017-09-16 13:50:00,None,Austin,TX,Owner Surrender,Normal,Male,2017-03-16 13:50:00,3,8,25,True,Whippet,Mix,White,Tan,Bird
+996,A765569,2019-05-15 11:08:00,Airport,Austin,TX,Stray,Normal,Female,2016-05-15 11:08:00,4,6,26,False,Blue Lacy,None,Blue,White,Cornbread
+997,A713689,2016-03-12 14:10:00,5801 Interregional Hwy,Austin,TX,Stray,Normal,Female,2015-08-12 14:10:00,5,3,29,True,German Shepherd,Mix,Brown,White,Autumn
+998,A716018,2015-11-13 10:46:00,Roseborough Dr And Running Water,Austin,TX,Stray,Normal,Male,2015-07-13 10:46:00,5,4,28,True,Pit Bull,Mix,Fawn,White,Luke
+999,A644165,2014-12-22 17:10:00,11039 Maha Loop,Travis,TX,Owner Surrender,Normal,Male,2010-12-22 17:10:00,9,11,18,True,German Shepherd,Mix,Brown,Black,Killer
