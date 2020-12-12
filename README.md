@@ -30,7 +30,7 @@ The "Puppy Finder" app includes a visualization page, which provides a visual re
 * Heroku
 
 ## Highlights of Tasks:
-* 
+* Stacks queries of Mongo DB as a list of dictionaries to combine search parameters as a single DB query
 * 
 * 
 
