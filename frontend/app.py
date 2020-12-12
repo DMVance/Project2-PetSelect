@@ -16,9 +16,9 @@ app = Flask(__name__)
 @app.route("/")
 def index():
         # writes raw data t0 a json file when a person accesses the page, so the viz code can use it
-    with open("frontend/static/js/dogs.json", "w+") as f:
-        f.write(viz_data()) 
-        f.close() 
+    # with open("frontend/static/js/dogs.json", "w+") as f:
+    #     f.write(viz_data()) 
+    #     f.close() 
 
     return render_template("index.html")
     
@@ -118,9 +118,9 @@ def all_dogs():
 def visualizations():
 
     # writes raw data t0 a json file when a person accesses the page, so the viz code can use it
-    with open("frontend/static/js/dogs.json", "w+") as f:
-        f.write(viz_data()) 
-        f.close() 
+    # with open("frontend/static/js/dogs.json", "w+") as f:
+    #     f.write(viz_data()) 
+    #     f.close() 
 
     return render_template("visualizations.html")
 

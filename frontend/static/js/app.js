@@ -171,6 +171,17 @@ function loadBreeds() {
                 }
                 response.json().then(function (data) {
                 console.log(data)
+                
+                let clear_results = d3.select("#breed-results").select("ul")
+                // console.log(`Breed results has child nodes? ${clear_results._groups[0][0].hasChildNodes()}`)
+                // console.log("clear_results #breed-results ul selection:")
+                // console.log(clear_results)
+                if (clear_results._groups[0][0].hasChildNodes()) {
+                    clear_results.selectAll("li").remove()
+                    // console.log(`Now does it have child nodes? ${clear_results._groups[0][0].hasChildNodes()}`)
+                    // console.log("clear_results #breed-results ul selection:")
+                    // console.log(clear_results)
+                }
 
                 let results = d3.select("#breed-results").select("ul")
                 for (i in data) {
@@ -182,6 +193,7 @@ function loadBreeds() {
         .catch(function (error) {
                 console.log("Fetch error: " + error);
         })
+
 }              
 
 
