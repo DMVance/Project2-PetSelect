@@ -33,8 +33,6 @@ The "Puppy Finder" app includes a visualization page, which provides a visual re
 * 
 * 
 * 
-* 
-*
 
 ## App Routes:
 * @app.route("/")
@@ -65,12 +63,9 @@ The "Puppy Finder" app includes a visualization page, which provides a visual re
 ## Screen Shot: FUN PAGE
 * This page offers fun games and informative videos for puppy lovers.
 
-![screen-6](ScreenShots/screen_fun.PNG)
-
+![screen-fun](ScreenShots/screen_fun.PNG)
 
 ## Limitations & Future Plan:
-* 
-* 
 * 
 * 
 * "Visualizations" page does not include any selector. We plan to address this limitation by including a selector for puppy "breeds" and make the page more interactive, where the users can visualize the dynamic plots according to their "breed" choice. 
