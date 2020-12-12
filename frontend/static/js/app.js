@@ -223,7 +223,9 @@ function loadDogs() {
     })
 
     let sex
-    if (selected_sexes.length !== 1) {
+    if (selected_sexes.length === 0) {
+        sex = ""
+    } else if (selected_sexes.length === 2) {
         sex = ""
     } else if (selected_sexes[0] === "female") {
         sex = "female"

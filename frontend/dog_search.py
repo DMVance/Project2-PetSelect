@@ -121,8 +121,8 @@ def find_age(youngest_yrs, youngest_mos, oldest_yrs, oldest_mos):
 def find_sex(search_sex):
     sex_query_dict = {
         "sex": {
-            "$regex": search_sex, 
-            "$options": "i"
+            "$regex": search_sex.title(), 
+            # "$options": "i"
         }
     }
 
