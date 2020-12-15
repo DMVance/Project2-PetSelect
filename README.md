@@ -1,4 +1,4 @@
-##### Data Analysis & Visualization Bootcamp | UT-Austin McCombs | Fall 2020
+##### Data Analysis & Visualization Bootcamp | UT-Austin McCombs | December 2020
 ##### David Vance, Jessica Bates, Michelle Nguyen, Rachel Reynolds, Reid Haynie, & Sabrina Saleh
 ##### Deployed Site: https://project2-petselect.herokuapp.com/
 # **Puppy Finder**
